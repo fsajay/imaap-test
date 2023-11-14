@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="Utilities">
+			<child name="ReusableMethods" key="{9915D524-45E0-43DC-B5C1-A4260664FE55}" path="ReusableMethods.js" />
+			<child name="AppSetup" key="{8056939B-4CC3-4F45-B5C0-A0403A9AC870}" path="AppSetup.js" />
+		</folder>
+		<folder name="Pages">
+			<child name="LoginPage" key="{E0B67465-0A1C-48D8-A183-91FF21F8D246}" path="LoginPage.js" />
+			<child name="HomePage" key="{AA883043-5593-48E1-A08C-7DFD24D78A42}" path="HomePage.js" />
+			<child name="CrashRecordPage" key="{74257470-C010-46C9-AB3E-04E8ECADE46F}" path="CrashRecordPage.js" />
+			<child name="ImportPage" key="{E1AF4D93-3E9D-40EF-BE01-EE3575D5EF94}" path="ImportPage.js" />
+			<child name="HotspotIdentificationPage" key="{CE1D686B-9333-4744-929A-5F85B981E1B6}" path="HotspotIdentificationPage.js" />
+			<child name="HotspotManagementPage" key="{7AF97F9A-B0E0-4DAB-8E68-8AC14734294F}" path="HotspotManagementPage.js" />
+		</folder>
+		<folder name="TestScript">
+			<child name="AddCrashRecordTest" key="{B201522F-EBCA-4BF9-95DD-5017A182E91E}" path="AddCrashRecordTest.js" />
+			<child name="ImportCrashRecordsTest" key="{95A32E28-14E2-489E-9A5B-85DDE1156759}" path="ImportCrashRecordsTest.js" />
+			<child name="HotspotManagementTest" key="{C8C2C388-51B7-4FFB-ACF5-E936A1A65ECB}" path="HotspotManagementTest.js" />
+		</folder>
+		<folder name="TestData">
+			<child name="CrashRecords" key="{D36B9A4E-FDC4-4B18-B8B5-C640498C647D}" path="CrashRecords.js" />
+		</folder>
+	</children>
+</Root>

@@ -1,0 +1,2816 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 85">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="1863"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HomePageSelector.iMaapLogo.textnode10783.linkAu.userAccountButton"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="140"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4430540509"/>
+					<Prp name="image file name" type="S" value="visImage66.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="1882"/>
+					<Prp name="object right" type="I" value="1901"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object top" type="I" value="102"/>
+					<Prp name="click point y" type="I" value="121"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6722227662"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="85"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="remarks" type="S" value="A click at point (15, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.HomePageSelector.iMaapLogo.textnode10783.linkAu.userAccountButton&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/application-home&quot;).FindElement(&quot;//a/ngx-avatar/div/div[contains(@class, 'avatar-content')]&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 84">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="25"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HomePageSelector.iMaapLogo.homeButton"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="215"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4430347569"/>
+					<Prp name="image file name" type="S" value="visImage65.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="50"/>
+					<Prp name="object right" type="I" value="75"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object top" type="I" value="175"/>
+					<Prp name="click point y" type="I" value="195"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6722054861"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="84"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="remarks" type="S" value="A click at point (20, 16) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.HomePageSelector.iMaapLogo.homeButton&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/blackspot-management&quot;).FindElement(&quot;xpath=//a[.='Home']&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 79">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="1811"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HotspotManagementPageSelector.sectionHotspotManagement.buttonMoveToTreatedHotspot"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="175"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4428390857"/>
+					<Prp name="image file name" type="S" value="visImage61.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="1818"/>
+					<Prp name="object right" type="I" value="1826"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object top" type="I" value="154"/>
+					<Prp name="click point y" type="I" value="164"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6720084606"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="79"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="remarks" type="S" value="A click at point (6, 8) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.HotspotManagementPageSelector.sectionHotspotManagement.buttonMoveToTreatedHotspot&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/blackspot-management&quot;).FindElement(&quot;xpath=//i[@class='trl-c-move-to-treated-opt']&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 28">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.670642662"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="28"/>
+			<Prp name="line no" type="I" value="49"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="User is able to verify that the 'Export' labels are displayed successfully"/>
+		</Node>
+		<Node name="message 87">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6722384606"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="87"/>
+			<Prp name="line no" type="I" value="49"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="User is able to verify that the application is logout successfully"/>
+		</Node>
+		<Node name="message 67">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="662"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HotspotManagementPageSelector.sectionHotspotManagement.formActionPlan.labelKsiCrashes.ksiCrashesCheckbox"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="492"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4426143634"/>
+					<Prp name="image file name" type="S" value="visImage49.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="671"/>
+					<Prp name="object right" type="I" value="680"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object top" type="I" value="474"/>
+					<Prp name="click point y" type="I" value="483"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6717829398"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="67"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="remarks" type="S" value="A click at point (7, 7) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.HotspotManagementPageSelector.sectionHotspotManagement.formActionPlan.labelKsiCrashes.ksiCrashesCheckbox&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/blackspot-management&quot;).FindElement(&quot;//form//label/span[contains(@class, 'trl-c-checkbox-icon')]&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 58">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="567"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HotspotManagementPageSelector.sectionHotspotManagement.possibleCauseSearchItemList"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="347"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4424771759"/>
+					<Prp name="image file name" type="S" value="visImage40.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="936"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="19"/>
+					<Prp name="object top" type="I" value="317"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6716455324"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="58"/>
+			<Prp name="line no" type="I" value="19"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.HotspotManagementPageSelector.sectionHotspotManagement.possibleCauseSearchItemList&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/blackspot-management&quot;).FindElement(&quot;//div[@role='dialog']//input[@type='text']&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The text 'Excessive speed' was entered in the text editor."/>
+		</Node>
+		<Node name="message 76">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="1849"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HotspotManagementPageSelector.sectionHotspotManagement.formActionPlan.monitoringStartDateDropdown"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="631"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4427181366"/>
+					<Prp name="image file name" type="S" value="visImage58.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="1868"/>
+					<Prp name="object right" type="I" value="1887"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="31"/>
+					<Prp name="object top" type="I" value="593"/>
+					<Prp name="click point y" type="I" value="612"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6718875463"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="76"/>
+			<Prp name="line no" type="I" value="31"/>
+			<Prp name="remarks" type="S" value="A click at point (15, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.HotspotManagementPageSelector.sectionHotspotManagement.formActionPlan.monitoringStartDateDropdown&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/blackspot-management&quot;).FindElement(&quot;//wj-input-date//button[@type='button']&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 26">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6706422685"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="26"/>
+			<Prp name="line no" type="I" value="49"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="User is able to verify that the 'Cross Tab' labels are displayed successfully"/>
+		</Node>
+		<Node name="message 49">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="1811"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HotspotManagementPageSelector.sectionHotspotManagement.buttonViewActionPlanDetails"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="169"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4422336921"/>
+					<Prp name="image file name" type="S" value="visImage31.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="1818"/>
+					<Prp name="object right" type="I" value="1826"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object top" type="I" value="154"/>
+					<Prp name="click point y" type="I" value="161"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6714044907"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="49"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="remarks" type="S" value="A click at point (6, 6) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.HotspotManagementPageSelector.sectionHotspotManagement.buttonViewActionPlanDetails&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/blackspot-management&quot;).FindElement(&quot;xpath=//i[@class='trl-icn-action-plan']&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 56">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="868"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HotspotManagementPageSelector.sectionHotspotManagement.buttonFilterForColumnPossible"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="681"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4424559028"/>
+					<Prp name="image file name" type="S" value="visImage38.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="879"/>
+					<Prp name="object right" type="I" value="891"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object top" type="I" value="660"/>
+					<Prp name="click point y" type="I" value="670"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6716246991"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="56"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="remarks" type="S" value="A click at point (9, 8) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.HotspotManagementPageSelector.sectionHotspotManagement.buttonFilterForColumnPossible&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/blackspot-management&quot;).FindElement(&quot;//wj-flex-grid//div[5]//button[@type='button']&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 74">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="1302"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HotspotManagementPageSelector.sectionHotspotManagement.formActionPlan.conEndDateDropdown"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="956"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4426964352"/>
+					<Prp name="image file name" type="S" value="visImage56.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="1321"/>
+					<Prp name="object right" type="I" value="1340"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="31"/>
+					<Prp name="object top" type="I" value="918"/>
+					<Prp name="click point y" type="I" value="937"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.671865544"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="74"/>
+			<Prp name="line no" type="I" value="31"/>
+			<Prp name="remarks" type="S" value="A click at point (15, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.HotspotManagementPageSelector.sectionHotspotManagement.formActionPlan.conEndDateDropdown&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/blackspot-management&quot;).FindElement(&quot;//tr/td[5]/wj-input-date//button[@type='button']&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 23">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6706418056"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="23"/>
+			<Prp name="line no" type="I" value="49"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="User is able to verify that the 'Query Builder' labels are displayed successfully"/>
+		</Node>
+		<Node name="message 18">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6706235764"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="18"/>
+			<Prp name="line no" type="I" value="49"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="User is able to verify that the 'Save As Potential Hotspot' labels are displayed successfully"/>
+		</Node>
+		<Node name="message 53">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="24"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HotspotManagementPageSelector.FindElement(&quot;//div[@class='col-sm-3']//ul/li[4]//span&quot;)"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="808"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4424070486"/>
+					<Prp name="image file name" type="S" value="visImage35.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="33"/>
+					<Prp name="object right" type="I" value="42"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object top" type="I" value="790"/>
+					<Prp name="click point y" type="I" value="799"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6715755903"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="53"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="remarks" type="S" value="A click at point (7, 7) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/blackspot-management&quot;).FindElement(&quot;//div[@class='col-sm-3']//ul/li[4]//span&quot;)"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 13">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="1820"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HotspotIdentificationPageSelector.sectionMenu.hotspotIdentificationRunButton"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="1020"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4413446991"/>
+					<Prp name="image file name" type="S" value="visImage11.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="1865"/>
+					<Prp name="object right" type="I" value="1910"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object top" type="I" value="980"/>
+					<Prp name="click point y" type="I" value="1000"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6705143403"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="remarks" type="S" value="A click at point (36, 16) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.HotspotIdentificationPageSelector.sectionMenu.hotspotIdentificationRunButton&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/blackspot-identification&quot;).FindElement(&quot;//button[.='Run']&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 12">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="1061"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HotspotIdentificationPageSelector.sectionMenu.openTemplateButton"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="707"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.441277419"/>
+					<Prp name="image file name" type="S" value="visImage10.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="1106"/>
+					<Prp name="object right" type="I" value="1151"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object top" type="I" value="667"/>
+					<Prp name="click point y" type="I" value="687"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6704465856"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="remarks" type="S" value="A click at point (36, 16) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.HotspotIdentificationPageSelector.sectionMenu.openTemplateButton&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/blackspot-identification&quot;).FindElement(&quot;//button[contains(text(), 'Open')]&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 78">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="1838"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HotspotManagementPageSelector.sectionHotspotManagement.buttonFinalSave"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="1019"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4427404861"/>
+					<Prp name="image file name" type="S" value="visImage60.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="1872"/>
+					<Prp name="object right" type="I" value="1907"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object top" type="I" value="986"/>
+					<Prp name="click point y" type="I" value="1002"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6719093634"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="78"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="remarks" type="S" value="A click at point (27, 13) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.HotspotManagementPageSelector.sectionHotspotManagement.buttonFinalSave&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/blackspot-management&quot;).FindElement(&quot;//button[.='Save']&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 8">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="9"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HomePageSelector.iMaapLogo.hamburgerMenu"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="141"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4410316204"/>
+					<Prp name="image file name" type="S" value="visImage6.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="28"/>
+					<Prp name="object right" type="I" value="47"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object top" type="I" value="102"/>
+					<Prp name="click point y" type="I" value="121"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6702002894"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="remarks" type="S" value="A click at point (15, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.HomePageSelector.iMaapLogo.hamburgerMenu&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/application-home&quot;).FindElement(&quot;xpath=//div[@id='nav-icon2']&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 29">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6706428472"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="29"/>
+			<Prp name="line no" type="I" value="49"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="User is able to verify that the 'Stick Analysis' labels are displayed successfully"/>
+		</Node>
+		<Node name="message 68">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="1006"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HotspotManagementPageSelector.sectionHotspotManagement.formActionPlan.ksiReductionTextbox"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="539"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4426195949"/>
+					<Prp name="image file name" type="S" value="visImage50.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="1234"/>
+					<Prp name="object right" type="I" value="1463"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="17"/>
+					<Prp name="object top" type="I" value="499"/>
+					<Prp name="click point y" type="I" value="519"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.671787963"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="68"/>
+			<Prp name="line no" type="I" value="17"/>
+			<Prp name="remarks" type="S" value="A click at point (182, 16) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.HotspotManagementPageSelector.sectionHotspotManagement.formActionPlan.ksiReductionTextbox&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/blackspot-management&quot;).FindElement(&quot;//form/div/div/div[2]/div//input[@type='text']&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6693044444"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;head&gt;&lt;style&gt;td{font-family: Courier New, Consolas, Segoe UI; font-size : 14px;}&lt;/style&gt;&lt;/head&gt;											  &lt;body&gt;											  &lt;table cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;											  &lt;tr&gt;&lt;td&gt;&lt;b&gt;Browser:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Google Chrome ver.119.0.6045.106 (x64)&lt;/td&gt;&lt;/tr&gt;											  &lt;tr&gt;&lt;td&gt;&lt;b&gt;Executable:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;C:\Program Files\Google\Chrome\Application\chrome.exe&lt;/td&gt;&lt;/tr&gt;											  &lt;tr&gt;&lt;td style=&quot;padding-right: 8px;&quot;&gt;&lt;b&gt;Command-line args:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;--incognito&lt;/td&gt;&lt;/tr&gt;											  &lt;tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;URL:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;https://imaap-stg.rtatestdom.local/&lt;/td&gt;&lt;/tr&gt;											  &lt;tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;PID:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;24396&lt;/td&gt;&lt;/tr&gt;											  &lt;/table&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="Google Chrome was launched."/>
+		</Node>
+		<Node name="message 48">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="931"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HotspotManagementPageSelector.buttonYes"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="626"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.442228125"/>
+					<Prp name="image file name" type="S" value="visImage30.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="960"/>
+					<Prp name="object right" type="I" value="989"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object top" type="I" value="581"/>
+					<Prp name="click point y" type="I" value="603"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6713964352"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="48"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="remarks" type="S" value="A click at point (23, 18) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.HotspotManagementPageSelector.buttonYes&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/blackspot-management&quot;).FindElement(&quot;//div[@role='dialog']/div/button[@type='button']&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 55">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="24"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HotspotManagementPageSelector.FindElement(&quot;//div[@class='col-sm-3']//ul/li[6]//span&quot;)"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="851"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4424396759"/>
+					<Prp name="image file name" type="S" value="visImage37.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="33"/>
+					<Prp name="object right" type="I" value="42"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object top" type="I" value="833"/>
+					<Prp name="click point y" type="I" value="842"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6716078935"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="55"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="remarks" type="S" value="A click at point (7, 7) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/blackspot-management&quot;).FindElement(&quot;//div[@class='col-sm-3']//ul/li[6]//span&quot;)"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 43">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6713452662"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="43"/>
+			<Prp name="line no" type="I" value="22"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="User is able to verify that the 'AutoHotspot3301' is displayed under 'Potential' category"/>
+		</Node>
+		<Node name="message 19">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6706237616"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="19"/>
+			<Prp name="line no" type="I" value="49"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="User is able to verify that the 'View Crashes' labels are displayed successfully"/>
+		</Node>
+		<Node name="message 54">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="24"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HotspotManagementPageSelector.FindElement(&quot;//div[@class='col-sm-3']//ul/li[5]//span&quot;)"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="848"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4424232755"/>
+					<Prp name="image file name" type="S" value="visImage36.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="33"/>
+					<Prp name="object right" type="I" value="42"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object top" type="I" value="830"/>
+					<Prp name="click point y" type="I" value="839"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6715918634"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="54"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="remarks" type="S" value="A click at point (7, 7) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/blackspot-management&quot;).FindElement(&quot;//div[@class='col-sm-3']//ul/li[5]//span&quot;)"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 81">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="931"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HotspotManagementPageSelector.buttonYes"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="626"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4429085301"/>
+					<Prp name="image file name" type="S" value="visImage63.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="960"/>
+					<Prp name="object right" type="I" value="989"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object top" type="I" value="581"/>
+					<Prp name="click point y" type="I" value="603"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6720769213"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="81"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="remarks" type="S" value="A click at point (23, 18) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.HotspotManagementPageSelector.buttonYes&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/blackspot-management&quot;).FindElement(&quot;//div[@role='dialog']/div/button[@type='button']&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 15">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6706123032"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="15"/>
+			<Prp name="line no" type="I" value="90"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="User is able to verify that the tab 'Hotspot Identification Result Details' are displayed"/>
+		</Node>
+		<Node name="message 69">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="1006"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HotspotManagementPageSelector.sectionHotspotManagement.formActionPlan.ksiReductionTextbox"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="539"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4426345602"/>
+					<Prp name="image file name" type="S" value="visImage51.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="1463"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="19"/>
+					<Prp name="object top" type="I" value="499"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6718041088"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="69"/>
+			<Prp name="line no" type="I" value="19"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.HotspotManagementPageSelector.sectionHotspotManagement.formActionPlan.ksiReductionTextbox&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/blackspot-management&quot;).FindElement(&quot;//form/div/div/div[2]/div//input[@type='text']&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The text '10' was entered in the text editor."/>
+		</Node>
+		<Node name="message 60">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="502"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HotspotManagementPageSelector.sectionHotspotManagement.excessiveSpeedCheckbox"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="719"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4425214583"/>
+					<Prp name="image file name" type="S" value="visImage42.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="511"/>
+					<Prp name="object right" type="I" value="520"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object top" type="I" value="701"/>
+					<Prp name="click point y" type="I" value="710"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6716899074"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="60"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="remarks" type="S" value="A click at point (7, 7) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.HotspotManagementPageSelector.sectionHotspotManagement.excessiveSpeedCheckbox&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/blackspot-management&quot;).FindElement(&quot;//wj-flex-grid//label/span[contains(@class, 'trl-c-checkbox-icon')]&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6696740625"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="remarks" type="S" value="URL: https://imaap-stg.rtatestdom.local/&#xA;&#xA;Aliases.browser"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="Navigating to the https://imaap-stg.rtatestdom.local/ page."/>
+		</Node>
+		<Node name="message 77">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="1675"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HotspotManagementPageSelector.sectionHotspotManagement.conStartDate"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="774"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4427351505"/>
+					<Prp name="image file name" type="S" value="visImage59.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="1700"/>
+					<Prp name="object right" type="I" value="1725"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="34"/>
+					<Prp name="object top" type="I" value="744"/>
+					<Prp name="click point y" type="I" value="759"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6719036921"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="77"/>
+			<Prp name="line no" type="I" value="34"/>
+			<Prp name="remarks" type="S" value="A click at point (20, 12) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.HotspotManagementPageSelector.sectionHotspotManagement.conStartDate&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/blackspot-management&quot;).FindElement(&quot;//td[contains(@class, 'wj-day-today')]&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 82">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6721941667"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="82"/>
+			<Prp name="line no" type="I" value="145"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="User is able to verify that the 'AutoHotspot3301' is displayed under 'Treated' category"/>
+		</Node>
+		<Node name="message 21">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6706241551"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="21"/>
+			<Prp name="line no" type="I" value="49"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="User is able to verify that the 'Save as User Site' labels are displayed successfully"/>
+		</Node>
+		<Node name="message 17">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6706228009"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="17"/>
+			<Prp name="line no" type="I" value="90"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="User is able to verify that the tab 'Options' are displayed"/>
+		</Node>
+		<Node name="message 88">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6722436458"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="88"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="remarks" type="S" value="The close command was sent to the window with the 'Logged Out - TRL Software - Google Chrome' caption. &#xA;&#xA;Tested object:&#xA;Aliases.browser&#xA;(Sys.Browser(&quot;chrome&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The process &quot;chrome&quot; was closed."/>
+		</Node>
+		<Node name="message 46">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="1869"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HotspotManagementPageSelector.sectionHotspotManagement.moveToActiveHotspotbutton"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="175"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4421823264"/>
+					<Prp name="image file name" type="S" value="visImage28.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="1876"/>
+					<Prp name="object right" type="I" value="1884"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object top" type="I" value="154"/>
+					<Prp name="click point y" type="I" value="164"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6713508333"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="46"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="remarks" type="S" value="A click at point (6, 8) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.HotspotManagementPageSelector.sectionHotspotManagement.moveToActiveHotspotbutton&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/blackspot-management&quot;).FindElement(&quot;xpath=//i[@class='trl-c-move-to-active-opt']&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 33">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="356"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HotspotIdentificationPageSelector.sectionMenu.formHotspotName.hotspotType"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="647"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.441521875"/>
+					<Prp name="image file name" type="S" value="visImage18.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="511"/>
+					<Prp name="object right" type="I" value="667"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="80"/>
+					<Prp name="object top" type="I" value="607"/>
+					<Prp name="click point y" type="I" value="627"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.670716331"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="33"/>
+			<Prp name="line no" type="I" value="80"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.HotspotIdentificationPageSelector.sectionMenu.formHotspotName.hotspotType&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/blackspot-identification&quot;).FindElement(&quot;//imaap-add-or-edit-potential-blackspot//form//select[contains(@class, 'form-control')]&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The combo box item 'General' was selected."/>
+		</Node>
+		<Node name="message 73">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="917"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HotspotManagementPageSelector.sectionHotspotManagement.conStartDate"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="813"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4426910417"/>
+					<Prp name="image file name" type="S" value="visImage55.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="938"/>
+					<Prp name="object right" type="I" value="959"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="34"/>
+					<Prp name="object top" type="I" value="783"/>
+					<Prp name="click point y" type="I" value="798"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6718593519"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="73"/>
+			<Prp name="line no" type="I" value="34"/>
+			<Prp name="remarks" type="S" value="A click at point (17, 12) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.HotspotManagementPageSelector.sectionHotspotManagement.conStartDate&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/blackspot-management&quot;).FindElement(&quot;//td[contains(@class, 'wj-day-today')]&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 70">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="516"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HotspotManagementPageSelector.sectionHotspotManagement.formActionPlan.assignedTo"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="957"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4426419907"/>
+					<Prp name="image file name" type="S" value="visImage52.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="640"/>
+					<Prp name="object right" type="I" value="764"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="17"/>
+					<Prp name="object top" type="I" value="917"/>
+					<Prp name="click point y" type="I" value="937"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6718108565"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="70"/>
+			<Prp name="line no" type="I" value="17"/>
+			<Prp name="remarks" type="S" value="A click at point (99, 16) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.HotspotManagementPageSelector.sectionHotspotManagement.formActionPlan.assignedTo&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/blackspot-management&quot;).FindElement(&quot;//td/input[@type='text']&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 71">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="516"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HotspotManagementPageSelector.sectionHotspotManagement.formActionPlan.assignedTo"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="957"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4426572569"/>
+					<Prp name="image file name" type="S" value="visImage53.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="764"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="19"/>
+					<Prp name="object top" type="I" value="917"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6718258912"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="71"/>
+			<Prp name="line no" type="I" value="19"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.HotspotManagementPageSelector.sectionHotspotManagement.formActionPlan.assignedTo&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/blackspot-management&quot;).FindElement(&quot;//td/input[@type='text']&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The text 'Auto Tester' was entered in the text editor."/>
+		</Node>
+		<Node name="message 41">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="764"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HotspotIdentificationPageSelector.FindElement(&quot;//ul[contains(@class, 'content--menu-items')]/li[@class='trl-c-item_collapsed'][3]/ul/li[ 5 ]//label&quot;)"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="455"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4420386921"/>
+					<Prp name="image file name" type="S" value="visImage26.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="868"/>
+					<Prp name="object right" type="I" value="972"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object top" type="I" value="434"/>
+					<Prp name="click point y" type="I" value="444"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6712089699"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="41"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="remarks" type="S" value="A click at point (83, 8) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/blackspot-identification&quot;).FindElement(&quot;//ul[contains(@class, 'content--menu-items')]/li[@class='trl-c-item_collapsed'][3]/ul/li[ 5 ]//label&quot;)"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 50">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="24"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HotspotManagementPageSelector.FindElement(&quot;//div[@class='col-sm-3']//ul/li[1]//span&quot;)"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="687"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4423590972"/>
+					<Prp name="image file name" type="S" value="visImage32.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="33"/>
+					<Prp name="object right" type="I" value="42"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object top" type="I" value="669"/>
+					<Prp name="click point y" type="I" value="678"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6715274306"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="50"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="remarks" type="S" value="A click at point (7, 7) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/blackspot-management&quot;).FindElement(&quot;//div[@class='col-sm-3']//ul/li[1]//span&quot;)"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 59">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="578"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HotspotManagementPageSelector.sectionHotspotManagement.buttonApplyPossibleCause"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="639"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4425165625"/>
+					<Prp name="image file name" type="S" value="visImage41.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="616"/>
+					<Prp name="object right" type="I" value="654"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object top" type="I" value="603"/>
+					<Prp name="click point y" type="I" value="621"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6716852199"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="59"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="remarks" type="S" value="A click at point (30, 14) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.HotspotManagementPageSelector.sectionHotspotManagement.buttonApplyPossibleCause&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/blackspot-management&quot;).FindElement(&quot;//button[.='Apply']&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 65">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="24"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HotspotManagementPageSelector.sectionHotspotManagement.counterMeasuresCheckbox"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="524"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4425670602"/>
+					<Prp name="image file name" type="S" value="visImage47.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="33"/>
+					<Prp name="object right" type="I" value="42"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object top" type="I" value="506"/>
+					<Prp name="click point y" type="I" value="515"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.671735463"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="65"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="remarks" type="S" value="A click at point (7, 7) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.HotspotManagementPageSelector.sectionHotspotManagement.counterMeasuresCheckbox&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/blackspot-management&quot;).FindElement(&quot;//imaap-action-plan-step-2//wj-flex-grid//div[2]//label/span[contains(@class, 'trl-c-checkbox-icon')]&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 45">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6713466088"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="45"/>
+			<Prp name="line no" type="I" value="36"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="User is able to verify the 'Identification Year' of the hotspot"/>
+		</Node>
+		<Node name="message 20">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6706239583"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="20"/>
+			<Prp name="line no" type="I" value="49"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="User is able to verify that the 'Show Histogram' labels are displayed successfully"/>
+		</Node>
+		<Node name="message 47">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="895"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HotspotManagementPageSelector.buttonYes"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="626"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4421885532"/>
+					<Prp name="image file name" type="S" value="visImage29.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="925"/>
+					<Prp name="object right" type="I" value="955"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object top" type="I" value="581"/>
+					<Prp name="click point y" type="I" value="603"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6713567593"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="47"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="remarks" type="S" value="A click at point (24, 18) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.HotspotManagementPageSelector.buttonYes&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/blackspot-management&quot;).FindElement(&quot;//div[@role='dialog']/div/button[@type='button']&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 34">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="20"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HotspotIdentificationPageSelector.sectionMenu.formHotspotName.identificationYear"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="740"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4415533912"/>
+					<Prp name="image file name" type="S" value="visImage19.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="175"/>
+					<Prp name="object right" type="I" value="331"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="17"/>
+					<Prp name="object top" type="I" value="700"/>
+					<Prp name="click point y" type="I" value="720"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.670722662"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="34"/>
+			<Prp name="line no" type="I" value="17"/>
+			<Prp name="remarks" type="S" value="A click at point (124, 16) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.HotspotIdentificationPageSelector.sectionMenu.formHotspotName.identificationYear&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/blackspot-identification&quot;).FindElement(&quot;//imaap-add-or-edit-potential-blackspot//form//div[2]/div//input[@type='text']&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="1171"/>
+					<Prp name="object name" type="S" value="Aliases.browser.LoginPageSelector.WelcomePage.loginPass"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="629"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4406220602"/>
+					<Prp name="image file name" type="S" value="visImage4.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="1611"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="19"/>
+					<Prp name="object top" type="I" value="576"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6697903241"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="line no" type="I" value="19"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.LoginPageSelector.WelcomePage.loginPass&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://idsapi-imaap-stg.rtatestdom.local/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fresponse_type%3Dcode%26client_id%3Dimaap_angular_client_rta%26state%3DVm1TWWRZWEpneGZNSGtaRFR5UHFNNFNvMTdJMUNWVzVlTW5DRkgzcVN1M0Uw%26redirect_uri%3Dhttps%253A%252F%252Fimaap-stg.rtatestdom.local%252F%26scope%3Dopenid%2520profile%2520identityapi%2520offline_access%26code_challenge%3DnGqmkM6YvemYYRebFFUBdasL3qo62NENCP0jPySpjgI%26code_challenge_method%3DS256%26nonce%3DVm1TWWRZWEpneGZNSGtaRFR5UHFNNFNvMTdJMUNWVzVlTW5DRkgzcVN1M0Uw&quot;).FindElement(&quot;xpath=//input[@id='txtpassword']&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The value of the iMaapVerification.iMaapAutomation.appPassword variable was entered in the text editor."/>
+		</Node>
+		<Node name="message 11">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="749"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HotspotIdentificationPageSelector.sectionMenu.automationTemplate"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="487"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4412731481"/>
+					<Prp name="image file name" type="S" value="visImage9.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="959"/>
+					<Prp name="object right" type="I" value="1170"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object top" type="I" value="434"/>
+					<Prp name="click point y" type="I" value="460"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6704415741"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="remarks" type="S" value="A click at point (168, 21) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.HotspotIdentificationPageSelector.sectionMenu.automationTemplate&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/blackspot-identification&quot;).FindElement(&quot;//div[contains(text(), 'Automation Template - Public')]&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 7">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="1171"/>
+					<Prp name="object name" type="S" value="Aliases.browser.LoginPageSelector.WelcomePage.loginButton"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="765"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4406268056"/>
+					<Prp name="image file name" type="S" value="visImage5.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="1391"/>
+					<Prp name="object right" type="I" value="1611"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="25"/>
+					<Prp name="object top" type="I" value="700"/>
+					<Prp name="click point y" type="I" value="732"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6697953125"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="line no" type="I" value="25"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.LoginPageSelector.WelcomePage.loginButton&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://idsapi-imaap-stg.rtatestdom.local/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fresponse_type%3Dcode%26client_id%3Dimaap_angular_client_rta%26state%3DVm1TWWRZWEpneGZNSGtaRFR5UHFNNFNvMTdJMUNWVzVlTW5DRkgzcVN1M0Uw%26redirect_uri%3Dhttps%253A%252F%252Fimaap-stg.rtatestdom.local%252F%26scope%3Dopenid%2520profile%2520identityapi%2520offline_access%26code_challenge%3DnGqmkM6YvemYYRebFFUBdasL3qo62NENCP0jPySpjgI%26code_challenge_method%3DS256%26nonce%3DVm1TWWRZWEpneGZNSGtaRFR5UHFNNFNvMTdJMUNWVzVlTW5DRkgzcVN1M0Uw&quot;).FindElement(&quot;//button[@name='button']&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 31">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="20"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HotspotIdentificationPageSelector.sectionMenu.formHotspotName.hotspotName"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="647"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4415000463"/>
+					<Prp name="image file name" type="S" value="visImage16.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="175"/>
+					<Prp name="object right" type="I" value="331"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="17"/>
+					<Prp name="object top" type="I" value="607"/>
+					<Prp name="click point y" type="I" value="627"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6706684259"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="31"/>
+			<Prp name="line no" type="I" value="17"/>
+			<Prp name="remarks" type="S" value="A click at point (124, 16) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.HotspotIdentificationPageSelector.sectionMenu.formHotspotName.hotspotName&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/blackspot-identification&quot;).FindElement(&quot;//imaap-add-or-edit-potential-blackspot//form//div//input[@type='text']&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 9">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="764"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HomePageSelector.FindElement(&quot;//ul[contains(@class, 'content--menu-items')]/li[@class='trl-c-item_collapsed'][3]/ul/li[ 4 ]//label&quot;)"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="409"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.441087581"/>
+					<Prp name="image file name" type="S" value="visImage7.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="868"/>
+					<Prp name="object right" type="I" value="972"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object top" type="I" value="388"/>
+					<Prp name="click point y" type="I" value="398"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6702563542"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="remarks" type="S" value="A click at point (83, 8) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/application-home&quot;).FindElement(&quot;//ul[contains(@class, 'content--menu-items')]/li[@class='trl-c-item_collapsed'][3]/ul/li[ 4 ]//label&quot;)"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 16">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="746"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HotspotIdentificationPageSelector.sectionMenu.panelHotspot1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="885"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4414507986"/>
+					<Prp name="image file name" type="S" value="visImage13.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="798"/>
+					<Prp name="object right" type="I" value="851"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object top" type="I" value="867"/>
+					<Prp name="click point y" type="I" value="876"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6706216435"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="16"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="remarks" type="S" value="A click at point (42, 7) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.HotspotIdentificationPageSelector.sectionMenu.panelHotspot1&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/blackspot-identification&quot;).FindElement(&quot;xpath=//div[contains(text(), 'Hotspot 3')]&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 42">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="29"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HotspotManagementPageSelector.FindElement(&quot;//div[contains(@class,'potential')]//li[1]//h4&quot;)"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="298"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4421414815"/>
+					<Prp name="image file name" type="S" value="visImage27.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="177"/>
+					<Prp name="object right" type="I" value="325"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object top" type="I" value="280"/>
+					<Prp name="click point y" type="I" value="289"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6713101042"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="42"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="remarks" type="S" value="A click at point (118, 7) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/blackspot-management&quot;).FindElement(&quot;//div[contains(@class,'potential')]//li[1]//h4&quot;)"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 51">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="24"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HotspotManagementPageSelector.FindElement(&quot;//div[@class='col-sm-3']//ul/li[2]//span&quot;)"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="727"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4423749769"/>
+					<Prp name="image file name" type="S" value="visImage33.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="33"/>
+					<Prp name="object right" type="I" value="42"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object top" type="I" value="709"/>
+					<Prp name="click point y" type="I" value="718"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6715431366"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="51"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="remarks" type="S" value="A click at point (7, 7) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/blackspot-management&quot;).FindElement(&quot;//div[@class='col-sm-3']//ul/li[2]//span&quot;)"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 24">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.670641956"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="24"/>
+			<Prp name="line no" type="I" value="49"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="User is able to verify that the 'Summary Print Report' labels are displayed successfully"/>
+		</Node>
+		<Node name="message 36">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="356"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HotspotIdentificationPageSelector.sectionMenu.formHotspotName.mpfTextbox"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="740"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4415749421"/>
+					<Prp name="image file name" type="S" value="visImage21.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="511"/>
+					<Prp name="object right" type="I" value="667"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="17"/>
+					<Prp name="object top" type="I" value="700"/>
+					<Prp name="click point y" type="I" value="720"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6707431597"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="36"/>
+			<Prp name="line no" type="I" value="17"/>
+			<Prp name="remarks" type="S" value="A click at point (124, 16) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.HotspotIdentificationPageSelector.sectionMenu.formHotspotName.mpfTextbox&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/blackspot-identification&quot;).FindElement(&quot;//form//div[2]/div[2]//input[@type='text']&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="-9"/>
+					<Prp name="object name" type="S" value="Aliases.browser.BrowserWindow(0)"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="1039"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4405087963"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="1929"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="object top" type="I" value="-9"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6696764699"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).BrowserWindow(0)"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The 'iMAAP - Google Chrome' window was maximized."/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="1171"/>
+					<Prp name="object name" type="S" value="Aliases.browser.LoginPageSelector.WelcomePage.loginUserName"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="526"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4405853125"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="1391"/>
+					<Prp name="object right" type="I" value="1611"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="17"/>
+					<Prp name="object top" type="I" value="473"/>
+					<Prp name="click point y" type="I" value="499"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6697545255"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="line no" type="I" value="17"/>
+			<Prp name="remarks" type="S" value="A click at point (176, 21) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.LoginPageSelector.WelcomePage.loginUserName&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://idsapi-imaap-stg.rtatestdom.local/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fresponse_type%3Dcode%26client_id%3Dimaap_angular_client_rta%26state%3DVm1TWWRZWEpneGZNSGtaRFR5UHFNNFNvMTdJMUNWVzVlTW5DRkgzcVN1M0Uw%26redirect_uri%3Dhttps%253A%252F%252Fimaap-stg.rtatestdom.local%252F%26scope%3Dopenid%2520profile%2520identityapi%2520offline_access%26code_challenge%3DnGqmkM6YvemYYRebFFUBdasL3qo62NENCP0jPySpjgI%26code_challenge_method%3DS256%26nonce%3DVm1TWWRZWEpneGZNSGtaRFR5UHFNNFNvMTdJMUNWVzVlTW5DRkgzcVN1M0Uw&quot;).FindElement(&quot;//input[@name='Username']&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 40">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="9"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HomePageSelector.iMaapLogo.hamburgerMenu"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="141"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4419802894"/>
+					<Prp name="image file name" type="S" value="visImage25.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="28"/>
+					<Prp name="object right" type="I" value="47"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object top" type="I" value="102"/>
+					<Prp name="click point y" type="I" value="121"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6711492014"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="40"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="remarks" type="S" value="A click at point (15, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.HomePageSelector.iMaapLogo.hamburgerMenu&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/application-home&quot;).FindElement(&quot;xpath=//div[@id='nav-icon2']&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 25">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6706421065"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="25"/>
+			<Prp name="line no" type="I" value="49"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="User is able to verify that the 'User Defined Report' labels are displayed successfully"/>
+		</Node>
+		<Node name="message 75">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="1205"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HotspotManagementPageSelector.sectionHotspotManagement.conStartDate"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="813"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4427129282"/>
+					<Prp name="image file name" type="S" value="visImage57.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="1226"/>
+					<Prp name="object right" type="I" value="1247"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="34"/>
+					<Prp name="object top" type="I" value="783"/>
+					<Prp name="click point y" type="I" value="798"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6718814815"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="75"/>
+			<Prp name="line no" type="I" value="34"/>
+			<Prp name="remarks" type="S" value="A click at point (17, 12) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.HotspotManagementPageSelector.sectionHotspotManagement.conStartDate&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/blackspot-management&quot;).FindElement(&quot;//td[contains(@class, 'wj-day-today')]&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 10">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="1830"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HotspotIdentificationPageSelector.sectionMenu.formNoTemplateSelected.selectTemplatesButton"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="213"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4412603935"/>
+					<Prp name="image file name" type="S" value="visImage8.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="1840"/>
+					<Prp name="object right" type="I" value="1850"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object top" type="I" value="193"/>
+					<Prp name="click point y" type="I" value="203"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6704298495"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="remarks" type="S" value="A click at point (8, 8) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.HotspotIdentificationPageSelector.sectionMenu.formNoTemplateSelected.selectTemplatesButton&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/blackspot-identification&quot;).FindElement(&quot;xpath=//div[@class='trl-c-report-template-options-buttons']/button[2]/i&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 63">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="1287"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HotspotManagementPageSelector.sectionHotspotManagement.engrNotesTextbox"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="763"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4425376736"/>
+					<Prp name="image file name" type="S" value="visImage45.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="1900"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="101"/>
+					<Prp name="object top" type="I" value="701"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6717126852"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="63"/>
+			<Prp name="line no" type="I" value="101"/>
+			<Prp name="remarks" type="S" value="'AutoTest' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.HotspotManagementPageSelector.sectionHotspotManagement.engrNotesTextbox&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/blackspot-management&quot;).FindElement(&quot;xpath=//div[@class='trl-l-blackspot__eng-notes']//div[2]/textarea&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+		</Node>
+		<Node name="message 72">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="1014"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HotspotManagementPageSelector.sectionHotspotManagement.formActionPlan.conStartDateDropdown"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="956"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4426736574"/>
+					<Prp name="image file name" type="S" value="visImage54.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="1033"/>
+					<Prp name="object right" type="I" value="1052"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="31"/>
+					<Prp name="object top" type="I" value="918"/>
+					<Prp name="click point y" type="I" value="937"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6718425463"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="72"/>
+			<Prp name="line no" type="I" value="31"/>
+			<Prp name="remarks" type="S" value="A click at point (15, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.HotspotManagementPageSelector.sectionHotspotManagement.formActionPlan.conStartDateDropdown&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/blackspot-management&quot;).FindElement(&quot;//tr/td/wj-input-date//button[@type='button']&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 14">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="14"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HotspotIdentificationPageSelector.sectionMenu.textnode.resultAnalysisButton"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="631"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4414377199"/>
+					<Prp name="image file name" type="S" value="visImage12.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="27"/>
+					<Prp name="object right" type="I" value="40"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object top" type="I" value="604"/>
+					<Prp name="click point y" type="I" value="617"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6706071412"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="remarks" type="S" value="A click at point (10, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.HotspotIdentificationPageSelector.sectionMenu.textnode.resultAnalysisButton&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/blackspot-identification&quot;).FindElement(&quot;//span/i[contains(@class, 'trl-icn-r-view-crash-details')]&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="1171"/>
+					<Prp name="object name" type="S" value="Aliases.browser.LoginPageSelector.WelcomePage.loginUserName"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="526"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4406009143"/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="1611"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="19"/>
+					<Prp name="object top" type="I" value="473"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6697696528"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="line no" type="I" value="19"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.LoginPageSelector.WelcomePage.loginUserName&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://idsapi-imaap-stg.rtatestdom.local/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fresponse_type%3Dcode%26client_id%3Dimaap_angular_client_rta%26state%3DVm1TWWRZWEpneGZNSGtaRFR5UHFNNFNvMTdJMUNWVzVlTW5DRkgzcVN1M0Uw%26redirect_uri%3Dhttps%253A%252F%252Fimaap-stg.rtatestdom.local%252F%26scope%3Dopenid%2520profile%2520identityapi%2520offline_access%26code_challenge%3DnGqmkM6YvemYYRebFFUBdasL3qo62NENCP0jPySpjgI%26code_challenge_method%3DS256%26nonce%3DVm1TWWRZWEpneGZNSGtaRFR5UHFNNFNvMTdJMUNWVzVlTW5DRkgzcVN1M0Uw&quot;).FindElement(&quot;//input[@name='Username']&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The text 'liya.abraham@imaap.com' was entered in the text editor."/>
+		</Node>
+		<Node name="message 52">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="24"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HotspotManagementPageSelector.FindElement(&quot;//div[@class='col-sm-3']//ul/li[3]//span&quot;)"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="768"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4423909259"/>
+					<Prp name="image file name" type="S" value="visImage34.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="33"/>
+					<Prp name="object right" type="I" value="42"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object top" type="I" value="750"/>
+					<Prp name="click point y" type="I" value="759"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6715593634"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="52"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="remarks" type="S" value="A click at point (7, 7) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/blackspot-management&quot;).FindElement(&quot;//div[@class='col-sm-3']//ul/li[3]//span&quot;)"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 2" type="S" value="{CE1D686B-9333-4744-929A-5F85B981E1B6}"/>
+			<Prp name="unit 0" type="S" value="{8056939B-4CC3-4F45-B5C0-A0403A9AC870}"/>
+			<Prp name="unit 1" type="S" value="{9915D524-45E0-43DC-B5C1-A4260664FE55}"/>
+			<Prp name="unit 3" type="S" value="{7AF97F9A-B0E0-4DAB-8E68-8AC14734294F}"/>
+		</Node>
+		<Node name="message 38">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="1831"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HotspotIdentificationPageSelector.sectionMenu.formHotspotName.potentialHotspotSave"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="1006"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4415963542"/>
+					<Prp name="image file name" type="S" value="visImage23.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="1865"/>
+					<Prp name="object right" type="I" value="1900"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object top" type="I" value="966"/>
+					<Prp name="click point y" type="I" value="986"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6707653588"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="38"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="remarks" type="S" value="A click at point (27, 16) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.HotspotIdentificationPageSelector.sectionMenu.formHotspotName.potentialHotspotSave&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/blackspot-identification&quot;).FindElement(&quot;//button[.='Save']&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 57">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="567"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HotspotManagementPageSelector.sectionHotspotManagement.possibleCauseSearchItemList"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="347"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.442462419"/>
+					<Prp name="image file name" type="S" value="visImage39.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="751"/>
+					<Prp name="object right" type="I" value="936"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="17"/>
+					<Prp name="object top" type="I" value="317"/>
+					<Prp name="click point y" type="I" value="332"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6716314583"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="57"/>
+			<Prp name="line no" type="I" value="17"/>
+			<Prp name="remarks" type="S" value="A click at point (147, 12) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.HotspotManagementPageSelector.sectionHotspotManagement.possibleCauseSearchItemList&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/blackspot-management&quot;).FindElement(&quot;//div[@role='dialog']//input[@type='text']&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 35">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="20"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HotspotIdentificationPageSelector.sectionMenu.formHotspotName.identificationYear"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="740"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4415692593"/>
+					<Prp name="image file name" type="S" value="visImage20.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="331"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="19"/>
+					<Prp name="object top" type="I" value="700"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6707381481"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="35"/>
+			<Prp name="line no" type="I" value="19"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.HotspotIdentificationPageSelector.sectionMenu.formHotspotName.identificationYear&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/blackspot-identification&quot;).FindElement(&quot;//imaap-add-or-edit-potential-blackspot//form//div[2]/div//input[@type='text']&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The text '2023' was entered in the text editor."/>
+		</Node>
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="1171"/>
+					<Prp name="object name" type="S" value="Aliases.browser.LoginPageSelector.WelcomePage.loginPass"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="629"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4406072222"/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="1391"/>
+					<Prp name="object right" type="I" value="1611"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="17"/>
+					<Prp name="object top" type="I" value="576"/>
+					<Prp name="click point y" type="I" value="602"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6697761111"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="line no" type="I" value="17"/>
+			<Prp name="remarks" type="S" value="A click at point (176, 21) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.LoginPageSelector.WelcomePage.loginPass&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://idsapi-imaap-stg.rtatestdom.local/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fresponse_type%3Dcode%26client_id%3Dimaap_angular_client_rta%26state%3DVm1TWWRZWEpneGZNSGtaRFR5UHFNNFNvMTdJMUNWVzVlTW5DRkgzcVN1M0Uw%26redirect_uri%3Dhttps%253A%252F%252Fimaap-stg.rtatestdom.local%252F%26scope%3Dopenid%2520profile%2520identityapi%2520offline_access%26code_challenge%3DnGqmkM6YvemYYRebFFUBdasL3qo62NENCP0jPySpjgI%26code_challenge_method%3DS256%26nonce%3DVm1TWWRZWEpneGZNSGtaRFR5UHFNNFNvMTdJMUNWVzVlTW5DRkgzcVN1M0Uw&quot;).FindElement(&quot;xpath=//input[@id='txtpassword']&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 64">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="1724"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HotspotManagementPageSelector.sectionHotspotManagement.buttonSaveAndGoToStep2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="1019"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4425502894"/>
+					<Prp name="image file name" type="S" value="visImage46.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="1815"/>
+					<Prp name="object right" type="I" value="1907"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object top" type="I" value="979"/>
+					<Prp name="click point y" type="I" value="999"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6717194329"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="64"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="remarks" type="S" value="A click at point (73, 16) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.HotspotManagementPageSelector.sectionHotspotManagement.buttonSaveAndGoToStep2&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/blackspot-management&quot;).FindElement(&quot;//button[.='Save and Go to Step 2']&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 32">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="20"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HotspotIdentificationPageSelector.sectionMenu.formHotspotName.hotspotName"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="647"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4415142824"/>
+					<Prp name="image file name" type="S" value="visImage17.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="331"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="19"/>
+					<Prp name="object top" type="I" value="607"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.670682419"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="32"/>
+			<Prp name="line no" type="I" value="19"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.HotspotIdentificationPageSelector.sectionMenu.formHotspotName.hotspotName&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/blackspot-identification&quot;).FindElement(&quot;//imaap-add-or-edit-potential-blackspot//form//div//input[@type='text']&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The text 'AutoHotspot3301' was entered in the text editor."/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 27">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6706424537"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="27"/>
+			<Prp name="line no" type="I" value="49"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="User is able to verify that the 'Standard Report' labels are displayed successfully"/>
+		</Node>
+		<Node name="message 83">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="9"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HomePageSelector.iMaapLogo.hamburgerMenu"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="141"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4430292014"/>
+					<Prp name="image file name" type="S" value="visImage64.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="28"/>
+					<Prp name="object right" type="I" value="47"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object top" type="I" value="102"/>
+					<Prp name="click point y" type="I" value="121"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.672197662"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="83"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="remarks" type="S" value="A click at point (15, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.HomePageSelector.iMaapLogo.hamburgerMenu&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/application-home&quot;).FindElement(&quot;xpath=//div[@id='nav-icon2']&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 66">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="1724"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HotspotManagementPageSelector.sectionHotspotManagement.buttonSaveAndGoToStep3"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="1019"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4426049074"/>
+					<Prp name="image file name" type="S" value="visImage48.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="1827"/>
+					<Prp name="object right" type="I" value="1907"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object top" type="I" value="986"/>
+					<Prp name="click point y" type="I" value="1017"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6717736574"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="66"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="remarks" type="S" value="A click at point (82, 25) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.HotspotManagementPageSelector.sectionHotspotManagement.buttonSaveAndGoToStep3&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/blackspot-management&quot;).FindElement(&quot;//button[.='Save and Go to Step 3']&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 22">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="1083"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HotspotIdentificationPageSelector.sectionMenu.goToDropdown"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="595"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4414593171"/>
+					<Prp name="image file name" type="S" value="visImage14.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="1282"/>
+					<Prp name="object right" type="I" value="1481"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object top" type="I" value="575"/>
+					<Prp name="click point y" type="I" value="585"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6706285069"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="22"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="remarks" type="S" value="A click at point (159, 8) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.HotspotIdentificationPageSelector.sectionMenu.goToDropdown&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/blackspot-identification&quot;).FindElement(&quot;//div[contains(text(), 'Go To')]&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 44">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.671346169"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="44"/>
+			<Prp name="line no" type="I" value="33"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="User is able to verify the 'Name' of the hotspot"/>
+		</Node>
+		<Node name="message 61">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="1287"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HotspotManagementPageSelector.sectionHotspotManagement.labelSiteVisitCompleted.siteVisitedCheckbox"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="660"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4425260995"/>
+					<Prp name="image file name" type="S" value="visImage43.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="1296"/>
+					<Prp name="object right" type="I" value="1305"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object top" type="I" value="642"/>
+					<Prp name="click point y" type="I" value="651"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6716956597"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="61"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="remarks" type="S" value="A click at point (7, 7) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.HotspotManagementPageSelector.sectionHotspotManagement.labelSiteVisitCompleted.siteVisitedCheckbox&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/blackspot-management&quot;).FindElement(&quot;//imaap-step1//div[3]//label/span[contains(@class, 'trl-c-checkbox-icon')]&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 80">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="895"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HotspotManagementPageSelector.buttonYes"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="626"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4428452431"/>
+					<Prp name="image file name" type="S" value="visImage62.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="925"/>
+					<Prp name="object right" type="I" value="955"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object top" type="I" value="581"/>
+					<Prp name="click point y" type="I" value="603"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.67201375"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="80"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="remarks" type="S" value="A click at point (24, 18) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.HotspotManagementPageSelector.buttonYes&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/blackspot-management&quot;).FindElement(&quot;//div[@role='dialog']/div/button[@type='button']&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 62">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="1287"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HotspotManagementPageSelector.sectionHotspotManagement.engrNotesTextbox"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="763"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4425341667"/>
+					<Prp name="image file name" type="S" value="visImage44.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="1593"/>
+					<Prp name="object right" type="I" value="1900"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object top" type="I" value="701"/>
+					<Prp name="click point y" type="I" value="732"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6717029051"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="62"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="remarks" type="S" value="A click at point (245, 25) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.HotspotManagementPageSelector.sectionHotspotManagement.engrNotesTextbox&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/blackspot-management&quot;).FindElement(&quot;xpath=//div[@class='trl-l-blackspot__eng-notes']//div[2]/textarea&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 30">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="1112"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HotspotIdentificationPageSelector.sectionMenu.savePotentialHotspot"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="316"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4414899421"/>
+					<Prp name="image file name" type="S" value="visImage15.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="1199"/>
+					<Prp name="object right" type="I" value="1286"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object top" type="I" value="298"/>
+					<Prp name="click point y" type="I" value="307"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6706589699"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="30"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="remarks" type="S" value="A click at point (70, 7) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.HotspotIdentificationPageSelector.sectionMenu.savePotentialHotspot&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/blackspot-identification&quot;).FindElement(&quot;//span[.='Save As Potential Hotspot']&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 39">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="895"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HotspotIdentificationPageSelector.savePotentialIntersectionYesButton"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="635"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4416290625"/>
+					<Prp name="image file name" type="S" value="visImage24.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="925"/>
+					<Prp name="object right" type="I" value="955"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object top" type="I" value="590"/>
+					<Prp name="click point y" type="I" value="612"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.670797338"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="39"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="remarks" type="S" value="A click at point (24, 18) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.HotspotIdentificationPageSelector.savePotentialIntersectionYesButton&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/blackspot-identification&quot;).FindElement(&quot;//button[.='Yes']&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 86">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="1621"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HomePageSelector.iMaapLogo.textnode10783.clearCacheLogoutButton"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="538"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4430604861"/>
+					<Prp name="image file name" type="S" value="visImage67.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="1770"/>
+					<Prp name="object right" type="I" value="1919"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object top" type="I" value="488"/>
+					<Prp name="click point y" type="I" value="513"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6722293634"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="86"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="remarks" type="S" value="A click at point (119, 20) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.HomePageSelector.iMaapLogo.textnode10783.clearCacheLogoutButton&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/application-home&quot;).FindElement(&quot;xpath=//ul/li[7]/a&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 37">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="356"/>
+					<Prp name="object name" type="S" value="Aliases.browser.HotspotIdentificationPageSelector.sectionMenu.formHotspotName.mpfTextbox"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="740"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45238.4415891782"/>
+					<Prp name="image file name" type="S" value="visImage22.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="667"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="19"/>
+					<Prp name="object top" type="I" value="700"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45238.6707576852"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="37"/>
+			<Prp name="line no" type="I" value="19"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.HotspotIdentificationPageSelector.sectionMenu.formHotspotName.mpfTextbox&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://imaap-stg.rtatestdom.local/blackspot-identification&quot;).FindElement(&quot;//form//div[2]/div[2]//input[@type='text']&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The text '25' was entered in the text editor."/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>

@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="data">
+			<Node name="logs">
+				<Prp name="key" type="S" value="{DDCD9B61-AD2B-4217-A0A9-1EA878DAE470}"/>
+				<Prp name="relpath" type="S" value="Log"/>
+			</Node>
+			<Node name="variables">
+				<Node name="datav4">
+					<Node name="var0">
+						<Prp name="name" type="S" value="userName"/>
+					</Node>
+					<Node name="var1">
+						<Prp name="name" type="S" value="appPassword"/>
+					</Node>
+					<Node name="var10">
+						<Prp name="name" type="S" value="crashNumOfPedestriansText"/>
+					</Node>
+					<Node name="var100">
+						<Prp name="name" type="S" value="importCasualityPath"/>
+					</Node>
+					<Node name="var11">
+						<Prp name="name" type="S" value="crashLatitudeText"/>
+					</Node>
+					<Node name="var12">
+						<Prp name="name" type="S" value="crashLongitudeText"/>
+					</Node>
+					<Node name="var13">
+						<Prp name="name" type="S" value="crashAccidentLocationText"/>
+					</Node>
+					<Node name="var14">
+						<Prp name="name" type="S" value="crashSpeedLimitText"/>
+					</Node>
+					<Node name="var15">
+						<Prp name="name" type="S" value="vehicleDriverAge"/>
+					</Node>
+					<Node name="var16">
+						<Prp name="name" type="S" value="vehicleDrivingLicenseNumText"/>
+					</Node>
+					<Node name="var17">
+						<Prp name="name" type="S" value="vehicleLicenseIssueDateText"/>
+					</Node>
+					<Node name="var18">
+						<Prp name="name" type="S" value="vehiclePlateNumberText"/>
+					</Node>
+					<Node name="var19">
+						<Prp name="name" type="S" value="vehiclePlateSerialText"/>
+					</Node>
+					<Node name="var2">
+						<Prp name="name" type="S" value="caseNoText"/>
+					</Node>
+					<Node name="var20">
+						<Prp name="name" type="S" value="vehicleBrandText"/>
+					</Node>
+					<Node name="var21">
+						<Prp name="name" type="S" value="vehicleYearOfManufactureText"/>
+					</Node>
+					<Node name="var22">
+						<Prp name="name" type="S" value="vehicleOwnerText"/>
+					</Node>
+					<Node name="var23">
+						<Prp name="name" type="S" value="casualityAgeText"/>
+					</Node>
+					<Node name="var24">
+						<Prp name="name" type="S" value="crashEditDateTextBox"/>
+					</Node>
+					<Node name="var25">
+						<Prp name="name" type="S" value="delMessage"/>
+					</Node>
+					<Node name="var26">
+						<Prp name="name" type="S" value="logoutMessage"/>
+					</Node>
+					<Node name="var27">
+						<Prp name="name" type="S" value="caseNoLabel"/>
+					</Node>
+					<Node name="var28">
+						<Prp name="name" type="S" value="crashDateLabel"/>
+					</Node>
+					<Node name="var29">
+						<Prp name="name" type="S" value="crashTimeLabel"/>
+					</Node>
+					<Node name="var3">
+						<Prp name="name" type="S" value="crashDateText"/>
+					</Node>
+					<Node name="var30">
+						<Prp name="name" type="S" value="crashNumOfVehiclesLabel"/>
+					</Node>
+					<Node name="var31">
+						<Prp name="name" type="S" value="crashNumOfCasualitiesLabel"/>
+					</Node>
+					<Node name="var32">
+						<Prp name="name" type="S" value="crashNumOfPedestrianCasualitiesLabel"/>
+					</Node>
+					<Node name="var33">
+						<Prp name="name" type="S" value="crashAccidentSeverityLabel"/>
+					</Node>
+					<Node name="var34">
+						<Prp name="name" type="S" value="crashTypeOfAccidentLabel"/>
+					</Node>
+					<Node name="var35">
+						<Prp name="name" type="S" value="crashLatitudeLabel"/>
+					</Node>
+					<Node name="var36">
+						<Prp name="name" type="S" value="crashLongitudeLabel"/>
+					</Node>
+					<Node name="var37">
+						<Prp name="name" type="S" value="crashAccidentLocationLabel"/>
+					</Node>
+					<Node name="var38">
+						<Prp name="name" type="S" value="crashPrimaryCauseLabel"/>
+					</Node>
+					<Node name="var39">
+						<Prp name="name" type="S" value="crashSecondaryCauseLabel"/>
+					</Node>
+					<Node name="var4">
+						<Prp name="name" type="S" value="crashTimeText"/>
+					</Node>
+					<Node name="var40">
+						<Prp name="name" type="S" value="crashCollisionTypeLabel"/>
+					</Node>
+					<Node name="var41">
+						<Prp name="name" type="S" value="crashSpeedLimitLabel"/>
+					</Node>
+					<Node name="var42">
+						<Prp name="name" type="S" value="crashJunctionTypeLabel"/>
+					</Node>
+					<Node name="var43">
+						<Prp name="name" type="S" value="crashLandmarkLabel"/>
+					</Node>
+					<Node name="var44">
+						<Prp name="name" type="S" value="crashDividerTypeLabel"/>
+					</Node>
+					<Node name="var45">
+						<Prp name="name" type="S" value="crashLightConditionsLabel"/>
+					</Node>
+					<Node name="var46">
+						<Prp name="name" type="S" value="crashTrafficSignsLabel"/>
+					</Node>
+					<Node name="var47">
+						<Prp name="name" type="S" value="crashWeatherLabel"/>
+					</Node>
+					<Node name="var48">
+						<Prp name="name" type="S" value="crashSurfaceConditionLabel"/>
+					</Node>
+					<Node name="var49">
+						<Prp name="name" type="S" value="vehicleRefNoLabel"/>
+					</Node>
+					<Node name="var5">
+						<Prp name="name" type="S" value="vehicleRefNumText"/>
+					</Node>
+					<Node name="var50">
+						<Prp name="name" type="S" value="vehicleDriverFaultLabel"/>
+					</Node>
+					<Node name="var51">
+						<Prp name="name" type="S" value="vehicleSexOfDriverLabel"/>
+					</Node>
+					<Node name="var52">
+						<Prp name="name" type="S" value="vehicleAgeofDriverLabel"/>
+					</Node>
+					<Node name="var53">
+						<Prp name="name" type="S" value="vehicleNationalityOfDriverLabel"/>
+					</Node>
+					<Node name="var54">
+						<Prp name="name" type="S" value="vehicleDrivingLicenseNumLabel"/>
+					</Node>
+					<Node name="var55">
+						<Prp name="name" type="S" value="vehicleDrivingLicenseIssueDateLabel"/>
+					</Node>
+					<Node name="var56">
+						<Prp name="name" type="S" value="vehicleDrivingLicenceIssuingAuthorityLabel"/>
+					</Node>
+					<Node name="var57">
+						<Prp name="name" type="S" value="vehicleRegistrationAuthorityLabel"/>
+					</Node>
+					<Node name="var58">
+						<Prp name="name" type="S" value="vehiclePlateNumberLabel"/>
+					</Node>
+					<Node name="var59">
+						<Prp name="name" type="S" value="vehiclePlateSerialLabel"/>
+					</Node>
+					<Node name="var6">
+						<Prp name="name" type="S" value="casualityVehicleReferenceText"/>
+					</Node>
+					<Node name="var60">
+						<Prp name="name" type="S" value="vehicleAlcoholLabel"/>
+					</Node>
+					<Node name="var61">
+						<Prp name="name" type="S" value="vehicleHitandRunLabel"/>
+					</Node>
+					<Node name="var62">
+						<Prp name="name" type="S" value="vehicleSeatBeltHelmetWornLabel"/>
+					</Node>
+					<Node name="var63">
+						<Prp name="name" type="S" value="vehicleTypeLabel"/>
+					</Node>
+					<Node name="var64">
+						<Prp name="name" type="S" value="vehicleCollisionOutsideRoadLabel"/>
+					</Node>
+					<Node name="var65">
+						<Prp name="name" type="S" value="vehicleTyreConditionLabel"/>
+					</Node>
+					<Node name="var66">
+						<Prp name="name" type="S" value="vehicleNumberOfAxlesLabel"/>
+					</Node>
+					<Node name="var67">
+						<Prp name="name" type="S" value="vehicleDegreeOfDamageLabel"/>
+					</Node>
+					<Node name="var68">
+						<Prp name="name" type="S" value="vehicleYearOfManufactureLabel"/>
+					</Node>
+					<Node name="var69">
+						<Prp name="name" type="S" value="vehicleTintedGlassLabel"/>
+					</Node>
+					<Node name="var7">
+						<Prp name="name" type="S" value="casualityRefNumText"/>
+					</Node>
+					<Node name="var70">
+						<Prp name="name" type="S" value="vehicleVehicleOwnerLabel"/>
+					</Node>
+					<Node name="var71">
+						<Prp name="name" type="S" value="vehicleTypeBrandLabel"/>
+					</Node>
+					<Node name="var72">
+						<Prp name="name" type="S" value="casualityVehicleRefNoLabel"/>
+					</Node>
+					<Node name="var73">
+						<Prp name="name" type="S" value="casualtyRefNoLabel"/>
+					</Node>
+					<Node name="var74">
+						<Prp name="name" type="S" value="casualtyClassLabel"/>
+					</Node>
+					<Node name="var75">
+						<Prp name="name" type="S" value="casualitySexLabel"/>
+					</Node>
+					<Node name="var76">
+						<Prp name="name" type="S" value="casualityNationalityLabel"/>
+					</Node>
+					<Node name="var77">
+						<Prp name="name" type="S" value="casualityAgeLabel"/>
+					</Node>
+					<Node name="var78">
+						<Prp name="name" type="S" value="casualityDegreeOfInjuryLabel"/>
+					</Node>
+					<Node name="var79">
+						<Prp name="name" type="S" value="casualitySeatBeltHelmetWornLabel"/>
+					</Node>
+					<Node name="var8">
+						<Prp name="name" type="S" value="numVehiclesInvolved"/>
+					</Node>
+					<Node name="var80">
+						<Prp name="name" type="S" value="menuOptionCrash"/>
+					</Node>
+					<Node name="var81">
+						<Prp name="name" type="S" value="menuOptionImport"/>
+					</Node>
+					<Node name="var82">
+						<Prp name="name" type="S" value="importCompletedText"/>
+					</Node>
+					<Node name="var83">
+						<Prp name="name" type="S" value="viewLabelData"/>
+					</Node>
+					<Node name="var84">
+						<Prp name="name" type="S" value="viewCrashActualRecord"/>
+					</Node>
+					<Node name="var85">
+						<Prp name="name" type="S" value="viewVehicleActualRecord"/>
+					</Node>
+					<Node name="var86">
+						<Prp name="name" type="S" value="viewCasualtyActualRecord"/>
+					</Node>
+					<Node name="var87">
+						<Prp name="name" type="S" value="optionLabel1"/>
+					</Node>
+					<Node name="var88">
+						<Prp name="name" type="S" value="optionLabel2"/>
+					</Node>
+					<Node name="var89">
+						<Prp name="name" type="S" value="bandType"/>
+					</Node>
+					<Node name="var9">
+						<Prp name="name" type="S" value="crashNumOfCasualitiesText"/>
+					</Node>
+					<Node name="var90">
+						<Prp name="name" type="S" value="hotspotName"/>
+					</Node>
+					<Node name="var91">
+						<Prp name="name" type="S" value="mpf"/>
+					</Node>
+					<Node name="var92">
+						<Prp name="name" type="S" value="detailsLabel"/>
+					</Node>
+					<Node name="var93">
+						<Prp name="name" type="S" value="identificationYr"/>
+					</Node>
+					<Node name="var94">
+						<Prp name="name" type="S" value="speedToSelect"/>
+					</Node>
+					<Node name="var95">
+						<Prp name="name" type="S" value="engrNotesText"/>
+					</Node>
+					<Node name="var96">
+						<Prp name="name" type="S" value="ksiReductionValue"/>
+					</Node>
+					<Node name="var97">
+						<Prp name="name" type="S" value="assignedToTextbox"/>
+					</Node>
+					<Node name="var98">
+						<Prp name="name" type="S" value="importCrashPath"/>
+					</Node>
+					<Node name="var99">
+						<Prp name="name" type="S" value="importVehiclePath"/>
+					</Node>
+				</Node>
+				<Prp name="version" type="I" value="4"/>
+			</Node>
+		</Node>
+		<Prp name="signature" type="S" value="{49FC0C30-9EF7-4DBD-97A8-B7A00E79A2AF}"/>
+	</Node>
+</Nodes>

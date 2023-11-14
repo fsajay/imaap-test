@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="folders"/>
+		<Node name="logs">
+			<Node name="log idx=0000">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45238.6413033912"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{7FFBFC51-8AC1-4930-81EB-5C59F952BCB6}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [AddCrashRecordTest\CrashDataTest]"/>
+				<Prp name="relpath" type="S" value="08-11-2023_15_23_28_613\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0001">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45238.6692553356"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{DDEA1FDD-9D05-473C-B2EE-330686756313}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [HotspotManagementTest\HotspotMgmtTest]"/>
+				<Prp name="relpath" type="S" value="08-11-2023_16_03_43_661\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0002">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45238.7677117708"/>
+				<Prp name="description" type="S" value="Script Test Log [ImportCrashRecordsTest\ImportCrashDataTest]"/>
+				<Prp name="key" type="S" value="{B90F71E3-E85E-4751-8C5E-5CCF3C49E422}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [ImportCrashRecordsTest\ImportCrashDataTest]"/>
+				<Prp name="relpath" type="S" value="08-11-2023_18_25_30_298\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+		</Node>
+		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>

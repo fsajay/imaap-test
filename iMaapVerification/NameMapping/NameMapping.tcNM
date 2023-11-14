@@ -1,0 +1,3782 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{6E925C99-7056-47AE-AF9D-6894476BD342}">
+				<TypeInfo Item0="{BEF7602A-26D5-469C-B963-840C37E3AFFA}" />
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{C6765248-02CF-4613-8D6A-E3F797569623}">
+						<TypeInfo Item0="{96620119-7934-48A6-8EE8-CD8935453BA1}" />
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="LoginPageSelector" Key="{418F5ED9-999B-449B-9CB9-14F1857E3F77}">
+								<Image FileName="15733140" Left="9" Top="105" Right="1929" Bottom="1038" />
+								<TypeInfo Item0="{284ED6CF-07A8-4B6D-9612-8EF3CBD606B4}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://idsapi-imaap-stg.rtatestdom.local/Account/Login*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="WelcomePage" Key="{3ACCFC85-B150-4777-A872-4AFD2B2634A5}">
+										<Image FileName="15733140" Left="107" Top="105" Right="1832" Bottom="1039" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//section[contains(., &apos;Welcome to TRL Software&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//section[contains(@class, &apos;trl-l-session--base&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="loginUserName" Key="{91445AEF-8B16-4BEB-9CF0-ABC0F637A317}">
+										<Image FileName="15733140" Left="1180" Top="482" Right="1620" Bottom="535" />
+										<TypeInfo Item0="{33C0C924-2143-4C76-AF3D-3D1D303F8A7E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@name=&apos;Username&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Username&apos;]/@for)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/input" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="#txtusername" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="loginPass" Key="{191A2D79-C5EC-49D2-9EF2-F0970F128832}">
+										<Image FileName="-619951538" Left="752" Top="590" Right="1192" Bottom="643" />
+										<TypeInfo Item0="{33C0C924-2143-4C76-AF3D-3D1D303F8A7E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//input[@id=&apos;txtpassword&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Password&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#txtpassword" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[2]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="loginButton" Key="{8C51EC63-6CC2-4FAD-B1F6-485DB0C9B90B}">
+										<Image FileName="874005368" Left="1180" Top="709" Right="1620" Bottom="774" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[@name=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[.=&apos;Login&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@value=&apos;login&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;trl-c-btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;login-section&apos;]//div[4]/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="TenantPageSelector" Key="{1AACFFA8-B92E-4892-B68A-6BBD348A697C}">
+								<Image FileName="-160283975" Left="9" Top="105" Right="1929" Bottom="1038" />
+								<TypeInfo Item0="{284ED6CF-07A8-4B6D-9612-8EF3CBD606B4}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://imaap-stg.rtatestdom.local/tenant" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionChooseTenant" Key="{F010F7B0-DBDA-44C2-9277-1E41F128256E}">
+										<Image FileName="-160283975" Left="9" Top="105" Right="1929" Bottom="781" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Choose Tenant&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;trl-l-app-body&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="tenantExpand" Key="{BEE25954-D7CC-43EA-AB74-958EDDE76334}">
+										<Image FileName="-160283975" Left="1139" Top="541" Right="1170" Bottom="570" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(@class, &apos;ng-arrow-wrapper&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//imaap-choose-tenant//ng-select//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="tenant" Key="{7EA8BCFF-62B7-4E7A-A739-D4843F8A9AC0}">
+										<Image FileName="-1715087700" Left="780" Top="735" Right="830" Bottom="759" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//span[@class=&apos;ng-option-label&apos;and text()=&apos;Dubai&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonContinue" Key="{16734AFB-27AA-4F34-A4BA-89EE174C878A}">
+										<Image FileName="198655558" Left="868" Top="594" Right="1071" Bottom="651" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Continue&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;app-c-btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#continue-btn" />
+											</Selector>
+											<Selector>
+												<Value Value="//section/imaap-choose-tenant//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="HomePageSelector" Key="{AA43D2CB-C680-4183-9A1B-3C12A785BB74}">
+								<Image FileName="-204356319" Left="9" Top="105" Right="1929" Bottom="1038" />
+								<TypeInfo Item0="{284ED6CF-07A8-4B6D-9612-8EF3CBD606B4}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://imaap-stg.rtatestdom.local/application-home" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="iMaapLogo" Key="{4D414629-9DAA-4FA9-8B25-7C91784AF3F5}">
+										<Image FileName="-204356319" Left="9" Top="105" Right="1929" Bottom="155" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//header[contains(@class, &apos;trl-l-app-header&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(., &apos;7805&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="homeButton" Key="{92A12B4F-01CE-4418-A46E-36FD531529AB}">
+										<TypeInfo Item0="{E2F1CACD-E23D-438E-AB96-0DFB448A5D03}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//a[.=&apos;Home&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//label/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="menuItems" Key="{800C3272-602B-499C-A43F-8A86E57D1805}">
+										<Image FileName="-204356319" Left="73" Top="108" Right="178" Bottom="150" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//ul[@class=&apos;trl-c-menu__content--menu-items&apos;]//li//ul[1]/li//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="hamburgerMenu" Key="{B583A502-B465-4B59-ADBE-A3308201B7B4}">
+										<Image FileName="-308060769" Left="18" Top="111" Right="56" Bottom="150" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[@id=&apos;nav-icon2&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#nav-icon2" />
+											</Selector>
+											<Selector>
+												<Value Value="//a/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeDataManagement" Key="{807D04FD-4071-44FC-987A-ED2F8DEDAB24}">
+										<Image FileName="896510025" Left="359" Top="155" Right="1918" Bottom="1039" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Data Management&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;trl-c-menu__content--menu-items&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeDataManagement2" Key="{79DBC875-8915-45F0-85B8-5CC360A3FBCC}">
+										<Image FileName="896510025" Left="372" Top="168" Right="697" Bottom="543" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Data Management&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="crashRecordOption" Key="{59EE9625-23A9-45DA-BDCD-9C12CFFEEBBD}">
+										<Image FileName="896510025" Left="435" Top="350" Right="643" Bottom="371" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Crash Records&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[3]/a/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode10783" Key="{064B5DF6-059B-4FD0-B4A8-FCEACAA02917}">
+										<Image FileName="-1664257541" Left="1183" Top="105" Right="1929" Bottom="155" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;10783&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;trl-c-app-header__nav&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkAu" Key="{F4FA3634-8CB9-43C8-B08A-B9E6D2554A52}">
+										<Image FileName="-1664257541" Left="1853" Top="105" Right="1929" Bottom="155" />
+										<TypeInfo Item0="{A1C070DF-53ED-4700-8FF3-35FF4A5C973B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;AU&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[6]/a[contains(@class, &apos;dropdown-toggle&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[6]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="userAccountButton" Key="{EEEED0EB-2E76-4F56-9F51-DA8259AAF6BC}">
+										<Image FileName="-1664257541" Left="1872" Top="111" Right="1910" Bottom="149" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a/ngx-avatar/div/div[contains(@class, &apos;avatar-content&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;AU&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ngx-avatar/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="clearCacheLogoutButton" Key="{EC601142-634E-4BCA-91D9-B50FBB82AEBD}">
+										<Image FileName="709062919" Left="1630" Top="497" Right="1928" Bottom="547" />
+										<TypeInfo Item0="{046FC5A0-D3D6-4920-AFC6-E97F8234F8E1}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//ul/li[7]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkClearCacheLogout" Key="{350AA12E-AE47-43F6-A0FF-C5B3ACAA90C7}">
+										<Image FileName="709062919" Left="1630" Top="497" Right="1928" Bottom="547" />
+										<TypeInfo Item0="{E2F1CACD-E23D-438E-AB96-0DFB448A5D03}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Clear Cache &amp; Logout&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[7]/a[contains(@class, &apos;dropdown-item&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@role=&apos;menu&apos;]/li[7]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="importMenuOption" Key="{081214DD-B91B-42B9-B3A4-DF721CE17169}">
+										<Image FileName="76313616" Left="435" Top="490" Right="643" Bottom="511" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Import&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[6]/a/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="CrashRecordPageSelector" Key="{E1F83F14-6677-4581-80C0-FF8EDB6324B6}">
+								<Image FileName="732465348" Left="9" Top="105" Right="1929" Bottom="1038" />
+								<TypeInfo Item0="{284ED6CF-07A8-4B6D-9612-8EF3CBD606B4}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://imaap-stg.rtatestdom.local/data/compact-data-viewer" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionSearch" Key="{49FBB18E-A4A2-4F94-9A65-27AEAEB9BE0B}">
+										<Image FileName="732465348" Left="9" Top="105" Right="1929" Bottom="1039" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Search&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;trl-l-app-body&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="addCrashRecord" Key="{B11190DA-700A-4B68-BF22-4AF3AB8E79AF}">
+										<Image FileName="732465348" Left="383" Top="196" Right="423" Bottom="236" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath= //imaap-search-list-panel//div[@class=&apos;trl-l-crash-list__options&apos;]//div[2]/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/button[contains(@class, &apos;trl-c-btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//div[2]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="savedCrashHeader" Key="{A31295C6-B5C5-42C3-B3E3-4F17DDE1D534}">
+										<Image FileName="-903100528" Left="470" Top="176" Right="653" Bottom="199" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h2[contains(@class, &apos;trl-l-heading__style-h2&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h2" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="crashDetailedViewToggle" Key="{42795770-82CE-4230-8E51-3885C1CCA7E1}">
+										<Image FileName="-1629873595" Left="623" Top="169" Right="846" Bottom="206" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Detailed View&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[contains(@class, &apos;trl-c-switch__text--on&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkArf" Key="{D9F2A263-EC09-4190-B8C2-EEDFD007DEA4}">
+										<Image FileName="2000804046" Left="1760" Top="168" Right="1800" Bottom="208" />
+										<TypeInfo Item0="{E2F1CACD-E23D-438E-AB96-0DFB448A5D03}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[@aria-describedby=&apos;tooltip-207&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/a[contains(@class, &apos;trl-c-btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//div[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="editCrashRecordButton" Key="{A1E9AE09-D665-4C23-B53F-6A0DBA12988E}">
+										<Image FileName="2000804046" Left="1761" Top="178" Right="1799" Bottom="198" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//i[contains(@class, &apos;trl-icn-modify&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;arf&apos;)]/i" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/a/i" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="casualityClassEdit" Key="{3EF5D4B7-4058-48AD-974B-72FB22B75AFD}">
+										<Image FileName="568052513" Left="1746" Top="821" Right="1908" Bottom="842" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;Passenger&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[7]//span[contains(@class, &apos;trl-l-cd_text-normal&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[@aria-describedby=&apos;tooltip-488&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[7]/div[2]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="deleteCrashRecordButton" Key="{FFA459D0-8437-4DD4-B9DB-3580E2059B82}">
+										<Image FileName="721523935" Left="1868" Top="168" Right="1908" Bottom="208" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//i[@class=&apos;trl-icn-r-delete&apos;]/parent::button[contains(@aria-describedby,&apos;tooltip&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@aria-describedby=&apos;tooltip-244&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="searchCrashButton" Key="{C1DE5270-AC2F-4438-970F-1E1120ECFD35}">
+										<Image FileName="-1892187951" Left="200" Top="196" Right="373" Bottom="236" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Search&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//div[@class=&apos;trl-l-crash-list__btn-group&apos;]/button[text()=&apos;Search&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="form" Key="{F2BED040-4AC3-4D8A-9BBB-923307403EBD}">
+										<Image FileName="-1907245391" Left="69" Top="196" Right="373" Bottom="236" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;ng-untouched&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="searchTextbox" Key="{A5A5CDC3-577A-467B-A73A-1E53B90C2653}">
+										<Image FileName="-1907245391" Left="69" Top="196" Right="373" Bottom="236" />
+										<TypeInfo Item0="{33C0C924-2143-4C76-AF3D-3D1D303F8A7E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="searchIconButton" Key="{0D42C179-2F92-4264-8411-C76352A1A789}">
+										<Image FileName="-1054555277" Left="383" Top="196" Right="423" Bottom="236" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[3]/button[contains(@class, &apos;trl-c-btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="delConfirm" Key="{0EF719C5-C398-4F1B-BA25-FF646DEC91F8}">
+										<Image FileName="1615941086" Left="682" Top="555" Right="1257" Bottom="572" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#swal2-content" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[.=&apos;No records found.&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;swal2-content&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonOk" Key="{1B65AF93-7F53-4D57-8361-022E01FBCE8B}">
+										<Image FileName="-378077771" Left="940" Top="590" Right="998" Bottom="635" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;swal2-confirm&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="header10783" Key="{2387378E-C6D0-4304-BD71-C52CB5C503D5}">
+										<Image FileName="-1009616126" Left="9" Top="105" Right="1929" Bottom="155" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//header[contains(., &apos;10783&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(@class, &apos;trl-l-app-header&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode10783" Key="{48B4F12F-38A3-4D3D-AC31-C19CEA6A3181}">
+										<Image FileName="-1009616126" Left="1183" Top="105" Right="1929" Bottom="155" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;10783&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;trl-c-app-header__nav&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkAu" Key="{1257B284-C126-4DDE-A79E-13D9FB938813}">
+										<Image FileName="-1009616126" Left="1853" Top="105" Right="1929" Bottom="155" />
+										<TypeInfo Item0="{E2F1CACD-E23D-438E-AB96-0DFB448A5D03}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;AU&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[6]/a[contains(@class, &apos;dropdown-toggle&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[6]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="CrashRecordFormSelector" Key="{54A76DAF-0E29-412C-A551-3E0B03E13545}">
+								<Image FileName="-449093844" Left="9" Top="105" Right="1929" Bottom="1038" />
+								<TypeInfo Item0="{284ED6CF-07A8-4B6D-9612-8EF3CBD606B4}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://imaap-stg.rtatestdom.local/data/arf" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="licenseCloseButton" Key="{3925DF4A-E818-4546-B45F-C9B44CE0FB0A}">
+										<Image FileName="-449093844" Left="1099" Top="739" Right="1190" Bottom="780" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;CLOSE&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionSearch" Key="{F47A1A35-8A20-4E84-9A5B-2151FC7B701F}">
+										<Image FileName="1075538986" Left="9" Top="105" Right="1920" Bottom="1039" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Search&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;trl-l-app-body&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formCrash" Key="{2F471E60-6425-4D54-A2CB-69FDCD6F6D68}">
+										<Image FileName="1075538986" Left="9" Top="221" Right="1920" Bottom="271" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Crash&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;ng-valid&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="crashDateTextBox" Key="{6188964D-A003-4060-861F-A94636316037}">
+										<Image FileName="1075538986" Left="577" Top="319" Right="1069" Bottom="357" />
+										<TypeInfo Item0="{33C0C924-2143-4C76-AF3D-3D1D303F8A7E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//wj-input-date[contains(@id,&apos;CrashDate&apos;)]//input[@class=&apos;wj-form-control&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//label[contains(@for,&apos;CrashDate&apos;)]/following-sibling::wj-input-date//input[@wj-part=&apos;input&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//wj-input-date//input[contains(@class, &apos;wj-form-control&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="crashTimeTextBox" Key="{AD4A42F9-E637-4EC9-BD36-40D8AF3B017F}">
+										<Image FileName="-445553717" Left="1133" Top="319" Right="1610" Bottom="357" />
+										<TypeInfo Item0="{33C0C924-2143-4C76-AF3D-3D1D303F8A7E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//dx-date-box[contains(@id,&apos;CrashTime&apos;)]//input[@class=&apos;dx-texteditor-input&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]//dx-date-box//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;dx-texteditor-input&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//dx-date-box[@id=&apos;CrashTime00&apos;]//div/div/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//dx-date-box/div/div/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="crashNumOfCasualitiesTextBox" Key="{5EFE9A7A-FD80-4A17-A485-3B4721E1A3C6}">
+										<Image FileName="198798679" Left="1128" Top="405" Right="1663" Bottom="445" />
+										<TypeInfo Item0="{33C0C924-2143-4C76-AF3D-3D1D303F8A7E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#NumberOfCasualties00" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//input[contains(@id,&apos;NumberOfCasualties&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[6]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[6]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="crashNumOfPedestriansTextBox" Key="{E037990A-D720-4FEA-9C46-AD20058D6231}">
+										<Image FileName="61309360" Left="29" Top="491" Right="561" Bottom="531" />
+										<TypeInfo Item0="{33C0C924-2143-4C76-AF3D-3D1D303F8A7E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//input[contains(@id,&apos;NumberOfPedestrians&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#NumberOfPedestrians00" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[7]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[7]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="crashSeverityDropdown" Key="{D8BB9039-536B-456E-A050-411B8ABB97E7}">
+										<Image FileName="1597259177" Left="1069" Top="492" Right="1107" Bottom="530" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[8]//wj-auto-complete//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[8]//wj-auto-complete//button[contains(@class, &apos;wj-btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//wj-auto-complete[@id=&apos;CrashSeverityId00&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[8]//wj-auto-complete//button" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//wj-auto-complete[contains(@id,&apos;CrashSeverityId&apos;)]//span[@class=&apos;wj-glyph-down&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="crashSeverityOption" Key="{B83CFF18-2387-4295-9506-6F552F1D941E}">
+										<Image FileName="1295462062" Left="576" Top="310" Right="1108" Bottom="340" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[contains(text(), &apos;Fatal&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[.=&apos;1 Fatal&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="crashTypeOfAccidentDropdown" Key="{CFEAFBCA-F371-48B3-98D0-4841BDD03EEA}">
+										<Image FileName="2087217417" Left="1624" Top="492" Right="1662" Bottom="530" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[9]//wj-auto-complete//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[9]//wj-auto-complete//button[contains(@class, &apos;wj-btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//wj-auto-complete[@id=&apos;AccidentReportKindId00&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[9]//wj-auto-complete//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="crashLatitudeTextBox" Key="{FAB0919B-52D7-42C3-874E-FD326ECA5044}">
+										<Image FileName="-1610613618" Left="279" Top="578" Right="516" Bottom="618" />
+										<TypeInfo Item0="{33C0C924-2143-4C76-AF3D-3D1D303F8A7E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[contains(.,&apos;11.&apos;)]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#LocationNorthing00" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[11]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[11]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="crashAccidentLocationTextBox" Key="{1E8EF956-B0E1-40FE-8E38-D43D405B4B77}">
+										<Image FileName="-2651339" Left="579" Top="664" Right="1114" Bottom="704" />
+										<TypeInfo Item0="{33C0C924-2143-4C76-AF3D-3D1D303F8A7E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[contains(.,&apos;15.&apos;)]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#CrashLocation00" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[15]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[15]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//input[@id=(//label[contains(.,&apos;Accident Location&apos;)]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//input[@id=&apos;CrashLocation00&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="crashPrimaryCauseDropdown" Key="{16EFBCAC-B6D6-4673-A27B-973B21656970}">
+										<Image FileName="1655371719" Left="1624" Top="665" Right="1662" Bottom="703" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[16]//wj-auto-complete//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[16]//wj-auto-complete//button[contains(@class, &apos;wj-btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//wj-auto-complete[@id=&apos;PrimaryCauseOfCrashId00&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[16]//wj-auto-complete//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="crashPrimaryCauseOption" Key="{D39B6B8A-5211-452B-8637-F986CD5A6EE5}">
+										<Image FileName="1012887683" Left="1128" Top="734" Right="1653" Bottom="764" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;2 LACK OF LANE DISCIPLINE&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="crashSecondaryCauseDropdown" Key="{067A7865-DCFD-4340-A43A-3FB1CFEF457C}">
+										<Image FileName="-1182803321" Left="525" Top="752" Right="563" Bottom="790" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[17]//wj-auto-complete//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[17]//wj-auto-complete//button[contains(@class, &apos;wj-btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//wj-auto-complete[@id=&apos;SecondaryCauseOfCrashId00&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[17]//wj-auto-complete//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="crashSecondaryCauseOption" Key="{06823009-683C-4236-89E0-D9350C6D89EF}">
+										<Image FileName="-1252485987" Left="29" Top="631" Right="554" Bottom="661" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;4 DRIVING TOO CLOSE&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="crashCollisionTypeDropdown" Key="{6ABABCD9-0199-4DD1-9FAD-7C01A5B8D43D}">
+										<Image FileName="410542183" Left="1075" Top="502" Right="1113" Bottom="540" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[18]//wj-auto-complete//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[18]//wj-auto-complete//button[contains(@class, &apos;wj-btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//wj-auto-complete[@id=&apos;CollisionTypeId00&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[18]//wj-auto-complete//button" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//wj-auto-complete[@id=&apos;CollisionTypeId00&apos;]//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="crashCollisionTypeOption" Key="{24D2A1B9-B48E-4F15-A118-77FA09CC5342}">
+										<Image FileName="-105740841" Left="579" Top="541" Right="1104" Bottom="571" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;1 With Stationary object&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="crashSpeedLimitTextBox" Key="{7670F38D-D4C4-4375-BE36-B845A08CF2C3}">
+										<Image FileName="-170308032" Left="1128" Top="501" Right="1663" Bottom="541" />
+										<TypeInfo Item0="{33C0C924-2143-4C76-AF3D-3D1D303F8A7E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[contains(.,&apos;19.&apos;)]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#SpeedLimit00" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[19]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[19]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="crashJunctionTypeDropdown" Key="{3A966066-C37F-4E06-9BA9-55091AF06489}">
+										<Image FileName="693353747" Left="525" Top="588" Right="563" Bottom="626" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[20]//wj-auto-complete//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[20]//wj-auto-complete//button[contains(@class, &apos;wj-btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//wj-auto-complete[@id=&apos;LocationTypeId00&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[20]//wj-auto-complete//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="crashJunctionTypeOption" Key="{05BDB7FB-6675-4B60-B000-21B958D0D3E6}">
+										<Image FileName="163871510" Left="29" Top="627" Right="554" Bottom="657" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;1 Through dual 4 corridors in every direction&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="crashLandmarkDropdown" Key="{28BA79FE-0287-4B6F-B729-7C78806424EA}">
+										<Image FileName="-1802801150" Left="1075" Top="588" Right="1113" Bottom="626" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[21]//wj-auto-complete//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[21]//wj-auto-complete//button[contains(@class, &apos;wj-btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//wj-auto-complete[@id=&apos;LandmarkId00&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[21]//wj-auto-complete//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="crashLandmarkOption" Key="{432B1263-0C5C-45E8-88CB-580A54021212}">
+										<Image FileName="-743836221" Left="579" Top="627" Right="1104" Bottom="657" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;1 Near School&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="crashDividerTypeDropdown" Key="{E94084E8-9CB2-4B06-A50E-56286F57A7E8}">
+										<Image FileName="765206592" Left="1624" Top="588" Right="1662" Bottom="626" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[22]//wj-auto-complete//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[22]//wj-auto-complete//button[contains(@class, &apos;wj-btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//wj-auto-complete[@id=&apos;DividerTypeId00&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[22]//wj-auto-complete//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="crashDividerTypeOption" Key="{5CEDF8D6-398E-4936-B4E4-8254C8504016}">
+										<Image FileName="-40055574" Left="1128" Top="627" Right="1663" Bottom="657" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;1 Metal&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="crashLightConditionsDropdown" Key="{A4454A95-4329-4070-8249-0B8752E4AABD}">
+										<Image FileName="-1596187851" Left="525" Top="549" Right="563" Bottom="587" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[23]//wj-auto-complete//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[23]//wj-auto-complete//button[contains(@class, &apos;wj-btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//wj-auto-complete[@id=&apos;LightConditionId00&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[23]//wj-auto-complete//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="crashLightConditionsOption" Key="{5C4E40D4-312A-4BD3-9071-4F942C7CF4B1}">
+										<Image FileName="-75767496" Left="29" Top="588" Right="564" Bottom="618" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;1 Day&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="crashTrafficSignsDropdown" Key="{84F1407A-7FA3-4F57-9154-844E11C2F984}">
+										<Image FileName="1793549129" Left="1075" Top="549" Right="1113" Bottom="587" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[24]//wj-auto-complete//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[24]//wj-auto-complete//button[contains(@class, &apos;wj-btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//wj-auto-complete[@id=&apos;TrafficSignsId00&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[24]//wj-auto-complete//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="crashTrafficSignsOption" Key="{7836D255-C991-44DA-90C6-1178DB71887B}">
+										<Image FileName="-1213739794" Left="579" Top="588" Right="1114" Bottom="618" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;1 Signs Present&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="crashWeatherDropdown" Key="{C5DF6A8C-1A1A-47F2-863D-DE745EC57984}">
+										<Image FileName="1762814730" Left="1624" Top="549" Right="1662" Bottom="587" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[25]//wj-auto-complete//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[25]//wj-auto-complete//button[contains(@class, &apos;wj-btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//wj-auto-complete[@id=&apos;WeatherId00&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[25]//wj-auto-complete//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="crashWeatherOption" Key="{EFD1B957-C4D9-499E-AC3A-8EDFE30B1649}">
+										<Image FileName="-98245549" Left="1128" Top="588" Right="1663" Bottom="618" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;1 Clear&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="crashSurfaceConditionDropdown" Key="{E1F3AA2C-4FA8-47B3-A320-1E16DDC17B68}">
+										<Image FileName="1319821710" Left="525" Top="636" Right="563" Bottom="674" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[26]//wj-auto-complete//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[26]//wj-auto-complete//button[contains(@class, &apos;wj-btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//wj-auto-complete[@id=&apos;RoadSurfaceConditionId00&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[26]//wj-auto-complete//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="crashSurfaceConditionOption" Key="{D064274E-9350-4D4D-88D6-0972CD4ED425}">
+										<Image FileName="451558647" Left="29" Top="675" Right="564" Bottom="705" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;1 Dry&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vehicleTabButton" Key="{44072950-E13B-4826-8CDB-ABCF8915A530}">
+										<Image FileName="294498110" Left="107" Top="221" Right="243" Bottom="271" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;(1)&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkVehicle" Key="{941EE894-94E8-4283-A5E5-C879B20B764F}">
+										<Image FileName="294498110" Left="107" Top="221" Right="241" Bottom="271" />
+										<TypeInfo Item0="{E2F1CACD-E23D-438E-AB96-0DFB448A5D03}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;Vehicle&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]/a[contains(@class, &apos;nav-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tabset/ul/li[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vehicleRefNumTextBox" Key="{8255DFB2-3672-4E58-BFA7-5F89C00D86CC}">
+										<Image FileName="-185932594" Left="29" Top="384" Right="564" Bottom="424" />
+										<TypeInfo Item0="{33C0C924-2143-4C76-AF3D-3D1D303F8A7E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[contains(.,&apos;Vehicle Ref No&apos;)]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#VehicleReferenceNumber10" />
+											</Selector>
+											<Selector>
+												<Value Value="//tab[2]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tab[2]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vehicleDriverAtFaultDropdown" Key="{E5F43685-C3AA-4A10-BA9C-14438F20A948}">
+										<Image FileName="1660539761" Left="1075" Top="385" Right="1113" Bottom="423" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//tab[2]//wj-auto-complete//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tab[2]//wj-auto-complete//button[contains(@class, &apos;wj-btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//wj-auto-complete[@id=&apos;DriverAtFaultId10&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//tab[2]//div[2]//wj-auto-complete//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vehicleDriverAtFaultOption" Key="{24C51D63-79D9-4F20-9F72-CF4A9FCD3AE5}">
+										<Image FileName="655388032" Left="579" Top="454" Right="1114" Bottom="484" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;N No&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vehicleSexOfDriverDropdown" Key="{93742FAE-15D1-4230-B45C-FCC1DC9B449B}">
+										<Image FileName="766652596" Left="1624" Top="385" Right="1662" Bottom="423" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[3]//wj-auto-complete//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]//wj-auto-complete//button[contains(@class, &apos;wj-btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//wj-auto-complete[@id=&apos;GenderId10&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]//wj-auto-complete//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vehicleSexOfDriverOption" Key="{3101FFA7-BCAF-4A7E-BF41-B62CF72CF0C4}">
+										<Image FileName="396803669" Left="1128" Top="424" Right="1663" Bottom="454" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;1 Male&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vehicleDriverAgeTextBox" Key="{1FC5E838-96EE-44A9-8AB5-7537CEAE2E61}">
+										<Image FileName="1088592134" Left="29" Top="470" Right="564" Bottom="510" />
+										<TypeInfo Item0="{33C0C924-2143-4C76-AF3D-3D1D303F8A7E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[contains(.,&apos;Age of Driver&apos;)]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#DriverAge10" />
+											</Selector>
+											<Selector>
+												<Value Value="//tab[2]//div[4]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tab[2]//div[4]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vehicleNationalityOfDriverDropdown" Key="{DA249392-F848-42F3-A600-E8E473F5B1E1}">
+										<Image FileName="-1021600603" Left="1075" Top="471" Right="1113" Bottom="509" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[5]//wj-auto-complete//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]//wj-auto-complete//button[contains(@class, &apos;wj-btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//wj-auto-complete[@id=&apos;DriverNationalityId10&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]//wj-auto-complete//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vehicleNationalityOfDriverOption" Key="{AE423C91-79CC-488B-925D-38D74321E417}">
+										<Image FileName="1582681531" Left="579" Top="510" Right="1104" Bottom="540" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;1 UAE&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vehicleDrivingLicenseNumTextBox" Key="{83651BA3-DCCF-4C4B-9C9E-D31F344D42AF}">
+										<Image FileName="-337576328" Left="1128" Top="470" Right="1663" Bottom="510" />
+										<TypeInfo Item0="{33C0C924-2143-4C76-AF3D-3D1D303F8A7E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[contains(.,&apos;Driving Licence Number&apos;)]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#DrivingLicenceNumber10" />
+											</Selector>
+											<Selector>
+												<Value Value="//tab[2]//div[6]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tab[2]//div[6]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vehicleLicenseIssueDateTextBox" Key="{522A7627-CF01-4EE7-9DDD-E8CA10B7A010}">
+										<Image FileName="926880807" Left="30" Top="558" Right="525" Bottom="596" />
+										<TypeInfo Item0="{33C0C924-2143-4C76-AF3D-3D1D303F8A7E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[7]//wj-input-date//input[contains(@class, &apos;wj-form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//wj-input-date[@id=&apos;DrivingLicenceIssueDate10&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[7]//wj-input-date//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vehicleLicenseIssueAuthorityOption" Key="{994DD136-96D7-45F1-B59D-FC386A829CD9}">
+										<Image FileName="-1301154366" Left="579" Top="627" Right="1104" Bottom="657" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;2 Abu Dhabi&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vehicleRegistrationAuthorityDropdown" Key="{6CDC7FA3-C938-4510-8314-D4EE9B0695D6}">
+										<Image FileName="-921020167" Left="525" Top="644" Right="563" Bottom="682" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[10]//wj-auto-complete//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[10]//wj-auto-complete//button[contains(@class, &apos;wj-btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//wj-auto-complete[@id=&apos;VehicleRegistrationAuthorityId10&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[10]//wj-auto-complete//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vehicleRegistrationAuthorityOption" Key="{355616C2-72D5-4F8A-8FB1-C0D73A860CDD}">
+										<Image FileName="500161203" Left="29" Top="774" Right="554" Bottom="804" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;4 Sharjah&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vehiclePlateNumberTextBox" Key="{94C2C71E-9348-4710-AECA-3D4604A351D4}">
+										<Image FileName="-92974713" Left="1128" Top="557" Right="1663" Bottom="597" />
+										<TypeInfo Item0="{33C0C924-2143-4C76-AF3D-3D1D303F8A7E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[contains(.,&apos;Vehicle Plate Number&apos;)]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#PlateNumber10" />
+											</Selector>
+											<Selector>
+												<Value Value="//tab[2]//div[9]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tab[2]//div[9]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vehiclePlateSerialTextBox" Key="{1BD7D302-0C4B-40D5-9150-01C8E12C7D21}">
+										<Image FileName="-704670164" Left="579" Top="919" Right="1114" Bottom="959" />
+										<TypeInfo Item0="{33C0C924-2143-4C76-AF3D-3D1D303F8A7E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[contains(.,&apos;Vehicle Plate Serial&apos;)]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#VehiclePlateSerial10" />
+											</Selector>
+											<Selector>
+												<Value Value="//tab[2]//div[35]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tab[2]//div[35]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vehicleAlcoholDropdown" Key="{736E0C96-C3BD-4233-9FFE-5B2F442BA707}">
+										<Image FileName="-1129546192" Left="1075" Top="478" Right="1113" Bottom="516" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[11]//wj-auto-complete//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[11]//wj-auto-complete//button[contains(@class, &apos;wj-btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//wj-auto-complete[@id=&apos;AlcoholTestId10&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[11]//wj-auto-complete//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vehicleAlcoholOption" Key="{676A4A97-5BC3-457D-99DA-3C85031B13AB}">
+										<Image FileName="-372498217" Left="579" Top="517" Right="1114" Bottom="547" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;1 Not tested&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vehicleHitAndRunDropdown" Key="{3B6472EA-4B36-4225-8861-34CFC20C7417}">
+										<Image FileName="-81973970" Left="1624" Top="478" Right="1662" Bottom="516" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[12]//wj-auto-complete//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[12]//wj-auto-complete//button[contains(@class, &apos;wj-btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//wj-auto-complete[@id=&apos;HitAndRunId10&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[12]//wj-auto-complete//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vehicleHitAndRunOption" Key="{342C767D-F1EA-4CF0-BF8E-634CC582B051}">
+										<Image FileName="-2001288177" Left="1128" Top="517" Right="1663" Bottom="547" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;1 Present&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vehicleSeatHelmetDropdown" Key="{DA21E1FE-449F-4F3D-8E29-ADC774F03AEF}">
+										<Image FileName="1401632503" Left="525" Top="565" Right="563" Bottom="603" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[13]//wj-auto-complete//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[13]//wj-auto-complete//button[contains(@class, &apos;wj-btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//wj-auto-complete[@id=&apos;SeatBeltId10&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[13]//wj-auto-complete//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vehicleSeatHelmetOption" Key="{450D0E23-9B39-4D0D-A661-ED0E7085F725}">
+										<Image FileName="1293568956" Left="29" Top="634" Right="564" Bottom="664" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;1 Used&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vehicleTypeDropdown" Key="{4AB9D70A-EBEA-4AF8-B950-59ECA06E5669}">
+										<Image FileName="-2025883953" Left="1075" Top="565" Right="1113" Bottom="603" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[14]//wj-auto-complete//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[14]//wj-auto-complete//button[contains(@class, &apos;wj-btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//wj-auto-complete[@id=&apos;VehicleTypeId10&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[14]//wj-auto-complete//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vehicleTypeOption" Key="{5FE68CA9-B923-47AF-91D1-CC4A695B63AC}">
+										<Image FileName="2105244272" Left="579" Top="694" Right="1104" Bottom="724" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;4 Private Car&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vehicleCollisionOutsideRoadDropdown" Key="{FA49B508-B2C8-4DE1-82F0-4759899897E8}">
+										<Image FileName="1198804994" Left="1624" Top="565" Right="1662" Bottom="603" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[15]//wj-auto-complete//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[15]//wj-auto-complete//button[contains(@class, &apos;wj-btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//wj-auto-complete[@id=&apos;CollisionOutsideRoadId10&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[15]//wj-auto-complete//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vehicleCollisionOutsideRoadOption" Key="{872A47F8-B973-4317-8C77-8ADDFE31430D}">
+										<Image FileName="-1026054409" Left="1128" Top="634" Right="1663" Bottom="664" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;1 Not Collided Outside&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vehicleTyreConditionDropdown" Key="{9FCDC2C0-96FD-457C-987F-87ACA5ECD4A7}">
+										<Image FileName="85171427" Left="525" Top="651" Right="563" Bottom="689" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//tab[2]//div[16]//wj-auto-complete//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tab[2]//div[16]//wj-auto-complete//button[contains(@class, &apos;wj-btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//wj-auto-complete[@id=&apos;TyreConditionId10&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//tab[2]//div[2]//div[16]//wj-auto-complete//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vehicleNumOfAxleDropdown" Key="{C78592EB-9E9A-4E36-92FF-1B1B9AE8561D}">
+										<Image FileName="-2092125319" Left="1075" Top="651" Right="1113" Bottom="689" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//tab[2]//div[17]//wj-auto-complete//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tab[2]//div[17]//wj-auto-complete//button[contains(@class, &apos;wj-btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//wj-auto-complete[@id=&apos;AxlesId10&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//tab[2]//div[2]//div[17]//wj-auto-complete//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vehicleNumOfAxleOption" Key="{90BC65CD-21D8-4258-80A2-2FE23DB2A2B0}">
+										<Image FileName="-1915046710" Left="579" Top="690" Right="1114" Bottom="720" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;1 Not truck&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vehicleDegreeOfDamageDropdown" Key="{4ECFA21E-5500-4DC1-AB95-BFB983516918}">
+										<Image FileName="1539328634" Left="1624" Top="651" Right="1662" Bottom="689" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//tab[2]//div[18]//wj-auto-complete//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tab[2]//div[18]//wj-auto-complete//button[contains(@class, &apos;wj-btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//wj-auto-complete[@id=&apos;DamageId10&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//tab[2]//div[2]//div[18]//wj-auto-complete//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vehicleDegreeOfDamageOption" Key="{86687BB2-BFD1-41F1-B3D1-980BCE3DEBFF}">
+										<Image FileName="-1605247399" Left="1128" Top="720" Right="1663" Bottom="750" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;2 Slight&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vehicleBrandTextBox" Key="{3FC112B0-A5C2-4278-BF85-6EEF66B422A3}">
+										<Image FileName="254304715" Left="29" Top="486" Right="564" Bottom="526" />
+										<TypeInfo Item0="{33C0C924-2143-4C76-AF3D-3D1D303F8A7E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[contains(.,&apos;Type of Vehicle (Brand)&apos;)]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#Brand10" />
+											</Selector>
+											<Selector>
+												<Value Value="//tab[2]//div[19]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tab[2]//div[19]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vehicleYearOfManufactureTextBox" Key="{E588D2D5-2D67-4494-95A2-F5F915D01856}">
+										<Image FileName="-1292849958" Left="579" Top="486" Right="1114" Bottom="526" />
+										<TypeInfo Item0="{33C0C924-2143-4C76-AF3D-3D1D303F8A7E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[contains(.,&apos;Year of Manufacture&apos;)]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#YearOfManufacture10" />
+											</Selector>
+											<Selector>
+												<Value Value="//tab[2]//div[20]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tab[2]//div[20]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vehicleTintedGlassDropdown" Key="{742AE04E-EA85-4BB7-9037-81E1A038F924}">
+										<Image FileName="1786533337" Left="1624" Top="487" Right="1662" Bottom="525" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//tab[2]//div[21]//wj-auto-complete//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tab[2]//div[21]//wj-auto-complete//button[contains(@class, &apos;wj-btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//wj-auto-complete[@id=&apos;TintedWindowId10&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//tab[2]//div[2]//div[21]//wj-auto-complete//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vehicleTintedGlassOption" Key="{760DE833-AC5A-4239-AA5E-8C66439ECFBE}">
+										<Image FileName="-292338166" Left="1128" Top="557" Right="1663" Bottom="587" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;1 Yes&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vehicleOwnerTextBox" Key="{972D0D0E-BE44-42FE-9564-B299EBF7A2E1}">
+										<Image FileName="-747960933" Left="29" Top="573" Right="564" Bottom="613" />
+										<TypeInfo Item0="{33C0C924-2143-4C76-AF3D-3D1D303F8A7E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[contains(.,&apos;Vehicle Owner&apos;)]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#VehicleOwner10" />
+											</Selector>
+											<Selector>
+												<Value Value="//tab[2]//div[22]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tab[2]//div[22]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vehicleInsuranceDropdown" Key="{F129D8C8-D8F8-4547-BEA6-06F5DAB3B552}">
+										<Image FileName="1472169318" Left="1075" Top="574" Right="1113" Bottom="612" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//tab[2]//div[23]//wj-auto-complete//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tab[2]//div[23]//wj-auto-complete//button[contains(@class, &apos;wj-btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//wj-auto-complete[@id=&apos;VehicleInsuranceId10&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//tab[2]//div[2]//div[23]//wj-auto-complete//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vehicleInsuranceOption" Key="{999EDA9E-79BB-48A8-8317-7EB4EDD9478D}">
+										<Image FileName="1690741279" Left="579" Top="613" Right="1114" Bottom="643" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;1 Full&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vehicleJobOfDriverTextBox" Key="{5844AFC7-C50D-4825-A94F-4EB91122C505}">
+										<Image FileName="375262776" Left="1128" Top="573" Right="1663" Bottom="613" />
+										<TypeInfo Item0="{33C0C924-2143-4C76-AF3D-3D1D303F8A7E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[contains(.,&apos;Job of Driver&apos;)]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#DriverJob10" />
+											</Selector>
+											<Selector>
+												<Value Value="//tab[2]//div[24]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tab[2]//div[24]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCasualty" Key="{21207937-148C-4EFE-A936-65EF9401C705}">
+										<Image FileName="352348746" Left="243" Top="221" Right="396" Bottom="271" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Casualty&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="casualtyTabButton" Key="{429D392F-B9E3-4C03-A94D-4F2A66BFEA5E}">
+										<Image FileName="352348746" Left="243" Top="221" Right="394" Bottom="271" />
+										<TypeInfo Item0="{E2F1CACD-E23D-438E-AB96-0DFB448A5D03}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;Casualty&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[3]/a[contains(@class, &apos;nav-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tabset/ul/li[3]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="casualityAddNewButton" Key="{AD2A83F5-FCD8-4EB6-8535-3FA0809B1E79}">
+										<Image FileName="-1746891893" Left="42" Top="282" Right="139" Bottom="322" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//tab[3]//button[contains(@class, &apos;trl-c-btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tab[3]//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="casualityVehicleReferenceTextBox" Key="{668C1C35-34EB-4A6A-BDB4-756960C70D8D}">
+										<Image FileName="-1423790034" Left="29" Top="384" Right="564" Bottom="424" />
+										<TypeInfo Item0="{33C0C924-2143-4C76-AF3D-3D1D303F8A7E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#VehicleReferenceNumber20" />
+											</Selector>
+											<Selector>
+												<Value Value="//tab[3]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tab[3]//input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tab[3]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="casualityRefNumTextBox" Key="{350A3F02-09A5-452A-AF4D-D9CB66E551AC}">
+										<Image FileName="-1540570127" Left="579" Top="384" Right="1114" Bottom="424" />
+										<TypeInfo Item0="{33C0C924-2143-4C76-AF3D-3D1D303F8A7E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[contains(.,&apos;Casualty Ref No&apos;)]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#CasualtyReferenceNumber20" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tab[3]//div/div/div[2]/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="casualityClassDropdown" Key="{6DFD89D8-1363-42D4-B58F-B33777593B83}">
+										<Image FileName="1847049101" Left="1624" Top="385" Right="1662" Bottom="423" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//wj-auto-complete[@id=&apos;CasualtyClassId20&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//tab[3]//wj-auto-complete//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tab[3]//wj-auto-complete//button[contains(@class, &apos;wj-btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tab[3]//div[2]//wj-auto-complete//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="casualityClassOption" Key="{10515204-1F42-4A23-B852-80B0B62A7E17}">
+										<Image FileName="1491512064" Left="1128" Top="424" Right="1663" Bottom="454" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;1 Driver&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="casualitySexDropdown" Key="{83B65AEB-F97D-467D-B93F-4F6C76504952}">
+										<Image FileName="1049197465" Left="525" Top="471" Right="563" Bottom="509" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//tab[3]//div[4]//wj-auto-complete//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tab[3]//div[4]//wj-auto-complete//button[contains(@class, &apos;wj-btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//wj-auto-complete[@id=&apos;CasualtySexId20&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//tab[3]//div[2]//div[4]//wj-auto-complete//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="casualitySexOption" Key="{85677B52-F2D7-405C-8A39-D3E6E3F1C35D}">
+										<Image FileName="-1405532947" Left="29" Top="541" Right="564" Bottom="571" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;2 Female&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="casualNationalityDropdown" Key="{C43A7209-B276-4D1B-9BC1-5ADCBEF62FFE}">
+										<Image FileName="-742737542" Left="1075" Top="471" Right="1113" Bottom="509" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//tab[3]//div[5]//wj-auto-complete//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tab[3]//div[5]//wj-auto-complete//button[contains(@class, &apos;wj-btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//wj-auto-complete[@id=&apos;NationalityId20&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//tab[3]//div[2]//div[5]//wj-auto-complete//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="casualNationalityOption" Key="{6053E384-FB30-4335-90ED-4FA671971045}">
+										<Image FileName="-816643139" Left="579" Top="653" Right="1104" Bottom="683" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[.=&apos;1 UAE&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="casualityAgeTextBox" Key="{B9109B09-A1A3-40F9-910C-752510CFD1B2}">
+										<Image FileName="2066522787" Left="1128" Top="470" Right="1663" Bottom="510" />
+										<TypeInfo Item0="{33C0C924-2143-4C76-AF3D-3D1D303F8A7E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#CasualtyAge20" />
+											</Selector>
+											<Selector>
+												<Value Value="//tab[3]//div[6]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tab[3]//div[6]//input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tab[3]//div[6]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="casualityDegreeOfInjuryDropdown" Key="{03159F5C-CDCC-46D6-BDB9-F69D5A113F2B}">
+										<Image FileName="1705220839" Left="525" Top="558" Right="563" Bottom="596" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[7]//wj-auto-complete//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[7]//wj-auto-complete//button[contains(@class, &apos;wj-btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//wj-auto-complete[@id=&apos;CasualtySeverityId20&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[7]//wj-auto-complete//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="casualitySeatHelmetDropdown" Key="{D3CF1D6E-DF00-4B49-B122-6197ECCF2F15}">
+										<Image FileName="-1348935013" Left="1075" Top="558" Right="1113" Bottom="596" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//tab[3]//div[8]//wj-auto-complete//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tab[3]//div[8]//wj-auto-complete//button[contains(@class, &apos;wj-btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//wj-auto-complete[@id=&apos;CasualtySeatBeltId20&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//tab[3]//div[2]//div[8]//wj-auto-complete//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="casualitySeatHelmetOption" Key="{60EC8BAA-167F-424A-84D3-0B687ABE4F53}">
+										<Image FileName="-276907716" Left="579" Top="657" Right="1114" Bottom="687" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;2 Not used&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="crashRecordsSave" Key="{8CE474C5-22C4-4B39-BC08-FE67AB23744F}">
+										<Image FileName="-197077366" Left="1810" Top="168" Right="1908" Bottom="208" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//imaap-arf/div//button[contains(@class, &apos;trl-c-btn--primary&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//i[@class=&apos;fa fa-check&apos;]/parent::button[contains(@class, &apos;trl-c-btn--primary&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@aria-describedby=&apos;tooltip-101&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vehicleTyreConditionOption" Key="{7E69345C-F867-48B0-A8CE-B27C314C7818}">
+										<Image FileName="-1558173727" Left="29" Top="731" Right="564" Bottom="761" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;1 Good&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vehicleLicenseIssueAuthorityDropdown" Key="{7134CBD5-2232-4823-9020-AB91532FBB7F}">
+										<Image FileName="621016316" Left="1075" Top="558" Right="1113" Bottom="596" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//tab[2]//div[8]//wj-auto-complete//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tab[2]//div[8]//wj-auto-complete//button[contains(@class, &apos;wj-btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//wj-auto-complete[@id=&apos;DrivingLicenceIssuingAuthorityId10&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//tab[2]//div[2]//div[8]//wj-auto-complete//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="retieveCrashId" Key="{158D1334-9984-47DE-9CB6-963ABE558C83}">
+										<Image FileName="421342670" Left="45" Top="415" Right="162" Bottom="436" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//a[@class=&apos;trl-c-query-result-record selected&apos;]//div//label" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[4]//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="crashSaveCancelButton" Key="{A079D521-A571-4AEE-B112-085973694E3B}">
+										<Image FileName="1495980260" Left="1534" Top="168" Right="1643" Bottom="208" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(., &apos;Cancel&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="caseNoTextBox" Key="{ABD626B9-EE01-4194-BB52-3CE096D3555C}">
+										<Image FileName="2088078334" Left="29" Top="318" Right="564" Bottom="358" />
+										<TypeInfo Item0="{33C0C924-2143-4C76-AF3D-3D1D303F8A7E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[contains(.,&apos;1.&apos;)]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#ReferenceNumber00" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//input" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//input[@id=&apos;ReferenceNumber00&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="crashNumVehiclesInvolvedTextBox" Key="{E983D5F3-6531-4544-9AAB-8E3A2692B72A}">
+										<Image FileName="310673765" Left="579" Top="405" Right="1114" Bottom="445" />
+										<TypeInfo Item0="{33C0C924-2143-4C76-AF3D-3D1D303F8A7E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#NumberOfVehicles00" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//input[@id=(//label[contains(.,&apos;5. Number of Vehicles Involved.&apos;)]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="crashTypeOfAccidentOption" Key="{035FD4C3-B1C1-4654-A499-57A95CB0DC56}">
+										<Image FileName="-1522070306" Left="1264" Top="531" Right="1654" Bottom="561" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;0 Non Injury Accidents&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//div[contains(text(),&apos;Non Injury Accidents&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//div[@wj-part=&apos;dropdown&apos;]/div[1]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="crashLongitudeTextBox" Key="{67DC356C-2BDD-46E1-9984-1DDB12D3A7AB}">
+										<Image FileName="836308021" Left="454" Top="578" Right="624" Bottom="618" />
+										<TypeInfo Item0="{33C0C924-2143-4C76-AF3D-3D1D303F8A7E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#LocationEasting00" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@id=(//label[contains(.,&apos;10.&apos;)]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//input[@id=&apos;LocationEasting00&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[10]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[10]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="crashTimeDropdown" Key="{7C64F288-3389-4929-8763-F7D42D96F7FE}">
+										<Image FileName="-1480632353" Left="1619" Top="319" Right="1659" Bottom="357" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;dx-dropdowneditor-icon&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//dx-date-box[@id=&apos;CrashTime00&apos;]//div/div/div/div/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//dx-date-box/div/div/div/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="crashTimeOption" Key="{6668D420-EC4D-429F-8D9C-A90D908A6828}">
+										<Image FileName="2060550503" Left="1140" Top="371" Right="1650" Bottom="416" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;00:00&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div[contains(@class, &apos;dx-item-content&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="editCasualityClassOption" Key="{EB4B49E9-5263-49E0-9959-E91156EFE697}">
+										<Image FileName="-694655713" Left="1270" Top="454" Right="1663" Bottom="484" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;2 Passenger&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//div[@wj-part=&apos;dropdown&apos;]/div[contains(text(),&apos;Passenger&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="editCasualityClassDropdown" Key="{E3235DF2-A6A6-4F59-8672-70506597A9DF}">
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//wj-auto-complete[@id=&apos;CasualtyClassId20&apos;]//button/span" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//wj-auto-complete[@id=&apos;CasualtyClassId20&apos;]//button/span" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//tab[3]//wj-auto-complete//button[@type=&apos;button&apos;]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="css=//tab[3]//wj-auto-complete//button[contains(@class, &apos;wj-btn&apos;)]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="casualityDegreeOfInjuryOption" Key="{25A59A20-E196-4953-875D-BDDE29E6871E}">
+										<Image FileName="-247386858" Left="454" Top="627" Right="850" Bottom="657" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[.=&apos;1 Fatal&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="AuthorizePageSelector" Key="{5750AFB8-DD75-4AC9-90FD-011D37C12F1F}">
+								<Image FileName="-1065833306" Left="9" Top="105" Right="1929" Bottom="1038" />
+								<TypeInfo Item0="{284ED6CF-07A8-4B6D-9612-8EF3CBD606B4}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://imaap-stg.rtatestdom.local/authorize" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panelLoading" Key="{15E0C35E-804F-4C67-A944-355256D191D2}">
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Panel" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="0" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageImaap" Key="{C1E7B185-3CFC-4D24-AB73-C5F079C590AB}">
+								<Image FileName="479048839" Left="9" Top="105" Right="1929" Bottom="1038" />
+								<TypeInfo Item0="{284ED6CF-07A8-4B6D-9612-8EF3CBD606B4}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://imaap-stg.rtatestdom.local/data/compact-data-viewer" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionSearch" Key="{01FB0814-6273-46B7-AD66-9D161BA50823}">
+										<Image FileName="479048839" Left="9" Top="105" Right="1929" Bottom="1039" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Search&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;trl-l-app-body&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="retrievalAutoText" Key="{0CAE118E-4376-4EA3-AC44-DDAD2B4B4075}">
+										<Image FileName="479048839" Left="1565" Top="257" Right="1919" Bottom="273" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h5[contains(@class, &apos;accident-id&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h5" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="CrashRecordsDetailedViewSelector" Key="{4819C361-4DA7-4E66-86C5-A1E3C1A8367F}">
+								<Image FileName="1045051206" Left="9" Top="105" Right="1929" Bottom="1038" />
+								<TypeInfo Item0="{284ED6CF-07A8-4B6D-9612-8EF3CBD606B4}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://imaap-stg.rtatestdom.local/data/full-data-viewer" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionSearch" Key="{14269E31-FC29-403E-B39A-2E282135E2BE}">
+										<Image FileName="1045051206" Left="9" Top="105" Right="1929" Bottom="1039" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Search&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;trl-l-app-body&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonEditFilterForColumnField" Key="{08C18B8C-BA56-4A45-8E12-E7EDD2E8C6B2}">
+										<Image FileName="1045051206" Left="903" Top="297" Right="926" Bottom="318" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//wj-flex-grid//div[5]//div[2]/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//wj-flex-grid//div[5]//div[2]/button[contains(@class, &apos;wj-btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//wj-flex-grid//div[5]//div[2]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="searchInFilterRecord" Key="{5E755F17-10CE-4B7E-929B-BB2083C9573D}">
+										<Image FileName="1923693377" Left="590" Top="399" Right="899" Bottom="429" />
+										<TypeInfo Item0="{33C0C924-2143-4C76-AF3D-3D1D303F8A7E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;wj-form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//div//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="filterApplyButton" Key="{D217ED7A-9133-44C3-AA82-BC23A8707BA0}">
+										<Image FileName="-2063258258" Left="589" Top="686" Right="665" Bottom="722" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Apply&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//button[@wj-part=&apos;btn-apply&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/div[5]/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/div[5]/button" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//button[text()=&apos;Apply&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="filterField" Key="{FBB5EA13-9538-4BA0-BFD0-096E67E9A41F}">
+										<Image FileName="1181496375" Left="588" Top="336" Right="928" Bottom="354" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[@wj-part=&apos;root&apos;]//div[@role=&apos;gridcell&apos;][2]/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//div[2]/div[2]/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="filterValue" Key="{0263B682-80AE-4B7E-81FC-1EAC4F920CF1}">
+										<Image FileName="-535490768" Left="950" Top="336" Right="1650" Bottom="354" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[2]/div[3]/div/span[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//div[@wj-part=&apos;root&apos;]//div[@role=&apos;gridcell&apos;][3]/div/span[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCrash" Key="{1DBAE104-4761-4B6B-879D-14C3AD7E7AE5}">
+										<Image FileName="-776651270" Left="434" Top="221" Right="1929" Bottom="271" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Casualty&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tabset/ul[contains(@class, &apos;nav&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tabset/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeVehicle" Key="{8D5F3900-E7C1-42BB-AF9A-E7DE9219A8EE}">
+										<Image FileName="-776651270" Left="532" Top="221" Right="668" Bottom="271" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;(1)&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkVehicle" Key="{5FC05C39-E3E6-4F59-9EAC-7151930EB7C2}">
+										<Image FileName="-776651270" Left="532" Top="221" Right="666" Bottom="271" />
+										<TypeInfo Item0="{E2F1CACD-E23D-438E-AB96-0DFB448A5D03}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;Vehicle&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]/a[contains(@class, &apos;nav-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tabset/ul/li[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCasualty" Key="{3BC528B0-D318-419C-9DC9-7A20930B5F9E}">
+										<Image FileName="-1735502747" Left="668" Top="221" Right="821" Bottom="271" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Casualty&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkCasualty" Key="{81A74F15-2F7F-4806-821E-437A5A6B4E8C}">
+										<Image FileName="-1735502747" Left="668" Top="221" Right="819" Bottom="271" />
+										<TypeInfo Item0="{E2F1CACD-E23D-438E-AB96-0DFB448A5D03}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;Casualty&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[3]/a[contains(@class, &apos;nav-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tabset/ul/li[3]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="detailedViewToggle" Key="{46A63721-230B-4F26-B652-663B0884A012}">
+										<Image FileName="381730432" Left="611" Top="169" Right="834" Bottom="206" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Detailed View&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[contains(@class, &apos;trl-c-switch__text--on&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonClose" Key="{0AEB8830-B55B-4876-8B50-B41D71BE052A}">
+										<Image FileName="-1856930731" Left="1095" Top="739" Right="1186" Bottom="780" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;CLOSE&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageImaap2" Key="{CE37A883-5C10-4547-8BC0-D419DBA32AD1}">
+								<Image FileName="790021023" Left="9" Top="105" Right="1929" Bottom="1038" />
+								<TypeInfo Item0="{284ED6CF-07A8-4B6D-9612-8EF3CBD606B4}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://imaap-stg.rtatestdom.local/data/compact-data-viewer" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnode10102022" Key="{ACAC5F9E-B6EB-4BF0-BE30-45C433C5D9EF}">
+										<Image FileName="790021023" Left="1556" Top="231" Right="1910" Bottom="250" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h3[contains(@class, &apos;accident-date&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3[contains(., &apos;10/10/2022,&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode101020222" Key="{FAD6C91D-AFD3-4137-ADEB-FE22F3D1F542}">
+										<Image FileName="790021023" Left="1556" Top="230" Right="1657" Bottom="251" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(@class, &apos;accident-date&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="Home" Key="{BE14F494-0E30-4012-AFB8-D5689ED7389F}">
+								<Image FileName="611850859" Left="9" Top="105" Right="1929" Bottom="1038" />
+								<TypeInfo Item0="{284ED6CF-07A8-4B6D-9612-8EF3CBD606B4}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://imaap-stg.rtatestdom.local/application-home" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="header10783" Key="{19229A9D-16B7-44B3-973E-D5FBD2BBB69D}">
+										<Image FileName="611850859" Left="9" Top="105" Right="1929" Bottom="155" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//header[contains(., &apos;10783&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(@class, &apos;trl-l-app-header&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeHome" Key="{F1E86BB4-0DFA-46AD-9DEE-7E5E8EAA4881}">
+										<Image FileName="611850859" Left="9" Top="240" Right="359" Bottom="958" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Home&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;trl-c-menu__content--fav-items&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeHome2" Key="{F5F56BDF-49A1-4605-99C0-E9020A0955DB}">
+										<Image FileName="611850859" Left="22" Top="168" Right="347" Bottom="241" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Home&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(@class, &apos;trl-l-menu__home-navigate&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/ul/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="LogoutPageSelector" Key="{EF533E9E-6D3C-4F9D-8EEB-8C94081B3E99}">
+								<Image FileName="1404585700" Left="9" Top="105" Right="1929" Bottom="790" />
+								<TypeInfo Item0="{284ED6CF-07A8-4B6D-9612-8EF3CBD606B4}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://idsapi-imaap-stg.rtatestdom.local/Account/Logout*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionWelcomeToTrlSoftware" Key="{0AE0F16D-C1E9-4E59-B5D3-875A768D912E}">
+										<Image FileName="1404585700" Left="107" Top="105" Right="1832" Bottom="790" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Welcome to TRL Software&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;trl-l-session--base&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="logoutText" Key="{B42181A7-142D-4C0B-9855-71DED15A7285}">
+										<Image FileName="1404585700" Left="1180" Top="408" Right="1540" Bottom="444" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//small[.=&apos;You are now logged out&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//small" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="ImportPageSelector" Key="{B1B29592-26FC-4B6A-88B4-59258319C180}">
+								<Image FileName="-1212372040" Left="9" Top="105" Right="1929" Bottom="1038" />
+								<TypeInfo Item0="{284ED6CF-07A8-4B6D-9612-8EF3CBD606B4}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://imaap-stg.rtatestdom.local/data/import" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionImport" Key="{01DAEE56-029D-4A1F-B817-D060DEE95851}">
+										<Image FileName="-1212372040" Left="9" Top="105" Right="1929" Bottom="981" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Import&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;trl-l-app-body&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formAvailableTemplates" Key="{5D2771F0-D76C-4B1A-88C5-025395F2D8E2}">
+										<Image FileName="-1212372040" Left="9" Top="185" Right="433" Bottom="386" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Available Templates&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/form[contains(@class, &apos;ng-untouched&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="crashDataRadioButton" Key="{4E058881-3462-4E8B-ADE2-B4530A7BBC21}">
+										<Image FileName="-1212372040" Left="19" Top="255" Right="39" Bottom="275" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(.,&apos;Crash Data&apos;)]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//label/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vehicleDataRadioButton" Key="{CABF57BE-A3FA-46A5-AD11-838D616E884D}">
+										<Image FileName="661212513" Left="19" Top="301" Right="39" Bottom="321" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(.,&apos;Vehicle Data&apos;)]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/label/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="casualtyDataRadioButton" Key="{016E29C4-DE3A-451D-870B-33AB2C981844}">
+										<Image FileName="-170170535" Left="19" Top="348" Right="39" Bottom="368" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(.,&apos;Casualty Data&apos;)]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/label/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="importBrowse" Key="{42A4F8F9-87D8-4283-A922-8578179FFE4F}">
+										<Image FileName="163399036" Left="314" Top="459" Right="423" Bottom="499" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//label[contains(., &apos;Browse&apos;)]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//div/div/div/label//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="importButton" Key="{0DF797D1-5D0C-40B0-82EC-1AEA6DF13462}">
+										<Image FileName="919070631" Left="351" Top="931" Right="423" Bottom="971" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Import&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;trl-c-btn--primary&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="viewLogButton" Key="{1C2A5B9A-ACBB-4D4C-8F23-8818B2BB7CA5}">
+										<Image FileName="-802803428" Left="966" Top="668" Right="1056" Bottom="708" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;View Log&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="importCompletedLabel" Key="{F07DECA8-F85F-4869-8833-3E7D9314C4A2}">
+										<Image FileName="1742968287" Left="778" Top="474" Right="893" Bottom="494" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section/imaap-import/div/div[2]/div//label" />
+											</Selector>
+											<Selector>
+												<Value Value="//label[.=&apos;Import Completed.&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="header10785" Key="{E97DDB37-98A5-44F3-AD81-DF3B254559EE}">
+										<Image FileName="765507876" Left="9" Top="105" Right="1929" Bottom="155" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//header[contains(., &apos;10785&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(@class, &apos;trl-l-app-header&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode10785" Key="{7EED10FC-E077-48C8-BED1-D195D9812083}">
+										<Image FileName="765507876" Left="1183" Top="105" Right="1929" Bottom="155" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;10785&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;trl-c-app-header__nav&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode107852" Key="{CEDD6B29-1193-46C1-BA5B-ABCBCB2A5C6A}">
+										<Image FileName="765507876" Left="1240" Top="105" Right="1608" Bottom="155" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;10785&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(@class, &apos;trl-c-header__query-results&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="updateButton" Key="{4EE95019-08AB-4ECA-B450-5C8E7C8C1E38}">
+										<Image FileName="1299549604" Left="1070" Top="668" Right="1160" Bottom="708" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Update&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="importUpdateCloseButton" Key="{2AFE2217-2FD5-4F7E-ADF9-A80BFA7743D8}">
+										<Image FileName="651229150" Left="1140" Top="423" Right="1170" Bottom="447" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;trl-l-standard-reports__modal-close&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="recentImportsButton" Key="{FCC30E9C-8335-44C4-9ED8-AD0CD55AC80A}">
+										<Image FileName="-1527289450" Left="1777" Top="166" Right="1916" Bottom="206" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Recent Imports&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//imaap-import/div/div/div/div[2]//button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//imaap-import/div/div/div/div[2]//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageSampleCrashTemplate116952808" Key="{D8A338C4-C083-4747-82E5-439CDCED9B5A}">
+								<Image FileName="793863111" Left="9" Top="105" Right="1929" Bottom="1038" />
+								<TypeInfo Item0="{284ED6CF-07A8-4B6D-9612-8EF3CBD606B4}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://imaapdx-artifacts.s3.eu-west-2.amazonaws.com/dubai/crash/qc/uploads/Import/dea7df97-41bf-4ee6-a747-d1293dc9d28f/Documents/Sample_Crash_Template1_1695280856.txt*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnode" Key="{3579AC5C-9E44-45D7-A2C8-CF5AC89EB542}">
+										<Image FileName="793863111" Left="19" Top="121" Right="1919" Bottom="387" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="pre[contains(text(), &apos;File Name: Sample_Crash_Template1&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="pre" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="HotspotIdentificationPageSelector" Key="{4C48E870-5581-4069-A25C-D8162F36B049}">
+								<Image FileName="-877770629" Left="9" Top="105" Right="1929" Bottom="1038" />
+								<TypeInfo Item0="{284ED6CF-07A8-4B6D-9612-8EF3CBD606B4}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://imaap-stg.rtatestdom.local/blackspot-identification" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="closeLicenseButton" Key="{BEBE0A83-B663-4FB0-AF9C-4E432D94D7CF}">
+										<Image FileName="-877770629" Left="1099" Top="739" Right="1190" Bottom="780" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;CLOSE&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionMenu" Key="{1C2C2FDB-6181-4FC4-B6D5-0B499915AFE4}">
+										<Image FileName="828512406" Left="9" Top="105" Right="1929" Bottom="1039" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Menu&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;trl-l-app-body&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formNoTemplateSelected" Key="{38AA84EB-FB4F-42D3-A752-0D063A13C357}">
+										<Image FileName="828512406" Left="1555" Top="184" Right="1929" Bottom="979" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;No template selected&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tab/div/form[contains(@class, &apos;ng-untouched&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tab/div/form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="selectTemplatesButton" Key="{0DF08945-43F3-4398-8671-841738F5D62A}">
+										<Image FileName="828512406" Left="1829" Top="194" Right="1869" Bottom="234" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[@class=&apos;trl-c-report-template-options-buttons&apos;]/button[2]/i" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="automationTemplate" Key="{4E8446FD-396E-4188-A1C6-5C3051F078C7}">
+										<Image FileName="491508659" Left="758" Top="302" Right="1179" Bottom="355" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;Automation Template - Public&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="openTemplateButton" Key="{4A9B0DAD-B844-48C8-B9C1-481DF9AD8028}">
+										<Image FileName="543731096" Left="1070" Top="482" Right="1160" Bottom="522" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Open&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//imaap-root//section/imaap-blackspot-identification/div[2]//button[contains(@class, &apos;trl-c-btn--primary&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="hotspotIdentificationRunButton" Key="{62CD1CE1-3395-4FCE-AB98-3E476EE59D55}">
+										<Image FileName="-747907447" Left="1829" Top="989" Right="1919" Bottom="1029" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Run&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tab/div/button[contains(@class, &apos;trl-c-btn--primary&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{52EF47B2-B2E7-4EDE-89A4-A401F5642535}">
+										<Image FileName="-1477248805" Left="9" Top="545" Right="64" Bottom="658" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;trl-c-dashboard-final__left-pane-content__quick-nav&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="resultAnalysisButton" Key="{33B854BE-025B-4BDB-8CA4-7BBD9EA28FB5}">
+										<Image FileName="-1477248805" Left="23" Top="613" Right="49" Bottom="640" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span/i[contains(@class, &apos;trl-icn-r-view-crash-details&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//imaap-map-tool//div[2]/ul[2]/li[2]//i" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="dateRangeInputField" Key="{6917686A-2859-4F25-823C-F67DA3BFC708}">
+										<Image FileName="2021860750" Left="1566" Top="416" Right="1869" Bottom="454" />
+										<TypeInfo Item0="{33C0C924-2143-4C76-AF3D-3D1D303F8A7E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//my-date-range-picker//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;selection&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//my-date-range-picker//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelHotspotIdentificationResult" Key="{D6BE569F-1497-4A02-85F7-1CF4CEF94550}">
+										<Image FileName="2025236960" Left="724" Top="708" Right="1295" Bottom="742" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div/div[3]//accordion/accordion-group//div[@role=&apos;tab&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div[3]//accordion/accordion-group//div[contains(@class, &apos;panel-heading&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelHotspot1" Key="{FD2A9C2E-B010-40C7-8FB6-895E47B96B24}">
+										<Image FileName="1915157230" Left="755" Top="434" Right="864" Bottom="452" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[contains(text(), &apos;Hotspot 3&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="hotspotIdentificationOptions" Key="{D24CB3C1-A8B3-44DA-8D4C-C8780998C5D0}">
+										<Image FileName="1512936747" Left="1373" Top="249" Right="1753" Bottom="267" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;OPTIONS&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[contains(@class, &apos;ng-draggable&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;draggable2&apos;]//div/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//section/imaap-blackspot-identification//div[@id=&apos;draggable2&apos;]//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="goToDropdown" Key="{4BB413DC-FF9D-4B44-AC68-3D220AAE1190}">
+										<Image FileName="508442559" Left="1092" Top="584" Right="1490" Bottom="604" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;Go To&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;draggable2&apos;]//accordion-group/div/div/div/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//accordion-group/div/div/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="savePotentialHotspot" Key="{385BF188-2BB0-4D39-99E3-C8AB06707535}">
+										<Image FileName="1147999173" Left="1121" Top="307" Right="1295" Bottom="325" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Save As Potential Hotspot&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;draggable2&apos;]//div[@role=&apos;menu&apos;]//ul/li/a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formHotspotName" Key="{E3CC7EAD-10BC-466D-86EB-E751BE0A6A4D}">
+										<Image FileName="-47147780" Left="9" Top="571" Right="1929" Bottom="1039" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Hotspot Name&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//imaap-add-or-edit-potential-blackspot/div/form[contains(@class, &apos;ng-invalid&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//imaap-add-or-edit-potential-blackspot/div/form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="hotspotName" Key="{A61F768C-2632-4239-ACCC-D6BCE1AE6E95}">
+										<Image FileName="-47147780" Left="29" Top="616" Right="340" Bottom="656" />
+										<TypeInfo Item0="{33C0C924-2143-4C76-AF3D-3D1D303F8A7E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//imaap-add-or-edit-potential-blackspot//form//div//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//imaap-add-or-edit-potential-blackspot//form//input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//imaap-add-or-edit-potential-blackspot//form//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="hotspotType" Key="{E78FBF9C-D2C6-450D-9C76-A91641F80BDA}">
+										<Image FileName="1075957486" Left="365" Top="616" Right="676" Bottom="656" />
+										<TypeInfo Item0="{21FECA77-D9F2-4AD5-9871-53D6DEFFF12D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//imaap-add-or-edit-potential-blackspot//form//select[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//imaap-add-or-edit-potential-blackspot//form//select" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="identificationYear" Key="{F38D69C9-8BE8-46BB-BE5B-F856644F0010}">
+										<Image FileName="1666386551" Left="29" Top="496" Right="340" Bottom="536" />
+										<TypeInfo Item0="{33C0C924-2143-4C76-AF3D-3D1D303F8A7E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//imaap-add-or-edit-potential-blackspot//form//div[2]/div//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//imaap-add-or-edit-potential-blackspot//form//div[2]//input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//imaap-add-or-edit-potential-blackspot//form//div[2]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="mpfTextbox" Key="{756B4E45-A107-44D5-B0CC-CEBE24BD19EB}">
+										<Image FileName="-503106103" Left="365" Top="418" Right="676" Bottom="458" />
+										<TypeInfo Item0="{33C0C924-2143-4C76-AF3D-3D1D303F8A7E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form//div[2]/div[2]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//imaap-add-or-edit-potential-blackspot//form//div[2]/div[2]//input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//imaap-add-or-edit-potential-blackspot//form//div[2]/div[2]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode01012020" Key="{E354F340-6179-4FFE-BEB3-D4F311BB66EA}">
+										<Image FileName="1862256596" Left="1019" Top="353" Right="1296" Bottom="376" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;01/01/2020&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div//span[contains(@class, &apos;trl-u-block&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div/div/div[2]/div//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="potentialHotspotSave" Key="{3ABEC0A2-CA80-44AF-800E-0089731465B0}">
+										<Image FileName="954867464" Left="1840" Top="880" Right="1909" Bottom="920" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Save&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section/imaap-blackspot-identification/imaap-add-or-edit-potential-blackspot//form//button[contains(@class, &apos;trl-c-btn--primary&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="savePotentialIntersectionYesButton" Key="{814D0697-2A36-470D-8794-02C81233B28A}">
+										<Image FileName="-1062667243" Left="904" Top="599" Right="964" Bottom="644" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Yes&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;swal2-confirm&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="HotspotManagementPageSelector" Key="{15925020-7FA2-4446-98A5-60A0C5097E1E}">
+								<Image FileName="-1003565941" Left="9" Top="105" Right="1929" Bottom="598" />
+								<TypeInfo Item0="{284ED6CF-07A8-4B6D-9612-8EF3CBD606B4}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://imaap-stg.rtatestdom.local/blackspot-management" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionHotspotManagement" Key="{CE91E3DF-6BF2-44E8-881B-6B3236DE8434}">
+										<Image FileName="-1003565941" Left="9" Top="105" Right="1929" Bottom="599" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Hotspot Management&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;trl-l-app-body&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="hotspotManagementTitle" Key="{30D80C2B-D34A-4B5E-B3A7-081241930FD2}">
+										<Image FileName="-1003565941" Left="22" Top="176" Right="1917" Bottom="199" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h3[.=&apos;Hotspot Management&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="moveToActiveHotspotbutton" Key="{CF4566E7-1AC8-4E2E-A935-7B74AF91E008}">
+										<Image FileName="1232996597" Left="1873" Top="158" Right="1898" Bottom="189" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//i[@class=&apos;trl-c-move-to-active-opt&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonYes" Key="{E4494168-EF29-4E8D-900B-E467320E0EB2}">
+										<Image FileName="-747980781" Left="904" Top="590" Right="964" Bottom="635" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;swal2-confirm&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[.=&apos;Yes&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonViewActionPlanDetails" Key="{0DAFC8F5-190F-40B1-BEF5-CC9F63AE887E}">
+										<Image FileName="375781244" Left="1815" Top="158" Right="1840" Bottom="188" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//i[@class=&apos;trl-icn-action-plan&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonFilterForColumnPossible" Key="{0CDBBD4F-7218-4661-96BE-4FD958A4F761}">
+										<Image FileName="1261965141" Left="877" Top="512" Right="900" Bottom="533" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//wj-flex-grid//div[5]//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//wj-flex-grid//div[5]//div[2]/button[contains(@class, &apos;wj-btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//wj-flex-grid//div[5]//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="possibleCauseSearchItemList" Key="{2D4A2FE7-8709-45D6-BD0C-21D2692249AD}">
+										<Image FileName="-1803115876" Left="576" Top="650" Right="945" Bottom="680" />
+										<TypeInfo Item0="{33C0C924-2143-4C76-AF3D-3D1D303F8A7E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//input[contains(@class, &apos;wj-form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonApplyPossibleCause" Key="{A1260CF0-3D81-4309-B7E1-A33C6595F42D}">
+										<Image FileName="858415782" Left="587" Top="937" Right="663" Bottom="973" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Apply&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/div[5]/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/div[5]/button[contains(@class, &apos;wj-btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/div[5]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="excessiveSpeedCheckbox" Key="{7CA333D8-98C3-4BCD-A724-495546120306}">
+										<Image FileName="-1736107107" Left="511" Top="553" Right="529" Bottom="571" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//wj-flex-grid//label/span[contains(@class, &apos;trl-c-checkbox-icon&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//wj-flex-grid//div[2]//label/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelSiteVisitCompleted" Key="{65CC89F7-CE8D-4275-A088-8AC6056A972D}">
+										<Image FileName="324086623" Left="1296" Top="527" Right="1470" Bottom="548" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(., &apos;Site Visit Completed&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/label[contains(@class, &apos;trl-u-required-field&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//imaap-step1//div[2]//div[3]//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="siteVisitedCheckbox" Key="{56591F93-4D86-4351-AF19-149FFD89DA67}">
+										<Image FileName="324086623" Left="1296" Top="526" Right="1314" Bottom="544" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//imaap-step1//div[3]//label/span[contains(@class, &apos;trl-c-checkbox-icon&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//div[3]//label/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="engrNotesTextbox" Key="{A4CD7C92-1928-4548-B28A-168D902EFE62}">
+										<Image FileName="-1540637830" Left="1296" Top="585" Right="1909" Bottom="647" />
+										<TypeInfo Item0="{FD994675-F047-4575-8A58-DA7F403C0E18}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[@class=&apos;trl-l-blackspot__eng-notes&apos;]//div[2]/textarea" />
+											</Selector>
+											<Selector>
+												<Value Value="//imaap-step1//div[2]//textarea[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//imaap-step1//div[2]//textarea" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSaveAndGoToStep2" Key="{65A9B7B9-2B76-4222-8C72-B8B6D688DDBD}">
+										<Image FileName="397520282" Left="1733" Top="988" Right="1916" Bottom="1028" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Save and Go to Step 2&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tabset//tab/imaap-step1//button[contains(@class, &apos;trl-c-btn--primary&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="counterMeasuresCheckbox" Key="{97BC4924-C55D-4AB9-8863-9CA6CC839EB1}">
+										<Image FileName="129741605" Left="33" Top="515" Right="51" Bottom="533" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//imaap-action-plan-step-2//wj-flex-grid//div[2]//label/span[contains(@class, &apos;trl-c-checkbox-icon&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//imaap-action-plan-step-2//wj-flex-grid//div[2]//label/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSaveAndGoToStep3" Key="{C8D6478F-57D1-4764-8E32-EC31E3F3F2F2}">
+										<Image FileName="-397811130" Left="1733" Top="995" Right="1916" Bottom="1028" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Save and Go to Step 3&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tabset//tab[2]/imaap-action-plan-step-2//button[contains(@class, &apos;btn-primary&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formActionPlan" Key="{0F3F32DC-84E0-490F-81A3-814C1AFC9F0D}">
+										<Image FileName="-1638191562" Left="20" Top="390" Right="1909" Bottom="984" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Action Plan&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;ng-valid&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tabset//tab/imaap-action-plan-step-3//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelKsiCrashes" Key="{692A3F14-C92F-4E82-B95A-2EFBBE0E6879}">
+										<Image FileName="-1638191562" Left="671" Top="452" Right="776" Bottom="473" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div//label[contains(@class, &apos;trl-c-checkbox-mkdefault-trigger&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div/div/div[2]/div//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="ksiCrashesCheckbox" Key="{FB1230C2-52FA-4590-B283-E2A6D6A8DAB9}">
+										<Image FileName="-1638191562" Left="671" Top="451" Right="689" Bottom="469" />
+										<TypeInfo Item0="{DCCEA5AE-2699-4798-80BC-AEF526324DEB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form//label/span[contains(@class, &apos;trl-c-checkbox-icon&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//div[2]//label/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="ksiReductionTextbox" Key="{FB3C71B4-46C9-4EAF-8A17-EFD80DA35EE8}">
+										<Image FileName="699573613" Left="1015" Top="476" Right="1472" Bottom="516" />
+										<TypeInfo Item0="{33C0C924-2143-4C76-AF3D-3D1D303F8A7E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form/div/div/div[2]/div//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div/div/div[2]/div//input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//div[2]//div[2]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonFinalSave" Key="{9BCC0171-699A-4890-B865-C6B2F3BF54A3}">
+										<Image FileName="1278150268" Left="1847" Top="995" Right="1916" Bottom="1028" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Save&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tabset//tab[3]/imaap-action-plan-step-3//button[contains(@class, &apos;btn-primary&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="assignedTo" Key="{27B6304F-D951-418F-93E9-1E64E4B2FFA1}">
+										<Image FileName="-1435315254" Left="525" Top="894" Right="773" Bottom="934" />
+										<TypeInfo Item0="{33C0C924-2143-4C76-AF3D-3D1D303F8A7E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td/input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//td/input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//td/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="conStartDateDropdown" Key="{A7B58D6A-ADDE-46D4-A301-1A8DF97083F0}">
+										<Image FileName="1301879033" Left="1023" Top="804" Right="1061" Bottom="842" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//tr/td/wj-input-date//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr/td/wj-input-date//button[contains(@class, &apos;wj-btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr/td/wj-input-date//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="conStartDate" Key="{4B920FC2-9E28-4418-A190-D3F67553DFE2}">
+										<Image FileName="-1735988517" Left="968" Top="639" Right="1009" Bottom="669" />
+										<TypeInfo Item0="{880F36CF-4D8A-4972-B747-8F60E8E6035C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[contains(@class, &apos;wj-day-today&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="conEndDateDropdown" Key="{6CF21524-75F1-4F86-B226-1BECAA94A66E}">
+										<Image FileName="-336280197" Left="1311" Top="804" Right="1349" Bottom="842" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//tr/td[5]/wj-input-date//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr/td[5]/wj-input-date//button[contains(@class, &apos;wj-btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr/td[5]/wj-input-date//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="monitoringStartDateDropdown" Key="{0FE8F83D-4400-49E9-B1A2-1C5EC7F2A9CF}">
+										<Image FileName="-210204948" Left="1858" Top="602" Right="1896" Bottom="640" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//wj-input-date//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//wj-input-date//button[contains(@class, &apos;wj-btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//wj-input-date[@id=&apos;monitoringStartDate&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//wj-input-date//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonMoveToTreatedHotspot" Key="{992D8599-115B-4C51-B04E-6DCE32B6D1B1}">
+										<Image FileName="418288091" Left="1815" Top="158" Right="1840" Bottom="189" />
+										<TypeInfo Item0="{EB59EEDD-7DC4-4E36-B80B-0FB9A3A19BD9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//i[@class=&apos;trl-c-move-to-treated-opt&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="dlgOpen" Key="{F5A52FE3-F232-4006-AF18-1EE8AAC5827F}">
+								<Image FileName="709387863" Left="0" Top="0" Right="1135" Bottom="569" />
+								<TypeInfo Item0="{D3058851-9B7E-4FF4-ACB6-052EBED2FC79}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Open" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="cbxFileName" Key="{117E0891-1144-4829-BDC5-3154476DA1C9}">
+										<Image FileName="709387863" Left="230" Top="476" Right="856" Bottom="505" />
+										<TypeInfo Item0="{6D7A9AA0-C5B0-4C2D-AC28-4CF27E34EC9C}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="ComboBoxEx32" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="ComboBox" Key="{32C7D0BF-5964-4B26-90B5-AFBEDCB47FC6}">
+												<Image FileName="709387863" Left="230" Top="476" Right="856" Bottom="505" />
+												<TypeInfo Item0="{6D7A9AA0-C5B0-4C2D-AC28-4CF27E34EC9C}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="ComboBox" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Edit" Key="{3C8627E6-29AF-4B0B-A3A2-225C76FBDAE3}">
+														<Image FileName="709387863" Left="234" Top="480" Right="832" Bottom="500" />
+														<TypeInfo Item0="{471F2E54-FBCA-453B-AD47-1912C5CD6E7E}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="Edit" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="btnOpen" Key="{7035B55E-F525-4AA9-AFEC-95B49837BF2D}">
+										<Image FileName="-828064933" Left="871" Top="512" Right="981" Bottom="545" />
+										<TypeInfo Item0="{29960937-D93B-46C2-B64B-65F1AE5B03B7}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="&amp;Open" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{C6765248-02CF-4613-8D6A-E3F797569623}">
+			<Child Name="LoginPageSelector" Owner="{418F5ED9-999B-449B-9CB9-14F1857E3F77}">
+				<Child Name="WelcomePage" Owner="{3ACCFC85-B150-4777-A872-4AFD2B2634A5}">
+					<Child Name="loginUserName" Owner="{91445AEF-8B16-4BEB-9CF0-ABC0F637A317}" />
+					<Child Name="loginPass" Owner="{191A2D79-C5EC-49D2-9EF2-F0970F128832}" />
+					<Child Name="loginButton" Owner="{8C51EC63-6CC2-4FAD-B1F6-485DB0C9B90B}" />
+				</Child>
+			</Child>
+			<Child Name="TenantPageSelector" Owner="{1AACFFA8-B92E-4892-B68A-6BBD348A697C}">
+				<Child Name="sectionChooseTenant" Owner="{F010F7B0-DBDA-44C2-9277-1E41F128256E}">
+					<Child Name="tenantExpand" Owner="{BEE25954-D7CC-43EA-AB74-958EDDE76334}" />
+					<Child Name="tenant" Owner="{7EA8BCFF-62B7-4E7A-A739-D4843F8A9AC0}" />
+					<Child Name="buttonContinue" Owner="{16734AFB-27AA-4F34-A4BA-89EE174C878A}" />
+				</Child>
+			</Child>
+			<Child Name="HomePageSelector" Owner="{AA43D2CB-C680-4183-9A1B-3C12A785BB74}">
+				<Child Name="iMaapLogo" Owner="{4D414629-9DAA-4FA9-8B25-7C91784AF3F5}">
+					<Child Name="homeButton" Owner="{92A12B4F-01CE-4418-A46E-36FD531529AB}">
+						<Child Name="menuItems" Owner="{800C3272-602B-499C-A43F-8A86E57D1805}" />
+					</Child>
+					<Child Name="hamburgerMenu" Owner="{B583A502-B465-4B59-ADBE-A3308201B7B4}" />
+					<Child Name="textnodeDataManagement" Owner="{807D04FD-4071-44FC-987A-ED2F8DEDAB24}">
+						<Child Name="textnodeDataManagement2" Owner="{79DBC875-8915-45F0-85B8-5CC360A3FBCC}">
+							<Child Name="crashRecordOption" Owner="{59EE9625-23A9-45DA-BDCD-9C12CFFEEBBD}" />
+							<Child Name="importMenuOption" Owner="{081214DD-B91B-42B9-B3A4-DF721CE17169}" />
+						</Child>
+					</Child>
+					<Child Name="textnode10783" Owner="{064B5DF6-059B-4FD0-B4A8-FCEACAA02917}">
+						<Child Name="linkAu" Owner="{F4FA3634-8CB9-43C8-B08A-B9E6D2554A52}">
+							<Child Name="userAccountButton" Owner="{EEEED0EB-2E76-4F56-9F51-DA8259AAF6BC}" />
+						</Child>
+						<Child Name="clearCacheLogoutButton" Owner="{EC601142-634E-4BCA-91D9-B50FBB82AEBD}">
+							<Child Name="linkClearCacheLogout" Owner="{350AA12E-AE47-43F6-A0FF-C5B3ACAA90C7}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="CrashRecordPageSelector" Owner="{E1F83F14-6677-4581-80C0-FF8EDB6324B6}">
+				<Child Name="sectionSearch" Owner="{49FBB18E-A4A2-4F94-9A65-27AEAEB9BE0B}">
+					<Child Name="addCrashRecord" Owner="{B11190DA-700A-4B68-BF22-4AF3AB8E79AF}" />
+					<Child Name="savedCrashHeader" Owner="{A31295C6-B5C5-42C3-B3E3-4F17DDE1D534}" />
+					<Child Name="crashDetailedViewToggle" Owner="{42795770-82CE-4230-8E51-3885C1CCA7E1}" />
+					<Child Name="linkArf" Owner="{D9F2A263-EC09-4190-B8C2-EEDFD007DEA4}">
+						<Child Name="editCrashRecordButton" Owner="{A1E9AE09-D665-4C23-B53F-6A0DBA12988E}" />
+					</Child>
+					<Child Name="deleteCrashRecordButton" Owner="{FFA459D0-8437-4DD4-B9DB-3580E2059B82}" />
+					<Child Name="searchCrashButton" Owner="{C1DE5270-AC2F-4438-970F-1E1120ECFD35}" />
+					<Child Name="form" Owner="{F2BED040-4AC3-4D8A-9BBB-923307403EBD}">
+						<Child Name="searchTextbox" Owner="{A5A5CDC3-577A-467B-A73A-1E53B90C2653}" />
+					</Child>
+					<Child Name="searchIconButton" Owner="{0D42C179-2F92-4264-8411-C76352A1A789}" />
+				</Child>
+				<Child Name="delConfirm" Owner="{0EF719C5-C398-4F1B-BA25-FF646DEC91F8}" />
+				<Child Name="buttonOk" Owner="{1B65AF93-7F53-4D57-8361-022E01FBCE8B}" />
+				<Child Name="header10783" Owner="{2387378E-C6D0-4304-BD71-C52CB5C503D5}">
+					<Child Name="textnode10783" Owner="{48B4F12F-38A3-4D3D-AC31-C19CEA6A3181}">
+						<Child Name="linkAu" Owner="{1257B284-C126-4DDE-A79E-13D9FB938813}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="CrashRecordFormSelector" Owner="{54A76DAF-0E29-412C-A551-3E0B03E13545}">
+				<Child Name="licenseCloseButton" Owner="{3925DF4A-E818-4546-B45F-C9B44CE0FB0A}" />
+				<Child Name="sectionSearch" Owner="{F47A1A35-8A20-4E84-9A5B-2151FC7B701F}">
+					<Child Name="formCrash" Owner="{2F471E60-6425-4D54-A2CB-69FDCD6F6D68}">
+						<Child Name="crashDateTextBox" Owner="{6188964D-A003-4060-861F-A94636316037}" />
+						<Child Name="crashTimeTextBox" Owner="{AD4A42F9-E637-4EC9-BD36-40D8AF3B017F}" />
+						<Child Name="crashNumOfCasualitiesTextBox" Owner="{5EFE9A7A-FD80-4A17-A485-3B4721E1A3C6}" />
+						<Child Name="crashNumOfPedestriansTextBox" Owner="{E037990A-D720-4FEA-9C46-AD20058D6231}" />
+						<Child Name="crashSeverityDropdown" Owner="{D8BB9039-536B-456E-A050-411B8ABB97E7}" />
+						<Child Name="crashTypeOfAccidentDropdown" Owner="{CFEAFBCA-F371-48B3-98D0-4841BDD03EEA}" />
+						<Child Name="crashLatitudeTextbox" Owner="{FAB0919B-52D7-42C3-874E-FD326ECA5044}" />
+						<Child Name="crashAccidentLocationTextbox" Owner="{1E8EF956-B0E1-40FE-8E38-D43D405B4B77}" />
+						<Child Name="crashPrimaryCauseDropdown" Owner="{16EFBCAC-B6D6-4673-A27B-973B21656970}" />
+						<Child Name="crashSecondaryCauseDropdown" Owner="{067A7865-DCFD-4340-A43A-3FB1CFEF457C}" />
+						<Child Name="crashCollisionTypeDropdown" Owner="{6ABABCD9-0199-4DD1-9FAD-7C01A5B8D43D}" />
+						<Child Name="crashSpeedLimitTextBox" Owner="{7670F38D-D4C4-4375-BE36-B845A08CF2C3}" />
+						<Child Name="crashJunctionTypeDropdown" Owner="{3A966066-C37F-4E06-9BA9-55091AF06489}" />
+						<Child Name="crashLandmarkDropdown" Owner="{28BA79FE-0287-4B6F-B729-7C78806424EA}" />
+						<Child Name="crashDividerTypeDropdown" Owner="{E94084E8-9CB2-4B06-A50E-56286F57A7E8}" />
+						<Child Name="crashLightConditionsDropdown" Owner="{A4454A95-4329-4070-8249-0B8752E4AABD}" />
+						<Child Name="crashTrafficSignsDropdown" Owner="{84F1407A-7FA3-4F57-9154-844E11C2F984}" />
+						<Child Name="crashWeatherDropdown" Owner="{C5DF6A8C-1A1A-47F2-863D-DE745EC57984}" />
+						<Child Name="crashSurfaceConditionDropdown" Owner="{E1F3AA2C-4FA8-47B3-A320-1E16DDC17B68}" />
+						<Child Name="vehicleTabButton" Owner="{44072950-E13B-4826-8CDB-ABCF8915A530}">
+							<Child Name="linkVehicle" Owner="{941EE894-94E8-4283-A5E5-C879B20B764F}" />
+						</Child>
+						<Child Name="vehicleRefNumTextBox" Owner="{8255DFB2-3672-4E58-BFA7-5F89C00D86CC}" />
+						<Child Name="vehicleDriverAtFaultDropdown" Owner="{E5F43685-C3AA-4A10-BA9C-14438F20A948}" />
+						<Child Name="vehicleSexOfDriverDropdown" Owner="{93742FAE-15D1-4230-B45C-FCC1DC9B449B}" />
+						<Child Name="vehicleDriverAgeTextBox" Owner="{1FC5E838-96EE-44A9-8AB5-7537CEAE2E61}" />
+						<Child Name="vehicleNationalityOfDriverDropdown" Owner="{DA249392-F848-42F3-A600-E8E473F5B1E1}" />
+						<Child Name="vehicleDrivingLicenseNumTextbox" Owner="{83651BA3-DCCF-4C4B-9C9E-D31F344D42AF}" />
+						<Child Name="vehicleLicenseIssueDateTextBox" Owner="{522A7627-CF01-4EE7-9DDD-E8CA10B7A010}" />
+						<Child Name="vehicleRegistrationAuthorityDropdown" Owner="{6CDC7FA3-C938-4510-8314-D4EE9B0695D6}" />
+						<Child Name="vehiclePlateNumberTextBox" Owner="{94C2C71E-9348-4710-AECA-3D4604A351D4}" />
+						<Child Name="vehiclePlateSerialTextBox" Owner="{1BD7D302-0C4B-40D5-9150-01C8E12C7D21}" />
+						<Child Name="vehicleAlcoholDropdown" Owner="{736E0C96-C3BD-4233-9FFE-5B2F442BA707}" />
+						<Child Name="vehicleHitAndRunDropdown" Owner="{3B6472EA-4B36-4225-8861-34CFC20C7417}" />
+						<Child Name="vehicleSeatHelmetDropdown" Owner="{DA21E1FE-449F-4F3D-8E29-ADC774F03AEF}" />
+						<Child Name="vehicleTypeDropdown" Owner="{4AB9D70A-EBEA-4AF8-B950-59ECA06E5669}" />
+						<Child Name="vehicleCollisionOutsideRoadDropdown" Owner="{FA49B508-B2C8-4DE1-82F0-4759899897E8}" />
+						<Child Name="vehicleTyreConditionDropdown" Owner="{9FCDC2C0-96FD-457C-987F-87ACA5ECD4A7}" />
+						<Child Name="vehicleNumOfAxleDropdown" Owner="{C78592EB-9E9A-4E36-92FF-1B1B9AE8561D}" />
+						<Child Name="vehicleDegreeOfDamageDropdown" Owner="{4ECFA21E-5500-4DC1-AB95-BFB983516918}" />
+						<Child Name="vehicleBrandTextBox" Owner="{3FC112B0-A5C2-4278-BF85-6EEF66B422A3}" />
+						<Child Name="vehicleYearOfManufactureTextBox" Owner="{E588D2D5-2D67-4494-95A2-F5F915D01856}" />
+						<Child Name="vehicleTintedGlassDropdown" Owner="{742AE04E-EA85-4BB7-9037-81E1A038F924}" />
+						<Child Name="vehicleOwnerTextBox" Owner="{972D0D0E-BE44-42FE-9564-B299EBF7A2E1}" />
+						<Child Name="vehicleInsuranceDropdown" Owner="{F129D8C8-D8F8-4547-BEA6-06F5DAB3B552}" />
+						<Child Name="vehicleJobOfDriverTextBox" Owner="{5844AFC7-C50D-4825-A94F-4EB91122C505}" />
+						<Child Name="textnodeCasualty" Owner="{21207937-148C-4EFE-A936-65EF9401C705}">
+							<Child Name="CasualtyTabButton" Owner="{429D392F-B9E3-4C03-A94D-4F2A66BFEA5E}" />
+						</Child>
+						<Child Name="casualityAddNewButton" Owner="{AD2A83F5-FCD8-4EB6-8535-3FA0809B1E79}" />
+						<Child Name="casualityVehicleReferenceTextBox" Owner="{668C1C35-34EB-4A6A-BDB4-756960C70D8D}" />
+						<Child Name="casualityRefNumTextBox" Owner="{350A3F02-09A5-452A-AF4D-D9CB66E551AC}" />
+						<Child Name="casualityClassDropdown" Owner="{6DFD89D8-1363-42D4-B58F-B33777593B83}" />
+						<Child Name="casualitySexDropdown" Owner="{83B65AEB-F97D-467D-B93F-4F6C76504952}" />
+						<Child Name="casualNationalityDropdown" Owner="{C43A7209-B276-4D1B-9BC1-5ADCBEF62FFE}" />
+						<Child Name="casualityAgeTextbox" Owner="{B9109B09-A1A3-40F9-910C-752510CFD1B2}" />
+						<Child Name="casualityDegreeOfInjuryDropdown" Owner="{03159F5C-CDCC-46D6-BDB9-F69D5A113F2B}" />
+						<Child Name="casualitySeatHelmetDropdown" Owner="{D3CF1D6E-DF00-4B49-B122-6197ECCF2F15}" />
+						<Child Name="vehicleLicenseIssueAuthorityDropdown" Owner="{7134CBD5-2232-4823-9020-AB91532FBB7F}" />
+						<Child Name="caseNoTextBox" Owner="{ABD626B9-EE01-4194-BB52-3CE096D3555C}" />
+						<Child Name="crashNumVehiclesInvolvedTextBox" Owner="{E983D5F3-6531-4544-9AAB-8E3A2692B72A}" />
+						<Child Name="crashLongitudeTextBox" Owner="{67DC356C-2BDD-46E1-9984-1DDB12D3A7AB}" />
+						<Child Name="crashTimeDropdown" Owner="{7C64F288-3389-4929-8763-F7D42D96F7FE}" />
+						<Child Name="editCasualityClassDropdown" Owner="{E3235DF2-A6A6-4F59-8672-70506597A9DF}" />
+					</Child>
+					<Child Name="crashRecordsSave" Owner="{8CE474C5-22C4-4B39-BC08-FE67AB23744F}" />
+					<Child Name="retieveCrashId" Owner="{158D1334-9984-47DE-9CB6-963ABE558C83}" />
+					<Child Name="crashSaveCancelButton" Owner="{A079D521-A571-4AEE-B112-085973694E3B}" />
+				</Child>
+				<Child Name="crashSeverityOption" Owner="{B83CFF18-2387-4295-9506-6F552F1D941E}" />
+				<Child Name="crashPrimaryCauseOption" Owner="{D39B6B8A-5211-452B-8637-F986CD5A6EE5}" />
+				<Child Name="crashSecondaryCauseOption" Owner="{06823009-683C-4236-89E0-D9350C6D89EF}" />
+				<Child Name="crashCollisionTypeOption" Owner="{24D2A1B9-B48E-4F15-A118-77FA09CC5342}" />
+				<Child Name="crashJunctionTypeOption" Owner="{05BDB7FB-6675-4B60-B000-21B958D0D3E6}" />
+				<Child Name="crashLandmarkOption" Owner="{432B1263-0C5C-45E8-88CB-580A54021212}" />
+				<Child Name="crashDividerTypeOption" Owner="{5CEDF8D6-398E-4936-B4E4-8254C8504016}" />
+				<Child Name="crashLightConditionsOption" Owner="{5C4E40D4-312A-4BD3-9071-4F942C7CF4B1}" />
+				<Child Name="crashTrafficSignsOption" Owner="{7836D255-C991-44DA-90C6-1178DB71887B}" />
+				<Child Name="crashWeatherOption" Owner="{EFD1B957-C4D9-499E-AC3A-8EDFE30B1649}" />
+				<Child Name="crashSurfaceConditionOption" Owner="{D064274E-9350-4D4D-88D6-0972CD4ED425}" />
+				<Child Name="vehicleDriverAtFaultOption" Owner="{24C51D63-79D9-4F20-9F72-CF4A9FCD3AE5}" />
+				<Child Name="vehicleSexOfDriverOption" Owner="{3101FFA7-BCAF-4A7E-BF41-B62CF72CF0C4}" />
+				<Child Name="vehicleNationalityOfDriverOption" Owner="{AE423C91-79CC-488B-925D-38D74321E417}" />
+				<Child Name="vehicleLicenseIssueAuthorityOption" Owner="{994DD136-96D7-45F1-B59D-FC386A829CD9}" />
+				<Child Name="vehicleRegistrationAuthorityOption" Owner="{355616C2-72D5-4F8A-8FB1-C0D73A860CDD}" />
+				<Child Name="vehicleAlcoholOption" Owner="{676A4A97-5BC3-457D-99DA-3C85031B13AB}" />
+				<Child Name="vehicleHitAndRunOption" Owner="{342C767D-F1EA-4CF0-BF8E-634CC582B051}" />
+				<Child Name="vehicleSeatHelmetOption" Owner="{450D0E23-9B39-4D0D-A661-ED0E7085F725}" />
+				<Child Name="vehicleTypeOption" Owner="{5FE68CA9-B923-47AF-91D1-CC4A695B63AC}" />
+				<Child Name="vehicleCollisionOutsideRoadOption" Owner="{872A47F8-B973-4317-8C77-8ADDFE31430D}" />
+				<Child Name="vehicleNumOfAxleOption" Owner="{90BC65CD-21D8-4258-80A2-2FE23DB2A2B0}" />
+				<Child Name="vehicleDegreeOfDamageOption" Owner="{86687BB2-BFD1-41F1-B3D1-980BCE3DEBFF}" />
+				<Child Name="vehicleTintedGlassOption" Owner="{760DE833-AC5A-4239-AA5E-8C66439ECFBE}" />
+				<Child Name="vehicleInsuranceOption" Owner="{999EDA9E-79BB-48A8-8317-7EB4EDD9478D}" />
+				<Child Name="casualityClassOption" Owner="{10515204-1F42-4A23-B852-80B0B62A7E17}" />
+				<Child Name="casualitySexOption" Owner="{85677B52-F2D7-405C-8A39-D3E6E3F1C35D}" />
+				<Child Name="casualNationalityOption" Owner="{6053E384-FB30-4335-90ED-4FA671971045}" />
+				<Child Name="casualitySeatHelmetOption" Owner="{60EC8BAA-167F-424A-84D3-0B687ABE4F53}" />
+				<Child Name="vehicleTyreConditionOption" Owner="{7E69345C-F867-48B0-A8CE-B27C314C7818}" />
+				<Child Name="crashTypeOfAccidentOption" Owner="{035FD4C3-B1C1-4654-A499-57A95CB0DC56}" />
+				<Child Name="crashTimeOption" Owner="{6668D420-EC4D-429F-8D9C-A90D908A6828}" />
+				<Child Name="editCasualityClassOption" Owner="{EB4B49E9-5263-49E0-9959-E91156EFE697}" />
+				<Child Name="casualityDegreeOfInjuryOption" Owner="{25A59A20-E196-4953-875D-BDDE29E6871E}" />
+			</Child>
+			<Child Name="AuthorizePageSelector" Owner="{5750AFB8-DD75-4AC9-90FD-011D37C12F1F}">
+				<Child Name="panelLoading" Owner="{15E0C35E-804F-4C67-A944-355256D191D2}" />
+			</Child>
+			<Child Name="pageImaap" Owner="{C1E7B185-3CFC-4D24-AB73-C5F079C590AB}">
+				<Child Name="sectionSearch" Owner="{01FB0814-6273-46B7-AD66-9D161BA50823}">
+					<Child Name="retrievalAutoText" Owner="{0CAE118E-4376-4EA3-AC44-DDAD2B4B4075}" />
+					<Child Name="casualityClassEdit" Owner="{3EF5D4B7-4058-48AD-974B-72FB22B75AFD}" />
+				</Child>
+			</Child>
+			<Child Name="CrashRecordsDetailedViewSelector" Owner="{4819C361-4DA7-4E66-86C5-A1E3C1A8367F}">
+				<Child Name="sectionSearch" Owner="{14269E31-FC29-403E-B39A-2E282135E2BE}">
+					<Child Name="buttonEditFilterForColumnField" Owner="{08C18B8C-BA56-4A45-8E12-E7EDD2E8C6B2}" />
+					<Child Name="filterField" Owner="{FBB5EA13-9538-4BA0-BFD0-096E67E9A41F}" />
+					<Child Name="filterValue" Owner="{0263B682-80AE-4B7E-81FC-1EAC4F920CF1}" />
+					<Child Name="textnodeCrash" Owner="{1DBAE104-4761-4B6B-879D-14C3AD7E7AE5}">
+						<Child Name="textnodeVehicle" Owner="{8D5F3900-E7C1-42BB-AF9A-E7DE9219A8EE}">
+							<Child Name="linkVehicle" Owner="{5FC05C39-E3E6-4F59-9EAC-7151930EB7C2}" />
+						</Child>
+						<Child Name="textnodeCasualty" Owner="{3BC528B0-D318-419C-9DC9-7A20930B5F9E}">
+							<Child Name="linkCasualty" Owner="{81A74F15-2F7F-4806-821E-437A5A6B4E8C}" />
+						</Child>
+					</Child>
+					<Child Name="detailedViewToggle" Owner="{46A63721-230B-4F26-B652-663B0884A012}" />
+					<Child Name="verifyEditDateText" Owner="{ACAC5F9E-B6EB-4BF0-BE30-45C433C5D9EF}">
+						<Child Name="textnode101020222" Owner="{FAD6C91D-AFD3-4137-ADEB-FE22F3D1F542}" />
+					</Child>
+				</Child>
+				<Child Name="searchInFilterRecord" Owner="{5E755F17-10CE-4B7E-929B-BB2083C9573D}" />
+				<Child Name="filterApplyButton" Owner="{D217ED7A-9133-44C3-AA82-BC23A8707BA0}" />
+				<Child Name="buttonClose" Owner="{0AEB8830-B55B-4876-8B50-B41D71BE052A}" />
+			</Child>
+			<Child Name="pageImaap2" Owner="{CE37A883-5C10-4547-8BC0-D419DBA32AD1}" />
+			<Child Name="pageImaap3" Owner="{BE14F494-0E30-4012-AFB8-D5689ED7389F}">
+				<Child Name="header10783" Owner="{19229A9D-16B7-44B3-973E-D5FBD2BBB69D}">
+					<Child Name="textnodeHome" Owner="{F1E86BB4-0DFA-46AD-9DEE-7E5E8EAA4881}">
+						<Child Name="textnodeHome2" Owner="{F5F56BDF-49A1-4605-99C0-E9020A0955DB}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="LogoutPageSelector" Owner="{EF533E9E-6D3C-4F9D-8EEB-8C94081B3E99}">
+				<Child Name="sectionWelcomeToTrlSoftware" Owner="{0AE0F16D-C1E9-4E59-B5D3-875A768D912E}">
+					<Child Name="logoutText" Owner="{B42181A7-142D-4C0B-9855-71DED15A7285}" />
+				</Child>
+			</Child>
+			<Child Name="ImportPageSelector" Owner="{B1B29592-26FC-4B6A-88B4-59258319C180}">
+				<Child Name="sectionImport" Owner="{01DAEE56-029D-4A1F-B817-D060DEE95851}">
+					<Child Name="formAvailableTemplates" Owner="{5D2771F0-D76C-4B1A-88C5-025395F2D8E2}">
+						<Child Name="crashDataRadioButton" Owner="{4E058881-3462-4E8B-ADE2-B4530A7BBC21}" />
+						<Child Name="vehicleDataRadioButton" Owner="{CABF57BE-A3FA-46A5-AD11-838D616E884D}" />
+						<Child Name="casualtyDataRadioButton" Owner="{016E29C4-DE3A-451D-870B-33AB2C981844}" />
+					</Child>
+					<Child Name="ImportBrowse" Owner="{42A4F8F9-87D8-4283-A922-8578179FFE4F}" />
+					<Child Name="importButton" Owner="{0DF797D1-5D0C-40B0-82EC-1AEA6DF13462}" />
+					<Child Name="viewLogButton" Owner="{1C2A5B9A-ACBB-4D4C-8F23-8818B2BB7CA5}" />
+					<Child Name="importCompletedLabel" Owner="{F07DECA8-F85F-4869-8833-3E7D9314C4A2}" />
+					<Child Name="updateButton" Owner="{4EE95019-08AB-4ECA-B450-5C8E7C8C1E38}" />
+					<Child Name="importUpdateCloseButton" Owner="{2AFE2217-2FD5-4F7E-ADF9-A80BFA7743D8}" />
+					<Child Name="recentImportsButton" Owner="{FCC30E9C-8335-44C4-9ED8-AD0CD55AC80A}" />
+				</Child>
+				<Child Name="header10785" Owner="{E97DDB37-98A5-44F3-AD81-DF3B254559EE}">
+					<Child Name="textnode10785" Owner="{7EED10FC-E077-48C8-BED1-D195D9812083}">
+						<Child Name="textnode107852" Owner="{CEDD6B29-1193-46C1-BA5B-ABCBCB2A5C6A}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageSampleCrashTemplate116952808" Owner="{D8A338C4-C083-4747-82E5-439CDCED9B5A}">
+				<Child Name="textnode" Owner="{3579AC5C-9E44-45D7-A2C8-CF5AC89EB542}" />
+			</Child>
+			<Child Name="HotspotIdentificationPageSelector" Owner="{4C48E870-5581-4069-A25C-D8162F36B049}">
+				<Child Name="closeLicenseButton" Owner="{BEBE0A83-B663-4FB0-AF9C-4E432D94D7CF}" />
+				<Child Name="sectionMenu" Owner="{1C2C2FDB-6181-4FC4-B6D5-0B499915AFE4}">
+					<Child Name="formNoTemplateSelected" Owner="{38AA84EB-FB4F-42D3-A752-0D063A13C357}">
+						<Child Name="selectTemplatesButton" Owner="{0DF08945-43F3-4398-8671-841738F5D62A}" />
+						<Child Name="dateRangeInputField" Owner="{6917686A-2859-4F25-823C-F67DA3BFC708}" />
+					</Child>
+					<Child Name="automationTemplate" Owner="{4E8446FD-396E-4188-A1C6-5C3051F078C7}" />
+					<Child Name="openTemplateButton" Owner="{4A9B0DAD-B844-48C8-B9C1-481DF9AD8028}" />
+					<Child Name="hotspotIdentificationRunButton" Owner="{62CD1CE1-3395-4FCE-AB98-3E476EE59D55}" />
+					<Child Name="textnode" Owner="{52EF47B2-B2E7-4EDE-89A4-A401F5642535}">
+						<Child Name="resultAnalysisButton" Owner="{33B854BE-025B-4BDB-8CA4-7BBD9EA28FB5}" />
+					</Child>
+					<Child Name="panelHotspotIdentificationResult" Owner="{D6BE569F-1497-4A02-85F7-1CF4CEF94550}" />
+					<Child Name="panelHotspot1" Owner="{FD2A9C2E-B010-40C7-8FB6-895E47B96B24}" />
+					<Child Name="hotspotIdentificationOptions" Owner="{D24CB3C1-A8B3-44DA-8D4C-C8780998C5D0}" />
+					<Child Name="goToDropdown" Owner="{4BB413DC-FF9D-4B44-AC68-3D220AAE1190}" />
+					<Child Name="savePotentialHotspot" Owner="{385BF188-2BB0-4D39-99E3-C8AB06707535}" />
+					<Child Name="formHotspotName" Owner="{E3CC7EAD-10BC-466D-86EB-E751BE0A6A4D}">
+						<Child Name="hotspotName" Owner="{A61F768C-2632-4239-ACCC-D6BCE1AE6E95}" />
+						<Child Name="hotspotType" Owner="{E78FBF9C-D2C6-450D-9C76-A91641F80BDA}" />
+						<Child Name="identificationYear" Owner="{F38D69C9-8BE8-46BB-BE5B-F856644F0010}" />
+						<Child Name="mpfTextbox" Owner="{756B4E45-A107-44D5-B0CC-CEBE24BD19EB}" />
+						<Child Name="textnode01012020" Owner="{E354F340-6179-4FFE-BEB3-D4F311BB66EA}" />
+						<Child Name="potentialHotspotSave" Owner="{3ABEC0A2-CA80-44AF-800E-0089731465B0}" />
+					</Child>
+				</Child>
+				<Child Name="savePotentialIntersectionYesButton" Owner="{814D0697-2A36-470D-8794-02C81233B28A}" />
+			</Child>
+			<Child Name="HotspotManagementPageSelector" Owner="{15925020-7FA2-4446-98A5-60A0C5097E1E}">
+				<Child Name="sectionHotspotManagement" Owner="{CE91E3DF-6BF2-44E8-881B-6B3236DE8434}">
+					<Child Name="hotspotManagementTitle" Owner="{30D80C2B-D34A-4B5E-B3A7-081241930FD2}" />
+					<Child Name="moveToActiveHotspotbutton" Owner="{CF4566E7-1AC8-4E2E-A935-7B74AF91E008}" />
+					<Child Name="buttonViewActionPlanDetails" Owner="{0DAFC8F5-190F-40B1-BEF5-CC9F63AE887E}" />
+					<Child Name="buttonFilterForColumnPossible" Owner="{0CDBBD4F-7218-4661-96BE-4FD958A4F761}" />
+					<Child Name="possibleCauseSearchItemList" Owner="{2D4A2FE7-8709-45D6-BD0C-21D2692249AD}" />
+					<Child Name="buttonApplyPossibleCause" Owner="{A1260CF0-3D81-4309-B7E1-A33C6595F42D}" />
+					<Child Name="excessiveSpeedCheckbox" Owner="{7CA333D8-98C3-4BCD-A724-495546120306}" />
+					<Child Name="labelSiteVisitCompleted" Owner="{65CC89F7-CE8D-4275-A088-8AC6056A972D}">
+						<Child Name="siteVisitedCheckbox" Owner="{56591F93-4D86-4351-AF19-149FFD89DA67}" />
+					</Child>
+					<Child Name="engrNotesTextbox" Owner="{A4CD7C92-1928-4548-B28A-168D902EFE62}" />
+					<Child Name="buttonSaveAndGoToStep2" Owner="{65A9B7B9-2B76-4222-8C72-B8B6D688DDBD}" />
+					<Child Name="counterMeasuresCheckbox" Owner="{97BC4924-C55D-4AB9-8863-9CA6CC839EB1}" />
+					<Child Name="buttonSaveAndGoToStep3" Owner="{C8D6478F-57D1-4764-8E32-EC31E3F3F2F2}" />
+					<Child Name="formActionPlan" Owner="{0F3F32DC-84E0-490F-81A3-814C1AFC9F0D}">
+						<Child Name="labelKsiCrashes" Owner="{692A3F14-C92F-4E82-B95A-2EFBBE0E6879}">
+							<Child Name="ksiCrashesCheckbox" Owner="{FB1230C2-52FA-4590-B283-E2A6D6A8DAB9}" />
+						</Child>
+						<Child Name="ksiReductionTextbox" Owner="{FB3C71B4-46C9-4EAF-8A17-EFD80DA35EE8}" />
+						<Child Name="assignedTo" Owner="{27B6304F-D951-418F-93E9-1E64E4B2FFA1}" />
+						<Child Name="conStartDateDropdown" Owner="{A7B58D6A-ADDE-46D4-A301-1A8DF97083F0}" />
+						<Child Name="conEndDateDropdown" Owner="{6CF21524-75F1-4F86-B226-1BECAA94A66E}" />
+						<Child Name="monitoringStartDateDropdown" Owner="{0FE8F83D-4400-49E9-B1A2-1C5EC7F2A9CF}" />
+					</Child>
+					<Child Name="buttonFinalSave" Owner="{9BCC0171-699A-4890-B865-C6B2F3BF54A3}" />
+					<Child Name="conStartDate" Owner="{4B920FC2-9E28-4418-A190-D3F67553DFE2}" />
+					<Child Name="buttonMoveToTreatedHotspot" Owner="{992D8599-115B-4C51-B04E-6DCE32B6D1B1}" />
+				</Child>
+				<Child Name="buttonYes" Owner="{E4494168-EF29-4E8D-900B-E467320E0EB2}" />
+			</Child>
+			<Child Name="dlgOpen" Owner="{F5A52FE3-F232-4006-AF18-1EE8AAC5827F}">
+				<Child Name="cbxFileName" Owner="{117E0891-1144-4829-BDC5-3154476DA1C9}">
+					<Child Name="ComboBox" Owner="{32C7D0BF-5964-4B26-90B5-AFBEDCB47FC6}">
+						<Child Name="Edit" Owner="{3C8627E6-29AF-4B0B-A3A2-225C76FBDAE3}" />
+					</Child>
+				</Child>
+				<Child Name="btnOpen" Owner="{7035B55E-F525-4AA9-AFEC-95B49837BF2D}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

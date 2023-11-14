@@ -1,0 +1,24 @@
+﻿var AppSetup = require("AppSetup");
+var LoginPage = require("LoginPage");
+var HomePage=require("HomePage");
+var CrashRecordPage=require("CrashRecordPage");
+var HotspotIdentificationPage=require("HotspotIdentificationPage");
+var HotspotManagementPage=require("HotspotManagementPage")
+
+ //Test Objecive:To verify that the user is able to move an active hotspot to 'Treated' category
+ function HotspotMgmtTest() {
+   AppSetup.LaunchBrowser();
+   LoginPage.Login();
+   HomePage.MenuNavigation("Hotspot","Hotspot Identification");   
+   HotspotIdentificationPage.TemplateRun();
+   HotspotIdentificationPage.AnalysisResultDetails();
+   HotspotIdentificationPage.VerifyOptionDetails();
+   HotspotIdentificationPage.SaveHotspot();
+   HomePage.MenuNavigation("Hotspot","Hotspot Management");
+   HotspotManagementPage.VerifyHotspotPotential();
+   HotspotManagementPage.MoveToActiveHospot();
+   HotspotManagementPage.HotspotActionPlan();
+   HotspotManagementPage.ActiveToTreatedAndVerification();
+   HomePage.LogoutApplication();
+   AppSetup.CloseBrowser();   
+ }

@@ -1,0 +1,156 @@
+﻿var reusableMethods = require("ReusableMethods");
+var hotspotIdentificationPage=require("HotspotIdentificationPage");
+let hotspotManagementPage=reusableMethods.browserObj.HotspotManagementPageSelector;
+
+//To verify that the hotspot is displayed under 'Potential Category'
+function VerifyHotspotPotential()
+{
+  Delay(8000);
+var detailsLabel = Project.Variables.detailsLabel.split(",");
+var flag=false;
+let activeElementCount = hotspotManagementPage.FindElements("//div[contains(@class,'potential')]//li//h4");
+for (var i = 1; i <= activeElementCount.length; i++) {
+    let activeElement = hotspotManagementPage.FindElement("//div[contains(@class,'potential')]//li[" + i + "]//h4");
+    if (aqString.Compare(activeElement.contentText, hotspotIdentificationPage.hotSpotName, true) == 0) {             
+        reusableMethods.Click(activeElement);
+        flag=true;
+        Delay(3000);
+        break;
+    } 
+}
+if(flag==true)
+{
+ Log.Event("User is able to verify that the '" + hotspotIdentificationPage.hotSpotName + "' is displayed under 'Potential' category");  
+}
+else {
+        Log.Error("User is not able to verify that the '" +hotspotIdentificationPage.hotSpotName + "' is displayed under 'Potential' category");
+    }
+let hotspotMgmtDetails = hotspotManagementPage.FindElements("//tab/div[1]/div[1]/div/div/label");
+for (var i = 1; i <= hotspotMgmtDetails.length; i++) {
+    let hotspotDetails = hotspotManagementPage.FindElement("//tab/div[1]/div[1]/div[" + i + "]/div/label").contentText;
+    if (aqString.Compare(hotspotDetails, detailsLabel[i - 1], true) == 0) {
+        let detailsValue = hotspotManagementPage.FindElement("//tab/div[1]/div[1]/div[" + i + "]/div/span").contentText;
+        if (aqString.Compare(detailsValue, hotspotIdentificationPage.hotSpotName, true) == 0) {
+            Log.Event("User is able to verify the 'Name' of the hotspot");
+        }
+        else if (aqString.Compare(detailsValue, Project.Variables.identificationYr, true) == 0) {
+            Log.Event("User is able to verify the 'Identification Year' of the hotspot");
+        } else {
+            Log.Error("User is not able to verify the 'Hotspot Identification Details")
+        }
+    }
+}
+}
+
+//To verify that the hotspot is moved to 'Active' category
+function MoveToActiveHospot()
+{
+let moveToActiveHotspot= hotspotManagementPage.moveToActiveHotspotbutton;
+let confmYesButton=hotspotManagementPage.buttonYes;
+
+reusableMethods.WaitForElementVisible(hotspotManagementPage,moveToActiveHotspot,5000);
+reusableMethods.Click(moveToActiveHotspot);
+reusableMethods.WaitForElementVisible(hotspotManagementPage,confmYesButton,5000);
+reusableMethods.Click(confmYesButton);
+Delay(3000);
+reusableMethods.Click(confmYesButton);
+}
+
+//To add hotspot activation plan details
+function HotspotActionPlan()
+{
+  let viewActionPlanButton=hotspotManagementPage.buttonViewActionPlanDetails;  
+  reusableMethods.WaitForElementVisible(hotspotManagementPage,viewActionPlanButton,5000);
+  reusableMethods.Click(viewActionPlanButton);
+  Delay(10000);
+  let crashCount=hotspotManagementPage.FindElements("//div[@class='col-sm-3']//ul/li//span")
+  for(var i=1;i<=crashCount.length;i++)
+  {
+    let crashCheckbox=hotspotManagementPage.FindElement("//div[@class='col-sm-3']//ul/li["+i+"]//span");
+    reusableMethods.Click(crashCheckbox);
+    Delay(1000);
+  }
+  let filterForColumnPossible=hotspotManagementPage.buttonFilterForColumnPossible;
+  let possibleCauseSearchItemList=hotspotManagementPage.possibleCauseSearchItemList;
+  let buttonApplyPossibleCause=hotspotManagementPage.buttonApplyPossibleCause;
+  let excessiveSpeedCheckbox=hotspotManagementPage.excessiveSpeedCheckbox;
+  let siteVisitedCheckbox=hotspotManagementPage.siteVisitedCheckbox;
+  let engrNotesTextbox=hotspotManagementPage.engrNotesTextbox;
+  let buttonSaveAndGoToStep2=hotspotManagementPage.buttonSaveAndGoToStep2;
+  let counterMeasuresCheckbox=hotspotManagementPage.counterMeasuresCheckbox;
+  let buttonSaveAndGoToStep3=hotspotManagementPage.buttonSaveAndGoToStep3
+  let ksiCrashesCheckbox=hotspotManagementPage.ksiCrashesCheckbox;
+  let ksiReductionTextbox=hotspotManagementPage.ksiReductionTextbox;
+  let buttonFinalSave=hotspotManagementPage.buttonFinalSave;
+  let assignedTo=hotspotManagementPage.assignedTo;
+  let conStartDateDropdown=hotspotManagementPage.conStartDateDropdown;
+  let conStartDate=hotspotManagementPage.conStartDate;
+  let conEndDateDropdown=hotspotManagementPage.conEndDateDropdown;
+  let monitoringStartDateDropdown=hotspotManagementPage.monitoringStartDateDropdown;
+  
+  reusableMethods.Click(filterForColumnPossible)
+  reusableMethods.WaitForElementVisible(hotspotManagementPage,possibleCauseSearchItemList,5000);
+  reusableMethods.SendKeys(possibleCauseSearchItemList,Project.Variables.speedToSelect);
+  Delay(3000);
+  reusableMethods.Click(buttonApplyPossibleCause);
+  reusableMethods.WaitForElementVisible(hotspotManagementPage,excessiveSpeedCheckbox,5000);
+  reusableMethods.Click(excessiveSpeedCheckbox);
+  reusableMethods.WaitForElementVisible(hotspotManagementPage,siteVisitedCheckbox,5000);
+  reusableMethods.Click(siteVisitedCheckbox);
+  reusableMethods.WaitForElementVisible(hotspotManagementPage,engrNotesTextbox,5000);
+  reusableMethods.Click(engrNotesTextbox);
+  engrNotesTextbox.Keys(Project.Variables.engrNotesText);
+  reusableMethods.WaitForElementVisible(hotspotManagementPage,buttonSaveAndGoToStep2,5000);
+  reusableMethods.Click(buttonSaveAndGoToStep2);
+  reusableMethods.WaitForElementVisible(hotspotManagementPage,counterMeasuresCheckbox,5000);
+  reusableMethods.Click(counterMeasuresCheckbox);
+  reusableMethods.WaitForElementVisible(hotspotManagementPage,buttonSaveAndGoToStep3,5000);
+  reusableMethods.Click(buttonSaveAndGoToStep3);
+  reusableMethods.WaitForElementVisible(hotspotManagementPage,ksiCrashesCheckbox,5000);
+  reusableMethods.Click(ksiCrashesCheckbox);
+  reusableMethods.WaitForElementVisible(hotspotManagementPage,ksiReductionTextbox,5000);
+  reusableMethods.SendKeys(ksiReductionTextbox,Project.Variables.ksiReductionValue);
+  reusableMethods.SendKeys(assignedTo,Project.Variables.assignedToTextbox);
+  Delay(1000);
+  reusableMethods.SelectAndRetrieveValueFromDropdown(conStartDateDropdown,conStartDate);
+  reusableMethods.SelectAndRetrieveValueFromDropdown(conEndDateDropdown,conStartDate);
+  reusableMethods.SelectAndRetrieveValueFromDropdown(monitoringStartDateDropdown,conStartDate);
+  reusableMethods.Click(buttonFinalSave);
+  Delay(8000);
+}
+
+//To verify that the hotspot is moved from 'Active' to 'Treated' category
+function ActiveToTreatedAndVerification()
+{
+  let buttonMoveToTreatedHotspot=hotspotManagementPage.buttonMoveToTreatedHotspot;
+  let confmYesButton=hotspotManagementPage.buttonYes;
+  
+  reusableMethods.WaitForElementVisible(hotspotManagementPage,buttonMoveToTreatedHotspot,10000);
+  reusableMethods.Click(buttonMoveToTreatedHotspot);
+  reusableMethods.Click(confmYesButton);
+  Delay(5000);
+  reusableMethods.WaitForElementVisible(hotspotManagementPage,confmYesButton,10000);
+  reusableMethods.Click(confmYesButton);
+  Delay(10000);
+  let treatedElementCount = hotspotManagementPage.FindElements("//div[contains(@class, 'blackspot__treated')]//ul/li//h4");
+  var flag=false;
+  for (var i = 1; i <= treatedElementCount.length; i++) {
+    let treatedElement = hotspotManagementPage.FindElement("//div[contains(@class, 'blackspot__treated')]//ul/li[" + i + "]//h4");
+    if (aqString.Compare(treatedElement.contentText, hotspotIdentificationPage.hotSpotName, true) == 0) {              
+        flag=true;
+        break;
+    } 
+}
+if(flag==true)
+{
+  Log.Event("User is able to verify that the '" + hotspotIdentificationPage.hotSpotName + "' is displayed under 'Treated' category");
+}
+else
+{
+  Log.Error("User is not able to verify that the '" + hotspotIdentificationPage.hotSpotName + "' is displayed under 'Treated' category")
+}
+}
+module.exports.VerifyHotspotPotential=VerifyHotspotPotential;
+module.exports.MoveToActiveHospot=MoveToActiveHospot;
+module.exports.HotspotActionPlan=HotspotActionPlan;
+module.exports.ActiveToTreatedAndVerification=ActiveToTreatedAndVerification;

@@ -1,0 +1,118 @@
+﻿let browser=Aliases.browser;
+
+//Wait for a page to load 
+function WaitForPageToLoad(selector) 
+{ 
+  selector.Wait(); 
+} 
+
+//Click a textbox
+function Click(selector)
+{
+  selector.Click();
+}
+
+//Send a text 
+function SendKeys(selector,value)
+{
+  selector.Click();
+  Delay(1000);
+  selector.SetText(value);
+}
+
+//Click a button
+function ClickButton(selector)
+{  
+selector.ClickButton();
+}
+
+//Select a value from dropdown
+function SelectOptionFromDropdown(expandDropdownSelector,valueSelector)
+{
+  expandDropdownSelector.Click();
+  value1=GetTextFromElement(valueSelector);
+  Delay(1000);
+  valueSelector.Click();
+  return value1;
+}
+
+//Get text from the web element
+function GetTextFromElement(selector)
+{
+  return selector.contentText;
+}
+
+//To compare two strings
+function CompareText(string1,string2,boolExp,boolVal,logText)
+{
+  if(aqString.Compare(string1,string2,boolExp)===boolVal)
+  {
+    Log.Event("User is able to "+logText);
+  }
+  else
+  {
+   Log.Error("User is not able to "+logText);
+  }
+}
+
+//To wait for a element to be visible
+function WaitForElement(pageSelector,selector,time)
+{
+  pageSelector.WaitElement(selector,time);
+}
+
+//To get the current date
+function GetCurrentDate()
+{
+var formattedToday;
+const today = new Date();
+const yyyy = today.getFullYear();
+let mm = today.getMonth() + 1;
+let dd = today.getDate();
+
+if (dd < 10) dd = '0' + dd;
+if (mm < 10) mm = '0' + mm;
+
+return formattedToday = dd + '/' + mm + '/' + yyyy;
+}
+
+//Convert string to integer
+function StringToInt(strVal)
+{
+  var intVal=aqConvert.StrToInt(strVal);
+  return intVal;
+}
+
+//Check whether an element visible
+function ElementVisible(element,logTxt)
+{
+  if(element.Exists)
+  {
+  Log.Event("User is able to "+logTxt)
+  }
+  else
+  {
+    Log.Error("User is not able to "+logTxt)
+  }
+}
+
+//To generate 4 digit random numbers
+function getRandomNumber()
+{
+ var min = 1000, max = 9999;
+ return Math.round(Math.random()*(max-min)+min).toString();
+}
+
+module.exports.PageWait=WaitForPageToLoad;
+module.exports.Click=Click;
+module.exports.SendKeys=SendKeys;
+module.exports.ButtonClick=ClickButton;
+module.exports.SelectAndRetrieveValueFromDropdown=SelectOptionFromDropdown;
+module.exports.RetrieveTextFromElement=GetTextFromElement;
+module.exports.CompareStrings=CompareText;
+module.exports.WaitForElementVisible=WaitForElement;
+module.exports.GetCurrentDate=GetCurrentDate;
+module.exports.StringToInt=StringToInt;
+module.exports.ElementVisible=ElementVisible;
+module.exports.getRandomNumber=getRandomNumber;
+module.exports.browserObj=browser;

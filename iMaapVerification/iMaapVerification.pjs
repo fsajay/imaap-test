@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{D7B288FB-A14D-42FA-94C4-876DFF8C7445}">
+	<children>
+		<child name="iMaapAutomation" key="{D568E8B3-CC27-4D6B-AD73-925FB2A3F952}" path="iMaapAutomation\iMaapAutomation.mds" />
+	</children>
+	<testItems key="{D17E757E-951A-4406-83C2-E83246E3EA45}">
+		<children>
+			<testItem key="{7F4194C0-6374-496B-A6B2-32F5F774D93D}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{D568E8B3-CC27-4D6B-AD73-925FB2A3F952}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{A3A07CE5-8403-4B77-AFAD-15C4EE9DBEB9}" />
+	<analysis key="{EC8DFEBD-025C-46BF-BCC4-0F65F661A0C2}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>

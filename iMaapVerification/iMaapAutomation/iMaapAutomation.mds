@@ -1,0 +1,1218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}" version="15.0">
+	<children>
+		<folder name="NameMapping">
+			<folder name="Images">
+				<child name="611465437.png" key="{5C504D0C-4C33-48D1-A67C-4192ADF90780}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\..\..\611465437.png" />
+				<child name="611620781.png" key="{0E7990B9-93CB-451D-9A2E-6D5422DB0D89}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\..\..\611620781.png" />
+				<child name="103470906.png" key="{7B06BB4A-A4D1-4FC1-A23E-DCB47E5F6DD4}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\103470906.png" />
+				<child name="103797500.png" key="{3DDC0145-5020-4961-8918-8C9A7C425FEF}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\103797500.png" />
+				<child name="104490109.png" key="{8823FC92-6A4E-43FB-BE3C-FE1971CE6DB6}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\104490109.png" />
+				<child name="104775859.png" key="{5ED6EB66-AB5C-490D-A63D-035F8B127AE3}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\104775859.png" />
+				<child name="105177375.png" key="{CE0DE007-7B50-4175-8BE1-A0D1A19A4C18}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\105177375.png" />
+				<child name="105556531.png" key="{C6D2B58A-FB5C-4442-93BE-3ED9D557932F}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\105556531.png" />
+				<child name="105959531.png" key="{BD38CAB6-D915-44B2-A14A-FE60FFB8E5A5}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\105959531.png" />
+				<child name="107738218.png" key="{11B772F8-B5F9-4A1C-81FD-981C235546C4}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\107738218.png" />
+				<child name="110776640.png" key="{0D944B16-ECA0-4BD6-B542-2761DE5E0D33}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\110776640.png" />
+				<child name="112136093.png" key="{78F55378-0830-4BA8-8176-6AAAAC2B28B1}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\112136093.png" />
+				<child name="112707796.png" key="{8AEF3053-C712-477B-95E5-1842729AE832}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\112707796.png" />
+				<child name="172122796.png" key="{C647578E-A108-46E4-9614-095CEEE66D77}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\172122796.png" />
+				<child name="172843703.png" key="{503B9EDC-DF0A-4C19-AB6A-D5CC321D14C2}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\172843703.png" />
+				<child name="174517578.png" key="{A79899CF-D3DB-41D3-A62C-B2DD964F6F1B}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\174517578.png" />
+				<child name="181510046.png" key="{0734D656-6E8C-4A6F-B49E-F01FBB40BF7E}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\181510046.png" />
+				<child name="183858843.png" key="{5796AB12-4074-43C3-840D-C8DDFB7D4808}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\183858843.png" />
+				<child name="223914640.png" key="{FCF57D9D-3170-4AFE-9CBD-20277A192D42}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\223914640.png" />
+				<child name="224040343.png" key="{461ED341-7AF8-4690-A99D-B02FBC96D86F}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\224040343.png" />
+				<child name="226408984.png" key="{422E5BFC-24FF-4C0B-920C-67F388385EC6}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\226408984.png" />
+				<child name="226856953.png" key="{44F73CD9-D53B-4514-A7CA-D861ADB16319}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\226856953.png" />
+				<child name="227237234.png" key="{A3C5E5CA-7D09-462C-A65B-5B4B8C2B0F63}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\227237234.png" />
+				<child name="234136859.png" key="{EB92E83B-B6D1-4E33-813E-EB349E46EA37}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\234136859.png" />
+				<child name="234210078.png" key="{E5CCE45E-CF6E-413D-AD47-8DDC67B545DF}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\234210078.png" />
+				<child name="234321640.png" key="{65CFF8B0-1038-4071-8DD4-BFD45F104F12}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\234321640.png" />
+				<child name="237684843.png" key="{C0134A59-870F-4267-B063-6A64508F5E07}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\237684843.png" />
+				<child name="238649218.png" key="{1F387207-F900-4575-AC26-5CA74EBBE5D4}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\238649218.png" />
+				<child name="239977812.png" key="{448C5A1D-05E7-4684-B5A0-A3940A03B353}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\239977812.png" />
+				<child name="244677375.png" key="{507AFFCA-BC91-41A6-A7F6-75890AC9121F}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\244677375.png" />
+				<child name="244778765.png" key="{2AF32653-4A67-4191-9523-10029EF0D5FA}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\244778765.png" />
+				<child name="26830921.png" key="{2D70589C-E5AA-4BF8-B56F-8322C198A882}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\26830921.png" />
+				<child name="27060562.png" key="{A99161FA-F6C2-4230-A3C5-2B8AB70CA8C1}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\27060562.png" />
+				<child name="295452703.png" key="{55CB8DC9-EE20-48BB-B69C-A45C50BF97C5}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\295452703.png" />
+				<child name="296028500.png" key="{F9858A69-A182-421A-ABDF-D840AD8557D9}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\296028500.png" />
+				<child name="296365062.png" key="{93D2021D-686A-4A98-B5DA-B491DBF0B0B9}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\296365062.png" />
+				<child name="296547968.png" key="{01FA9CBB-041A-4A37-B6C1-08AAC75B94D5}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\296547968.png" />
+				<child name="297716593.png" key="{58FF7565-DC74-4E40-8918-4B686EBA0AD6}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\297716593.png" />
+				<child name="304235250.png" key="{56CEA462-DE3B-4CA5-B539-6DC55EA42097}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\304235250.png" />
+				<child name="353061562.png" key="{001646F9-3B11-40D5-8815-7FCE332C4927}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\353061562.png" />
+				<child name="364300750.png" key="{FCFA50C2-B3E1-4570-B2F9-7AF180C8DFAA}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\364300750.png" />
+				<child name="365144093.png" key="{2EA746B1-30B5-40F9-B433-F7A9512F68D2}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\365144093.png" />
+				<child name="365565171.png" key="{23803781-13CD-4685-BC5F-FDF13EE60271}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\365565171.png" />
+				<child name="366063281.png" key="{CE8F971C-9A5F-49A0-9EB7-6AC28ED60CAA}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\366063281.png" />
+				<child name="366313953.png" key="{FAD37E99-4EEE-4068-BE5B-93A415C93EF3}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\366313953.png" />
+				<child name="385320875.png" key="{F7423A21-99E4-4B97-8769-597046471E84}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\385320875.png" />
+				<child name="386867484.png" key="{749EBD0C-80BC-487B-BFB6-2EF702AA25C2}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\386867484.png" />
+				<child name="388511031.png" key="{D8060315-280C-4D07-8825-973B1D97637A}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\388511031.png" />
+				<child name="41851218.png" key="{6D21F97D-C75E-405F-8EFC-5E5E813F4E2D}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\41851218.png" />
+				<child name="425748796.png" key="{B97FFA01-44F7-4126-BBF8-0E7AF74755BA}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\425748796.png" />
+				<child name="429967234.png" key="{5ED14916-9F8B-4F0C-AF9A-8F833062906A}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\429967234.png" />
+				<child name="430101000.png" key="{58E68FCF-D5B0-46ED-961E-9F7890B935FE}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\430101000.png" />
+				<child name="433374203.png" key="{B0B09984-0003-41A9-836D-A06051283311}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\433374203.png" />
+				<child name="433920359.png" key="{51B1A9D5-8639-48A0-9A92-0A0A492FBD3E}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\433920359.png" />
+				<child name="445305796.png" key="{87E089A0-8A13-4D1E-8028-F0C64417A28F}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\445305796.png" />
+				<child name="445541468.png" key="{8325211F-AB42-4CDD-A99F-5AD97704552B}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\445541468.png" />
+				<child name="445902328.png" key="{B81A6A3F-91C0-4B51-8A1E-F0EEAE10A36B}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\445902328.png" />
+				<child name="446277234.png" key="{D64CB464-9AAF-4084-918A-BAD9B1A78317}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\446277234.png" />
+				<child name="447510890.png" key="{EF9D3DE7-1F29-448A-87FF-0C95978657C6}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\447510890.png" />
+				<child name="464192031.png" key="{4ED602ED-8226-4E93-9B39-B828A9BE10E4}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\464192031.png" />
+				<child name="499503656.png" key="{DF200B02-79F7-42D1-A19A-6DE89740F46F}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\499503656.png" />
+				<child name="505274203.png" key="{4380D296-AEDE-4C82-A59E-1F04FF62330E}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\505274203.png" />
+				<child name="511120265.png" key="{4437DF76-EAE1-44C7-BBD5-B93AEA7D140F}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\511120265.png" />
+				<child name="538484562.png" key="{5FF6DF7A-8AAE-4CE3-B726-4E6D0CEB6790}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\538484562.png" />
+				<child name="539468531.png" key="{E380001B-9D5D-40C9-8446-F56E8199C8CF}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\539468531.png" />
+				<child name="540361781.png" key="{3D8F3C02-0FF9-451E-BAA6-C37A1D24B66C}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\540361781.png" />
+				<child name="540639312.png" key="{2252FC4B-DFF7-4C01-84A6-312E949CA27B}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\540639312.png" />
+				<child name="543570343.png" key="{B243FA44-B065-4CF7-89B3-1C2BAF754DCE}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\543570343.png" />
+				<child name="545129578.png" key="{7C39ED01-4FF0-428B-B18E-7BDBBDD8BF77}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\545129578.png" />
+				<child name="545203750.png" key="{1BEA0FE0-0B9A-4199-933B-D91796620F5F}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\545203750.png" />
+				<child name="545248484.png" key="{759EDFD6-5C64-4927-8EBB-F1E42A52739D}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\545248484.png" />
+				<child name="545325484.png" key="{7291E3E5-EBC2-46D4-B30A-CBA72EC9F9F7}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\545325484.png" />
+				<child name="550153812.png" key="{8DFD5BAE-6CA3-44E1-B31D-E41651CEECC6}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\550153812.png" />
+				<child name="575559156.png" key="{03D98BD7-6485-4D92-BAA8-4FCA7DECBE5A}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\575559156.png" />
+				<child name="575985078.png" key="{735B0328-52AA-40B0-ACB8-E5092EF88DE0}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\575985078.png" />
+				<child name="576068375.png" key="{44BDFC37-3D05-4FB0-8D81-E98C3024280E}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\576068375.png" />
+				<child name="576144328.png" key="{6C2E9771-24DC-4541-98AF-45F9DE13BAF7}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\576144328.png" />
+				<child name="576210140.png" key="{513B1AEE-8868-42D7-BE23-29B9203020DD}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\576210140.png" />
+				<child name="576371750.png" key="{7895CCB2-7B83-42BD-B966-4539FAB6EDE5}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\576371750.png" />
+				<child name="576526125.png" key="{2ECFE809-AF1A-46A7-86B9-46E68D35F237}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\576526125.png" />
+				<child name="576605156.png" key="{3E30A3D1-E972-4C0E-8B52-36681EFD1EA9}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\576605156.png" />
+				<child name="576962828.png" key="{00955C41-612D-437D-8375-47EBEF6414DB}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\576962828.png" />
+				<child name="577008796.png" key="{5481C432-679F-417C-9D41-97ED74094D6A}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\577008796.png" />
+				<child name="577123078.png" key="{B75D2485-D8BF-4AC0-BAB0-EE3D5ABF8DB7}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\577123078.png" />
+				<child name="577174453.png" key="{837D6672-D119-480B-9BE6-B7896B07D6F7}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\577174453.png" />
+				<child name="577243968.png" key="{C47DAB5A-AB6A-4DAB-A59E-62E014CA607B}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\577243968.png" />
+				<child name="577344140.png" key="{556261DC-0955-4337-804C-4502361D9F59}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\577344140.png" />
+				<child name="577406625.png" key="{B59FAC55-4AA7-4CA1-BF2A-A63832272449}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\577406625.png" />
+				<child name="577465015.png" key="{67E00135-13DE-48D2-8F90-C1C31AFCC883}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\577465015.png" />
+				<child name="577532328.png" key="{B3E7AB4C-63C8-4164-AFCA-A03F211B3370}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\577532328.png" />
+				<child name="577587890.png" key="{C4F7E190-C8A9-4E33-BCFE-8027F6967C94}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\577587890.png" />
+				<child name="577641812.png" key="{9089B97E-C8FF-490A-9511-53E3557D5A5E}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\577641812.png" />
+				<child name="577693515.png" key="{CA75D3CD-B595-49F5-BF2E-4D1C985B5680}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\577693515.png" />
+				<child name="577745296.png" key="{B003C40B-C154-4BF5-A51D-35B81F098BD5}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\577745296.png" />
+				<child name="577790750.png" key="{0AF69123-5CE4-4133-8B55-C5E2CF79D35F}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\577790750.png" />
+				<child name="577845328.png" key="{5984D555-50B3-4761-BABC-46CFAD84090C}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\577845328.png" />
+				<child name="577888203.png" key="{9CEDFD94-7779-42C2-832F-908CC0309122}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\577888203.png" />
+				<child name="580275953.png" key="{580B6E6D-F51D-4731-884B-1F56EEC25C88}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\580275953.png" />
+				<child name="581139656.png" key="{5F80BFF6-77F8-4686-B242-F760390A0A0D}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\581139656.png" />
+				<child name="581185359.png" key="{53B9D7BB-A2DF-4E42-A37E-DE6E120F40EF}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\581185359.png" />
+				<child name="581301062.png" key="{D71A28E7-FA00-4A6C-9F37-2B200450A56C}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\581301062.png" />
+				<child name="581336875.png" key="{AE7F983C-651E-4C51-9EA0-094735BDFABC}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\581336875.png" />
+				<child name="581419265.png" key="{B6523590-A1F9-4418-BE4B-528F86EF3840}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\581419265.png" />
+				<child name="581532937.png" key="{27DF4F1C-7D1C-4A1C-AE5E-9C3542CD5B66}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\581532937.png" />
+				<child name="581578843.png" key="{BE34F5A6-25AA-4F76-8E30-987BF4872C75}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\581578843.png" />
+				<child name="584153437.png" key="{5B16EECD-C185-4905-9717-A284DA121590}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\584153437.png" />
+				<child name="584343890.png" key="{06DE33A2-ACE7-46F6-9A76-6721FA93466E}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\584343890.png" />
+				<child name="584538218.png" key="{E67F6B44-10B7-4602-900D-52AE68E1243A}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\584538218.png" />
+				<child name="584770640.png" key="{7DAB57DD-E96F-4D16-84D7-39063C7D9F02}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\584770640.png" />
+				<child name="584964515.png" key="{C75DA18A-447D-4848-80A1-CAD099FD5F9D}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\584964515.png" />
+				<child name="585177062.png" key="{57244721-56CD-4A4D-A0B6-96CC6B14945B}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\585177062.png" />
+				<child name="585267421.png" key="{6D2C37FD-6BC9-4778-A86C-7B3FE15CB0DF}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\585267421.png" />
+				<child name="585389296.png" key="{29B40EDC-780D-40A0-A3C8-7F7EA2B2B761}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\585389296.png" />
+				<child name="585467640.png" key="{5D3F64FE-8585-4927-8ECC-BCADC9C23FE5}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\585467640.png" />
+				<child name="585530531.png" key="{467657C4-297A-401B-B90D-4BE653B11620}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\585530531.png" />
+				<child name="585616718.png" key="{803FC565-6EC6-4EB3-81F6-FEE9D24A4B9A}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\585616718.png" />
+				<child name="585688125.png" key="{742926C2-3BCD-4264-8F37-348386A99D18}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\585688125.png" />
+				<child name="585836812.png" key="{E1724DD4-70E0-4484-A893-3B3C2CFFCC05}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\585836812.png" />
+				<child name="585944953.png" key="{96F0A9B7-92C4-4B30-B5F0-76818D44B00B}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\585944953.png" />
+				<child name="586041609.png" key="{E8340067-19EA-4BF7-A318-15868606D4D8}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\586041609.png" />
+				<child name="586150515.png" key="{8D07E2C6-1342-4291-881E-04F14BF7037D}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\586150515.png" />
+				<child name="586259359.png" key="{407918EC-CD5E-4B9F-9694-F67A481F0BD0}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\586259359.png" />
+				<child name="586341781.png" key="{58EAEF4A-A306-4F6E-8988-5F5279F7A2CF}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\586341781.png" />
+				<child name="586413562.png" key="{A8F0FECF-893F-42F6-A997-B4ECE25973AD}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\586413562.png" />
+				<child name="586790875.png" key="{E73B717A-F04B-496F-9B18-B35B7B8ED7EB}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\586790875.png" />
+				<child name="586884453.png" key="{32629D3B-7A06-4C3E-8053-694F9FD8C78F}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\586884453.png" />
+				<child name="587906515.png" key="{A70C604D-739F-4350-9576-2E7125FC0BD7}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\587906515.png" />
+				<child name="588366359.png" key="{8F8B7AA0-379A-48EA-A658-1BA27F9C3886}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\588366359.png" />
+				<child name="590409718.png" key="{1B1537E9-36B2-425B-A33E-953F56F296C7}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\590409718.png" />
+				<child name="590761140.png" key="{0EA739B0-8B84-4D00-8694-9FC47D311B89}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\590761140.png" />
+				<child name="591648515.png" key="{F8B6DA1F-123E-4721-A98E-6DCFF5CAD4B4}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\591648515.png" />
+				<child name="591719140.png" key="{9CB7DADA-AD6B-4E36-B695-6710386FBEE8}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\591719140.png" />
+				<child name="591797859.png" key="{D28D8796-D5FF-4266-96E3-AF71AC06C10C}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\591797859.png" />
+				<child name="591847796.png" key="{683E8E0B-6EC3-4744-A917-D8F4A80239EA}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\591847796.png" />
+				<child name="591928421.png" key="{6CBEFC57-BE5F-4DDB-823E-6F49204B626C}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\591928421.png" />
+				<child name="592024953.png" key="{8CFDF94B-BF97-46EA-AEC3-5AC5FE019D77}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\592024953.png" />
+				<child name="592717812.png" key="{39510CF8-E46A-4C06-9C3F-93AC58861EF2}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\592717812.png" />
+				<child name="592924218.png" key="{B6D2C5E5-99D6-4C22-9240-F4703B0EE796}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\592924218.png" />
+				<child name="593028000.png" key="{4B712D33-FCAC-4B4A-A9C6-E34D77D753F3}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\593028000.png" />
+				<child name="593141468.png" key="{B94168D4-511E-416A-B8EB-C10A9F14569D}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\593141468.png" />
+				<child name="593237031.png" key="{BEB5AEB6-F700-46E3-A7DB-365CF086EDE0}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\593237031.png" />
+				<child name="593357984.png" key="{6624A8A7-F1A6-4398-A670-D535EF177859}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\593357984.png" />
+				<child name="593540234.png" key="{23674A1D-27E6-4792-BB18-337789505513}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\593540234.png" />
+				<child name="593628750.png" key="{DABE1BA8-5543-44FC-B325-29047552C3F8}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\593628750.png" />
+				<child name="594596187.png" key="{D10B01C3-2832-4F50-9AFD-4A2D0A08B3B6}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\594596187.png" />
+				<child name="594684500.png" key="{7EA16452-FFDE-4852-B031-098EE9F5128F}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\594684500.png" />
+				<child name="594848906.png" key="{E1B011EF-81BE-4E13-BAE7-CFEBBCA7B21B}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\594848906.png" />
+				<child name="594928218.png" key="{0445BFBD-8E42-4658-9BC8-4880C45F50D8}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\594928218.png" />
+				<child name="595038546.png" key="{CF7D6B7C-25E9-460B-ADA7-D729B4F10628}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\595038546.png" />
+				<child name="595125718.png" key="{4D51E46E-137D-44A0-9746-6EEAA376AD7C}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\595125718.png" />
+				<child name="595283953.png" key="{4CE662B0-A0E5-4FE7-99F5-00618293C05F}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\595283953.png" />
+				<child name="598631437.png" key="{2659909F-7099-46FC-9767-87B1CC331856}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\598631437.png" />
+				<child name="600660140.png" key="{732E556E-3656-4918-869F-36013C3D6656}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\600660140.png" />
+				<child name="607713484.png" key="{C98CB971-1189-4A9D-9378-77FC0BE95985}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\607713484.png" />
+				<child name="611382171.png" key="{582779B8-AB2C-4D57-BE6D-914A4AF01A4B}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\611382171.png" />
+				<child name="611465437.png" key="{1E8C51BD-6A1D-4512-BAD8-328ADCD37EFC}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\611465437.png" />
+				<child name="611620781.png" key="{0FA72881-7B1A-4218-904F-1B7E19189F43}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\611620781.png" />
+				<child name="612293687.png" key="{EC607629-A0F9-42F7-9059-0CAD5C028D62}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\612293687.png" />
+				<child name="612397640.png" key="{D1E70B76-B596-4DE3-A2D1-AE23364F2425}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\612397640.png" />
+				<child name="616144625.png" key="{82DC58DD-7C09-496D-8F24-996F805D46DE}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\616144625.png" />
+				<child name="65644140.png" key="{31B99969-5EB8-4F70-BA58-203D94A14435}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\65644140.png" />
+				<child name="66628515.png" key="{5731DFCE-9E88-451D-8D8E-59A6217E5D12}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\66628515.png" />
+				<child name="692094625.png" key="{3063242E-7F99-47AA-ACC5-6523E1305A50}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\692094625.png" />
+				<child name="695060687.png" key="{2C04C939-6977-44AB-AAB3-E6071D9C7032}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\695060687.png" />
+				<child name="695212187.png" key="{B398B5C3-74F9-4ECA-965A-1D30D1F01221}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\695212187.png" />
+				<child name="695751937.png" key="{3F2EC183-FCCD-46F0-8079-BC5C4269F8A7}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\695751937.png" />
+				<child name="697102125.png" key="{9A3707D4-B7FE-45F9-A18A-77318364053A}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\697102125.png" />
+				<child name="70948562.png" key="{4CDF46E0-D47B-4FC9-9491-5146FA4ECB84}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\70948562.png" />
+				<child name="709711265.png" key="{5E5A79D8-6C86-4889-AE31-43005056F78D}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\709711265.png" />
+				<child name="710471515.png" key="{2110CCDF-83EC-492D-993F-4BD449A71A9C}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\710471515.png" />
+				<child name="710873031.png" key="{E035E877-017C-48E3-A447-2AA8D7EE5E19}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\710873031.png" />
+				<child name="720169000.png" key="{429BFEDB-5E62-4C99-BD7B-38E79FEC4EBC}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\720169000.png" />
+				<child name="720921500.png" key="{3EBEB968-929E-43C0-B174-EC7178AC33D6}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\720921500.png" />
+				<child name="721244218.png" key="{9548E86D-C771-468D-87F9-DF4BEFB1D468}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\721244218.png" />
+				<child name="722639312.png" key="{60E6DFA7-2493-470D-AF4F-AB43DD311C32}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\722639312.png" />
+				<child name="781727890.png" key="{BB3E8524-7FC0-4BC5-B9CA-29262622876A}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\781727890.png" />
+				<child name="80593187.png" key="{01265AD2-02D1-4FAD-9EDF-B8BB0C2A5C7A}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\80593187.png" />
+				<child name="86810187.png" key="{5AD3F62C-2969-4893-964A-343B621F1F69}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\86810187.png" />
+				<child name="87904515.png" key="{711B53DC-2147-4C16-B2FE-0EA0FBEFA3C9}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\87904515.png" />
+				<child name="91529031.png" key="{C417C1E9-11BA-4DFD-81FC-317C2ED8A321}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\91529031.png" />
+				<child name="92738859.png" key="{58A82491-F6BD-4B24-B833-D4AAAF5900B1}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\92738859.png" />
+				<child name="92971203.png" key="{FBB9524A-9AFB-4E02-8B71-8E82BEE7BDE5}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\92971203.png" />
+				<child name="93113593.png" key="{7694660D-8235-4ABE-8983-FAC4A88E57A3}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\93113593.png" />
+				<child name="93737015.png" key="{CF4A65CA-B10B-411B-9AA7-2B112417BA61}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\93737015.png" />
+				<child name="93796281.png" key="{989964EC-8BA0-4035-A1AA-09E0427E680C}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\93796281.png" />
+				<child name="94298546.png" key="{9B3F69ED-E950-40CE-AA8A-A7613C61F26B}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\94298546.png" />
+				<child name="95701468.png" key="{BEFF44CA-28A9-4C48-A882-8788055301CC}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\95701468.png" />
+				<child name="95868921.png" key="{4D5A8807-BD02-4424-A772-7A47C45EF778}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\95868921.png" />
+				<child name="96356718.png" key="{F2AA6CD2-8EE8-4104-84D1-CCA009CC7509}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\96356718.png" />
+				<child name="96563687.png" key="{DC64E48E-9E7F-4CFF-ACD4-D15D0D20001E}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\96563687.png" />
+				<child name="96794765.png" key="{0CA0E78C-2104-4A4D-9FAB-B6A597A4EB21}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\96794765.png" />
+				<child name="96967234.png" key="{93DDD971-1F6A-4998-8845-D0EC45ED81FE}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\96967234.png" />
+				<child name="97662843.png" key="{8794065C-D43B-4467-BABC-62CE2FA0C130}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\97662843.png" />
+				<child name="97930859.png" key="{C12F960B-00BF-4DF1-B01D-3785DF2F9345}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\97930859.png" />
+				<child name="Images.NMimg" key="{929F0933-46BE-40B2-A655-DFEF5A5430D2}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\Images\Images.NMimg" />
+			</folder>
+			<child name="NameMapping" key="{F6ADFF61-7012-4B59-8C85-24DA9E9C0BBD}" type="Name Mapping" typeId="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" pluginName="NameMapping" path="..\NameMapping\NameMapping.tcNM" />
+			<child name="TypeInfo.dat" key="{ED4C053A-C8A9-4DC4-94D6-7DDA0C00C6A2}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\NameMapping\TypeInfo.dat" />
+		</folder>
+		<child name="Script" key="{79734D68-46A6-46C0-8000-3B74AE08147B}" type="Script" typeId="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" pluginName="Script" path="Script\Script.tcScript" />
+		<child name="KeywordTests" key="{D64C22A3-B2B0-4798-80BD-1FA4E04C7770}" type="Keyword Testing" typeId="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" pluginName="Keyword Testing" path="KeywordTests\KeywordTests.tcKDT" />
+		<child name="Stores" key="{750A5836-9102-48E8-9B4C-022EEA8B5E7A}" type="Stores" typeId="{5238AF17-5FE2-48FF-8BCC-9803A975A4F4}" pluginName="Stores" path="Stores\Stores.tcStores" />
+	</children>
+	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
+	<testItems key="{1AB99CF3-086A-4BD1-B068-45827768E42F}" version="14">
+		<children />
+	</testItems>
+	<variables key="{50FB4222-71DA-4BD5-AEAB-422EC2D7BA6F}">
+		<data Version="4">
+			<Items>
+				<Variable Name="userName" Type="String" Local="False" Descr="Application UserName">
+					<DefValue StrValue="liya.abraham@imaap.com" />
+				</Variable>
+				<Variable Name="appPassword" Type="Password" Local="False" Descr="Application Password">
+					<DefValue StrValue="38003900360031003900330044003100460034004400380038004200460034003800430039004600320037003900360036003200460038004600420037004400380045003100420045003200370045004200340030003300310043003600430037003600460033004400370036004400" />
+				</Variable>
+				<Variable Name="caseNoText" Type="String" Local="False" Descr="CrashRecordPage: Crash Records">
+					<DefValue StrValue="AutoCase01" />
+				</Variable>
+				<Variable Name="crashDateText" Type="String" Local="False" Descr="CrashRecordPage: Crash Records">
+					<DefValue StrValue="10/10/2022" />
+				</Variable>
+				<Variable Name="crashTimeText" Type="String" Local="False" Descr="CrashRecordPage: Crash Records">
+					<DefValue StrValue="00:00" />
+				</Variable>
+				<Variable Name="vehicleRefNumText" Type="String" Local="False" Descr="CrashRecordPage: Vehicle Records">
+					<DefValue StrValue="1" />
+				</Variable>
+				<Variable Name="casualityVehicleReferenceText" Type="String" Local="False" Descr="CrashRecordPage: Vehicle Records">
+					<DefValue StrValue="1" />
+				</Variable>
+				<Variable Name="casualityRefNumText" Type="String" Local="False" Descr="CrashRecordPage: Casuality Records">
+					<DefValue StrValue="1" />
+				</Variable>
+				<Variable Name="numVehiclesInvolved" Type="String" Local="False" Descr="CrashRecordPage: Vehicle Records">
+					<DefValue StrValue="1" />
+				</Variable>
+				<Variable Name="crashNumOfCasualitiesText" Type="String" Local="False" Descr="CrashRecordPage: Crash Records">
+					<DefValue StrValue="1" />
+				</Variable>
+				<Variable Name="crashNumOfPedestriansText" Type="String" Local="False" Descr="CrashRecordPage: Crash Records">
+					<DefValue StrValue="1" />
+				</Variable>
+				<Variable Name="crashLatitudeText" Type="String" Local="False" Descr="CrashRecordPage: Crash Records">
+					<DefValue StrValue="2754133" />
+				</Variable>
+				<Variable Name="crashLongitudeText" Type="String" Local="False" Descr="CrashRecordPage: Crash Records">
+					<DefValue StrValue="476603.6" />
+				</Variable>
+				<Variable Name="crashAccidentLocationText" Type="String" Local="False" Descr="CrashRecordPage: Crash Records">
+					<DefValue StrValue="UMER IBN AL KHATTAB RD" />
+				</Variable>
+				<Variable Name="crashSpeedLimitText" Type="String" Local="False" Descr="CrashRecordPage: Crash Records">
+					<DefValue StrValue="100" />
+				</Variable>
+				<Variable Name="vehicleDriverAge" Type="String" Local="False" Descr="CrashRecordPage: Vehicle Records">
+					<DefValue StrValue="41" />
+				</Variable>
+				<Variable Name="vehicleDrivingLicenseNumText" Type="String" Local="False" Descr="CrashRecordPage: Vehicle Records">
+					<DefValue StrValue="2709749" />
+				</Variable>
+				<Variable Name="vehicleLicenseIssueDateText" Type="String" Local="False" Descr="CrashRecordPage: Vehicle Records">
+					<DefValue StrValue="11/08/2018" />
+				</Variable>
+				<Variable Name="vehiclePlateNumberText" Type="String" Local="False" Descr="CrashRecordPage: Vehicle Records">
+					<DefValue StrValue="16552" />
+				</Variable>
+				<Variable Name="vehiclePlateSerialText" Type="String" Local="False" Descr="CrashRecordPage: Vehicle Records">
+					<DefValue StrValue="x" />
+				</Variable>
+				<Variable Name="vehicleBrandText" Type="String" Local="False" Descr="CrashRecordPage: Vehicle Records">
+					<DefValue StrValue="تويوتا هاي إيس" />
+				</Variable>
+				<Variable Name="vehicleYearOfManufactureText" Type="String" Local="False" Descr="CrashRecordPage: Vehicle Records">
+					<DefValue StrValue="2019" />
+				</Variable>
+				<Variable Name="vehicleOwnerText" Type="String" Local="False" Descr="CrashRecordPage: Vehicle Records">
+					<DefValue StrValue="كم كم لخدمات توصيل الطلبات" />
+				</Variable>
+				<Variable Name="casualityAgeText" Type="String" Local="False" Descr="CrashRecordPage: Casuality Records">
+					<DefValue StrValue="30" />
+				</Variable>
+				<Variable Name="crashEditDateTextBox" Type="String" Local="False" Descr="EditCrashRecordPage: Crash Records">
+					<DefValue StrValue="11/11/2022" />
+				</Variable>
+				<Variable Name="delMessage" Type="String" Local="False" Descr="Crash Records: Delete message">
+					<DefValue StrValue="No records found." />
+				</Variable>
+				<Variable Name="logoutMessage" Type="String" Local="False" Descr="Log out Message">
+					<DefValue StrValue="You are now logged out" />
+				</Variable>
+				<Variable Name="caseNoLabel" Type="String" Local="False" Descr="CrashRecords-TestData">
+					<DefValue StrValue="Case No" />
+				</Variable>
+				<Variable Name="crashDateLabel" Type="String" Local="False" Descr="CrashRecords-TestData">
+					<DefValue StrValue="Date" />
+				</Variable>
+				<Variable Name="crashTimeLabel" Type="String" Local="False" Descr="CrashRecords-TestData">
+					<DefValue StrValue="Time" />
+				</Variable>
+				<Variable Name="crashNumOfVehiclesLabel" Type="String" Local="False" Descr="CrashRecords-TestData">
+					<DefValue StrValue="Number of Vehicles Involved" />
+				</Variable>
+				<Variable Name="crashNumOfCasualitiesLabel" Type="String" Local="False" Descr="CrashRecords-TestData">
+					<DefValue StrValue="Number of Casualties" />
+				</Variable>
+				<Variable Name="crashNumOfPedestrianCasualitiesLabel" Type="String" Local="False" Descr="CrashRecords-TestData">
+					<DefValue StrValue="Number of Pedestrian Casualties" />
+				</Variable>
+				<Variable Name="crashAccidentSeverityLabel" Type="String" Local="False" Descr="CrashRecords-TestData">
+					<DefValue StrValue="Accident Severity" />
+				</Variable>
+				<Variable Name="crashTypeOfAccidentLabel" Type="String" Local="False" Descr="CrashRecords-TestData">
+					<DefValue StrValue="Type of Accident" />
+				</Variable>
+				<Variable Name="crashLatitudeLabel" Type="String" Local="False" Descr="CrashRecords-TestData">
+					<DefValue StrValue="Latitude" />
+				</Variable>
+				<Variable Name="crashLongitudeLabel" Type="String" Local="False" Descr="CrashRecords-TestData">
+					<DefValue StrValue="Longitude" />
+				</Variable>
+				<Variable Name="crashAccidentLocationLabel" Type="String" Local="False" Descr="CrashRecords-TestData">
+					<DefValue StrValue="Accident Location" />
+				</Variable>
+				<Variable Name="crashPrimaryCauseLabel" Type="String" Local="False" Descr="CrashRecords-TestData">
+					<DefValue StrValue="Primary Cause of Accident" />
+				</Variable>
+				<Variable Name="crashSecondaryCauseLabel" Type="String" Local="False" Descr="CrashRecords-TestData">
+					<DefValue StrValue="Secondary Cause of Accident" />
+				</Variable>
+				<Variable Name="crashCollisionTypeLabel" Type="String" Local="False" Descr="CrashRecords-TestData">
+					<DefValue StrValue="Collision Type" />
+				</Variable>
+				<Variable Name="crashSpeedLimitLabel" Type="String" Local="False" Descr="CrashRecords-TestData">
+					<DefValue StrValue="Speed Limit" />
+				</Variable>
+				<Variable Name="crashJunctionTypeLabel" Type="String" Local="False" Descr="CrashRecords-TestData">
+					<DefValue StrValue="Junction Type" />
+				</Variable>
+				<Variable Name="crashLandmarkLabel" Type="String" Local="False" Descr="CrashRecords-TestData">
+					<DefValue StrValue="Landmark" />
+				</Variable>
+				<Variable Name="crashDividerTypeLabel" Type="String" Local="False" Descr="CrashRecords-TestData">
+					<DefValue StrValue="Divider Type" />
+				</Variable>
+				<Variable Name="crashLightConditionsLabel" Type="String" Local="False" Descr="CrashRecords-TestData">
+					<DefValue StrValue="Light Conditions" />
+				</Variable>
+				<Variable Name="crashTrafficSignsLabel" Type="String" Local="False" Descr="CrashRecords-TestData">
+					<DefValue StrValue="Traffic Signs" />
+				</Variable>
+				<Variable Name="crashWeatherLabel" Type="String" Local="False" Descr="CrashRecords-TestData">
+					<DefValue StrValue="Weather" />
+				</Variable>
+				<Variable Name="crashSurfaceConditionLabel" Type="String" Local="False" Descr="CrashRecords-TestData">
+					<DefValue StrValue="Surface Condition" />
+				</Variable>
+				<Variable Name="vehicleRefNoLabel" Type="String" Local="False" Descr="VehicleRecords-TestData">
+					<DefValue StrValue="Vehicle Ref No" />
+				</Variable>
+				<Variable Name="vehicleDriverFaultLabel" Type="String" Local="False" Descr="VehicleRecords-TestData">
+					<DefValue StrValue="Driver at Fault" />
+				</Variable>
+				<Variable Name="vehicleSexOfDriverLabel" Type="String" Local="False" Descr="VehicleRecords-TestData">
+					<DefValue StrValue="Sex of Driver" />
+				</Variable>
+				<Variable Name="vehicleAgeofDriverLabel" Type="String" Local="False" Descr="VehicleRecords-TestData">
+					<DefValue StrValue="Age of Driver" />
+				</Variable>
+				<Variable Name="vehicleNationalityOfDriverLabel" Type="String" Local="False" Descr="VehicleRecords-TestData">
+					<DefValue StrValue="Nationality of Driver" />
+				</Variable>
+				<Variable Name="vehicleDrivingLicenseNumLabel" Type="String" Local="False" Descr="VehicleRecords-TestData">
+					<DefValue StrValue="Driving Licence Number" />
+				</Variable>
+				<Variable Name="vehicleDrivingLicenseIssueDateLabel" Type="String" Local="False" Descr="VehicleRecords-TestData">
+					<DefValue StrValue="Driving Licence Issue Date" />
+				</Variable>
+				<Variable Name="vehicleDrivingLicenceIssuingAuthorityLabel" Type="String" Local="False" Descr="VehicleRecords-TestData">
+					<DefValue StrValue="Driving Licence Issuing Authority" />
+				</Variable>
+				<Variable Name="vehicleRegistrationAuthorityLabel" Type="String" Local="False" Descr="VehicleRecords-TestData">
+					<DefValue StrValue="Vehicle Registration Authority" />
+				</Variable>
+				<Variable Name="vehiclePlateNumberLabel" Type="String" Local="False" Descr="VehicleRecords-TestData">
+					<DefValue StrValue="Vehicle Plate Number" />
+				</Variable>
+				<Variable Name="vehiclePlateSerialLabel" Type="String" Local="False" Descr="VehicleRecords-TestData">
+					<DefValue StrValue="Vehicle Plate Serial" />
+				</Variable>
+				<Variable Name="vehicleAlcoholLabel" Type="String" Local="False" Descr="VehicleRecords-TestData">
+					<DefValue StrValue="Alcohol" />
+				</Variable>
+				<Variable Name="vehicleHitandRunLabel" Type="String" Local="False" Descr="VehicleRecords-TestData">
+					<DefValue StrValue="Hit and Run" />
+				</Variable>
+				<Variable Name="vehicleSeatBeltHelmetWornLabel" Type="String" Local="False" Descr="VehicleRecords-TestData">
+					<DefValue StrValue="Seat Belt/ Helmet Worn" />
+				</Variable>
+				<Variable Name="vehicleTypeLabel" Type="String" Local="False" Descr="VehicleRecords-TestData">
+					<DefValue StrValue="Vehicle Type" />
+				</Variable>
+				<Variable Name="vehicleCollisionOutsideRoadLabel" Type="String" Local="False" Descr="VehicleRecords-TestData">
+					<DefValue StrValue="Collision Outside Road" />
+				</Variable>
+				<Variable Name="vehicleTyreConditionLabel" Type="String" Local="False" Descr="VehicleRecords-TestData">
+					<DefValue StrValue="Tyre Condition" />
+				</Variable>
+				<Variable Name="vehicleNumberOfAxlesLabel" Type="String" Local="False" Descr="VehicleRecords-TestData">
+					<DefValue StrValue="Number of Axles" />
+				</Variable>
+				<Variable Name="vehicleDegreeOfDamageLabel" Type="String" Local="False" Descr="VehicleRecords-TestData">
+					<DefValue StrValue="Degree of Damage" />
+				</Variable>
+				<Variable Name="vehicleYearOfManufactureLabel" Type="String" Local="False" Descr="VehicleRecords-TestData">
+					<DefValue StrValue="Year of Manufacture" />
+				</Variable>
+				<Variable Name="vehicleTintedGlassLabel" Type="String" Local="False" Descr="VehicleRecords-TestData">
+					<DefValue StrValue="Tinted Glass" />
+				</Variable>
+				<Variable Name="vehicleVehicleOwnerLabel" Type="String" Local="False" Descr="VehicleRecords-TestData">
+					<DefValue StrValue="Vehicle Owner" />
+				</Variable>
+				<Variable Name="vehicleTypeBrandLabel" Type="String" Local="False" Descr="VehicleRecords-TestData">
+					<DefValue StrValue="Type of Vehicle (Brand)" />
+				</Variable>
+				<Variable Name="casualityVehicleRefNoLabel" Type="String" Local="False" Descr="CasualityRecords-TestData">
+					<DefValue StrValue="Vehicle Ref No" />
+				</Variable>
+				<Variable Name="casualtyRefNoLabel" Type="String" Local="False" Descr="CasualityRecords-TestData">
+					<DefValue StrValue="Casualty Ref No" />
+				</Variable>
+				<Variable Name="casualtyClassLabel" Type="String" Local="False" Descr="CasualityRecords-TestData">
+					<DefValue StrValue="Casualty Class" />
+				</Variable>
+				<Variable Name="casualitySexLabel" Type="String" Local="False" Descr="CasualityRecords-TestData">
+					<DefValue StrValue="Sex" />
+				</Variable>
+				<Variable Name="casualityNationalityLabel" Type="String" Local="False" Descr="CasualityRecords-TestData">
+					<DefValue StrValue="Nationality" />
+				</Variable>
+				<Variable Name="casualityAgeLabel" Type="String" Local="False" Descr="CasualityRecords-TestData">
+					<DefValue StrValue="Age" />
+				</Variable>
+				<Variable Name="casualityDegreeOfInjuryLabel" Type="String" Local="False" Descr="CasualityRecords-TestData">
+					<DefValue StrValue="Degree of Injury" />
+				</Variable>
+				<Variable Name="casualitySeatBeltHelmetWornLabel" Type="String" Local="False" Descr="CasualityRecords-TestData">
+					<DefValue StrValue="Seat Belt / Helmet Worn" />
+				</Variable>
+				<Variable Name="menuOptionCrash" Type="String" Local="False" Descr="Import Page">
+					<DefValue StrValue="Crash Records" />
+				</Variable>
+				<Variable Name="menuOptionImport" Type="String" Local="False" Descr="Import Page">
+					<DefValue StrValue="Import" />
+				</Variable>
+				<Variable Name="importCompletedText" Type="String" Local="False" Descr="Import Page">
+					<DefValue StrValue="Import Completed." />
+				</Variable>
+				<Variable Name="viewLabelData" Type="String" Local="False" Descr="Import Page">
+					<DefValue StrValue="Name of the Imported File,,Total Number Of Records Identified For Import,Total Number Of Records Successfully Imported,Total Number Of Records Inserted,Total Number Of Records Updated,Total Number Of Records Excluded,Total Number Of Records Failed To Import,Total Number Of Duplicate Records" />
+				</Variable>
+				<Variable Name="viewCrashActualRecord" Type="String" Local="False" Descr="Import Page">
+					<DefValue StrValue="Auto_Crashes_Template1,,1,1,1,0,0,0,0" />
+				</Variable>
+				<Variable Name="viewVehicleActualRecord" Type="String" Local="False" Descr="Import Page">
+					<DefValue StrValue="Auto_Vehicles_Template1,,1,1,1,0,0,0,0" />
+				</Variable>
+				<Variable Name="viewCasualtyActualRecord" Type="String" Local="False" Descr="Import Page">
+					<DefValue StrValue="Auto_Casualties_Template1,,1,1,1,0,0,0,0" />
+				</Variable>
+				<Variable Name="optionLabel1" Type="String" Local="False" Descr="HotspotIdentificationPage">
+					<DefValue StrValue="Save As Potential Hotspot,View Crashes,Show Histogram,Save as User Site" />
+				</Variable>
+				<Variable Name="optionLabel2" Type="String" Local="False" Descr="HotspotIdentificationPage">
+					<DefValue StrValue="Query Builder,Summary Print Report,User Defined Report,Cross Tab,Standard Report,Export,Stick Analysis" />
+				</Variable>
+				<Variable Name="bandType" Type="String" Local="False" Descr="HotspotIdentificationPage">
+					<DefValue StrValue="General" />
+				</Variable>
+				<Variable Name="hotspotName" Type="String" Local="False" Descr="HotspotIdentificationPage">
+					<DefValue StrValue="AutoHotspot" />
+				</Variable>
+				<Variable Name="mpf" Type="String" Local="False" Descr="HotspotIdentificationPage">
+					<DefValue StrValue="25" />
+				</Variable>
+				<Variable Name="detailsLabel" Type="String" Local="False" Descr="HotspotManagementPage">
+					<DefValue StrValue="Name,Year" />
+				</Variable>
+				<Variable Name="identificationYr" Type="String" Local="False" Descr="HotspotIdentificationPage">
+					<DefValue StrValue="2023" />
+				</Variable>
+				<Variable Name="speedToSelect" Type="String" Local="False" Descr="HotspotManagementPage">
+					<DefValue StrValue="Excessive speed" />
+				</Variable>
+				<Variable Name="engrNotesText" Type="String" Local="False" Descr="HotspotManagementPage">
+					<DefValue StrValue="AutoTest" />
+				</Variable>
+				<Variable Name="ksiReductionValue" Type="String" Local="False" Descr="HotspotManagementPage">
+					<DefValue StrValue="10" />
+				</Variable>
+				<Variable Name="assignedToTextbox" Type="String" Local="False" Descr="HotspotManagementPage">
+					<DefValue StrValue="Auto Tester" />
+				</Variable>
+				<Variable Name="importCrashPath" Type="String" Local="False" Descr="Import File Path-Crash">
+					<DefValue StrValue="Auto_Crashes_Template1.xlsx" />
+				</Variable>
+				<Variable Name="importVehiclePath" Type="String" Local="False" Descr="Import File Path-Vehicle">
+					<DefValue StrValue="Auto_Vehicles_Template1.xlsx" />
+				</Variable>
+				<Variable Name="importCasualityPath" Type="String" Local="False" Descr="Import File Path-Casuality">
+					<DefValue StrValue="Auto_Casualties_Template1.xlsx" />
+				</Variable>
+			</Items>
+		</data>
+	</variables>
+	<settings key="{504E2AD0-4FA1-48AF-AB77-0E0BF58A565C}">
+		<settingsVersion value="15.57" />
+		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
+		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Use all processes" />
+				<row val0="Use only tested applications" />
+				<row val0="Use only selected processes" />
+				<row val0="Ignore selected processes" />
+				<row val0="Ignore all processes" />
+			</data>
+		</setting>
+		<setting name="ApplicationHangingProcessList" type="6" rowIndex="-1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="ApplicationHangingTimeout" type="2" value="30000" />
+		<setting name="AzureDevOps_CollectionID" type="5" value="" />
+		<setting name="AzureDevOps_ProjectID" type="5" value="" />
+		<setting name="AzureDevOps_ServerName" type="5" value="" />
+		<setting name="AzureDevOps_TeamProject" type="5" value="" />
+		<setting name="AzureDevOps_TeamProjectCollection" type="5" value="" />
+		<setting name="AzureDevOps_URL" type="5" value="" />
+		<setting name="BitBar_APIKey" type="5" value="" />
+		<setting name="BitBar_APIURL" type="5" value="https://cloud.bitbar.com/api/" />
+		<setting name="BitBar_FindAndroidDevice" type="5" value="( Device Group As in Selected Device )" />
+		<setting name="BitBar_FindIOSDevice" type="5" value="( Device Group As in Selected Device )" />
+		<setting name="BitBar_FRAMEWORKID_Android" type="2" value="0" />
+		<setting name="BitBar_FRAMEWORKID_IOS" type="2" value="0" />
+		<setting name="BitBar_HUBURL" type="5" value="https://appium.bitbar.com/wd/hub/" />
+		<setting name="BitBar_NewCommandTimeout" type="2" value="300" />
+		<setting name="CBT_AppsAvailability" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Everywhere" />
+				<row val0="In a local network" />
+				<row val0="On a local computer" />
+				<row val0="Via proxy" />
+			</data>
+		</setting>
+		<setting name="CBT_Authkey" type="5" value="" />
+		<setting name="CBT_LocalHtmlDir" type="5" value="" />
+		<setting name="CBT_ProxyAddress" type="5" value="" />
+		<setting name="CBT_ProxyLogin" type="5" value="" />
+		<setting name="CBT_ProxyPassword" type="5" value="" />
+		<setting name="CBT_ProxyPort" type="2" value="0" />
+		<setting name="CBT_UserName" type="5" value="" />
+		<setting name="CLRBridge_PreferredApartmentModel" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Does not matter" />
+				<row val0="Single-threaded apartment" />
+				<row val0="Multi-threaded apartment" />
+			</data>
+		</setting>
+		<setting name="CLRBridge_PreferredArchitecture" type="6" rowIndex="1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="The same as the operating system" />
+				<row val0="32-bit" />
+				<row val0="64-bit" />
+			</data>
+		</setting>
+		<setting name="CLRBridge_SelectedComponents" type="6" rowIndex="-1" colIndex="1">
+			<columns>
+				<column type="5" enabled="True" />
+				<column type="1" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="CountProcessesOfAllUsers" type="1" value="True" />
+		<setting name="DbgServices_Active" type="1" value="True" />
+		<setting name="DbgServices_DepthShown" type="2" value="10" />
+		<setting name="DbgServices_EnableEvents" type="1" value="True" />
+		<setting name="DbgServices_Priority" type="6" rowIndex="3" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="pmLowest" />
+				<row val0="pmLower" />
+				<row val0="pmNormal" />
+				<row val0="pmHigher" />
+				<row val0="pmHighest" />
+			</data>
+		</setting>
+		<setting name="DbgServices_UseExtendedDebugger" type="1" value="True" />
+		<setting name="DraggingDelay" type="2" value="5" />
+		<setting name="General_CurrentImageFormat" type="5" value="126_0_0_0_97_113_115_111_1_0_0_0_4_0_0_0_114_0_111_0_111_0_116_0_1_0_0_0_9_0_0_0_102_0_111_0_114_0_109_0_97_0_116_0_107_0_101_0_121_0_1_0_0_0_38_0_0_0_123_0_66_0_65_0_55_0_52_0_53_0_49_0_54_0_57_0_45_0_70_0_51_0_52_0_68_0_45_0_52_0_55_0_49_0_48_0_45_0_66_0_51_0_55_0_70_0_45_0_68_0_53_0_69_0_70_0_69_0_56_0_65_0_53_0_49_0_51_0_51_0_57_0_125_0_1_0_0_0_16_0_0_0_112_0_110_0_103_0_99_0_111_0_110_0_102_0_105_0_103_0_117_0_114_0_97_0_116_0_105_0_111_0_110_0_2_0_0_0_16_0_0_0_99_0_111_0_109_0_112_0_114_0_101_0_115_0_115_0_105_0_111_0_110_0_108_0_101_0_118_0_101_0_108_0_0_0_0_0_4_0_0_0_10_0_0_0_105_0_110_0_116_0_101_0_114_0_108_0_97_0_99_0_101_0_100_0_5_0_0_0_0_0_0_0_0_0_" />
+		<setting name="General_DisableDWMBeforeCapturingImage" type="1" value="False" />
+		<setting name="General_ImageFormat" type="5" value="Format: PNG; Compression level: 4" />
+		<setting name="General_ObjectTreeModel" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Tree" />
+				<row val0="Flat" />
+			</data>
+		</setting>
+		<setting name="General_ProjectLogLocation" type="5" value="Log" />
+		<setting name="General_RepaintWindowBeforeCapturingImage" type="1" value="True" />
+		<setting name="General_UnitsEncoding" type="6" rowIndex="1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="UTF-16" />
+				<row val0="UTF-8" />
+				<row val0="ANSI" />
+				<row val0="Auto" />
+			</data>
+		</setting>
+		<setting name="Gherkin_ExamplesAreTestCases" type="1" value="False" />
+		<setting name="Gherkin_ShowHiddenStepDefinitionWarn" type="1" value="True" />
+		<setting name="Gherkin_StopFeatureIfScenarioFailss" type="1" value="False" />
+		<setting name="Gherkin_StopScenarioIfStepFails" type="1" value="False" />
+		<setting name="Gherkin_StopScenarioOutlineIfExampleFails" type="1" value="False" />
+		<setting name="Gherkin_UseStepDuringDefinitionsGeneration" type="1" value="False" />
+		<setting name="HipTest_ProjectID" type="2" value="-1" />
+		<setting name="HipTest_ProjectName" type="5" value="The current project is not bound to CucumberStudio." />
+		<setting name="HipTest_SaveResults" type="1" value="True" />
+		<setting name="HipTest_SynchronizeBeforeRun" type="1" value="True" />
+		<setting name="HipTest_SynchronizeOnOpening" type="1" value="True" />
+		<setting name="HipTest_SynchronizeTestRun" type="1" value="False" />
+		<setting name="HipTest_TestRunID" type="5" value="" />
+		<setting name="HipTest_TestRunName" type="5" value="[Test run created last]" />
+		<setting name="JavaBridge_Classes" type="6" rowIndex="-1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="JavaBridge_ClassPaths" type="6" rowIndex="-1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="JavaFXOpenApp_DoNotRecognizeJavaFXStageAsAWTComponent" type="1" value="True" />
+		<setting name="JavaFXOpenApp_ExposedCustomNodes" type="6" rowIndex="-1" colIndex="2">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="JavaFXOpenApp_NodeByClassNameFilters" type="6" rowIndex="8" colIndex="2">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="1" enabled="True" />
+			</columns>
+			<data>
+				<row val0="False" val1="*" val2="False" />
+				<row val0="True" val1="javafx.scene.SubScene" val2="True" />
+				<row val0="True" val1="javafx.scene.control.Control" val2="True" />
+				<row val0="True" val1="javafx.scene.web.WebView" val2="False" />
+				<row val0="False" val1="javafx.scene.canvas.Canvas" val2="True" />
+				<row val0="False" val1="javafx.scene.image.ImageView" val2="True" />
+				<row val0="False" val1="javafx.scene.media.MediaView" val2="True" />
+				<row val0="True" val1="com.sun.javafx.scene.control.skin.ContextMenuContent$MenuItemContainer" val2="True" />
+				<row val0="True" val1="com.sun.javafx.scene.control.ContextMenuContent$MenuItemContainer" val2="True" />
+			</data>
+		</setting>
+		<setting name="JavaOpenApp_DoNotRecognizeChildSWTAsParent" type="1" value="False" />
+		<setting name="KeyPressingDelay" type="2" value="0" />
+		<setting name="MobileSupportType" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Mobile device cloud (BitBar and local Appium)" />
+				<row val0="Legacy mobile support" />
+			</data>
+		</setting>
+		<setting name="MouseMovementDelay" type="2" value="0" />
+		<setting name="ObjectMapping_Objects" type="6" rowIndex="-1" colIndex="3">
+			<columns>
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+				<column type="2" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="OpenApps_ActivateSystemProcesses" type="1" value="False" />
+		<setting name="OpenApps_DbgAgent_AdvancedExceptionHandling" type="1" value="True" />
+		<setting name="OpenApps_DbgAgent_CombineClassDefinitions" type="1" value="False" />
+		<setting name="OpenApps_DbgAgent_EnableDebugAgent" type="1" value="True" />
+		<setting name="OpenApps_DbgAgent_StringLengthLimit" type="2" value="1024" />
+		<setting name="OpenApps_DbgAgent_UseStaticLibs" type="1" value="True" />
+		<setting name="OpenApps_EnableMultipleNamesForObjects" type="1" value="False" />
+		<setting name="OpenApps_FlashFlex_InstallFlashInjector" type="1" value="False" />
+		<setting name="OpenApps_FlashFlex_TrustedLocations" type="6" rowIndex="0" colIndex="1">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="True" val1="%PRODUCT_LOCATION%\Open Apps\Flex\FlashInjector.swf" />
+			</data>
+		</setting>
+		<setting name="OpenApps_HybridMobile_AccessPolicy" type="1" value="False" />
+		<setting name="OpenApps_HybridMobile_DynamicIdentifiers" type="6" rowIndex="37" colIndex="9">
+			<columns>
+				<column type="2" enabled="True" />
+				<column type="2" enabled="True" />
+				<column type="1" enabled="True" />
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+			</columns>
+			<data>
+				<row val0="-1" val1="0" val2="True" val3="True" val4="ASP.NET" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="0" val1="0" val2="False" val3="True" val4="Do not use IDs ending with a string like &quot;ctl00&quot;" val5="RegExp" val6="^(.*[-_$])?(ctl[0-9]+)$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="0" val1="0" val2="False" val3="True" val4="Remove GUIDs and ctl00-like prefixes from Sharepoint IDs" val5="RegExp" val6="(.+?_(\h+_\h+_\h+_\h+_\h+))+(.*ctr?l[0-9]+)?[_$]?{.*}$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="0" val1="0" val2="False" val3="True" val4="For IDs containing a string like &quot;ctl00_&quot;, leave only symbols after this string" val5="RegExp" val6=".*(ctl[0-9]+[-_$]+){.*}" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="Dojo toolkit" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="4" val1="0" val2="False" val3="True" val4="Do not use IDs starting with &quot;dijit_&quot;" val5="Wildcard" val6="dijit_*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="Google Web Toolkit" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="6" val1="0" val2="False" val3="True" val4="Remove all but the last part of IDs like &quot;gwt-uid-370_runButton&quot;" val5="RegExp" val6="^(gwt-uid-[0-9]+)(_{.*})?$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="6" val1="0" val2="False" val3="True" val4="Remove dynamic parts of Sencha GXT IDs" val5="RegExp" val6="^(x-((widget)|(auto))-.*[0-9]+)([-_]{.*})?$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="JavaServer Faces" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="9" val1="0" val2="False" val3="True" val4="Do not use IDs like &quot;_t14&quot;" val5="RegExp" val6="^{_t}{[0-9]+}$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="9" val1="0" val2="False" val3="True" val4="Do not use IDs like &quot;j_id23&quot; or &quot;j_idt23&quot;" val5="RegExp" val6="^{j_idt?}{[0-9]+}$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="9" val1="0" val2="False" val3="True" val4="Remove all but the last part of IDs like &quot;frm:menuLinks:0:link&quot;" val5="RegExp" val6="(.+):{[^0-9]+}$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="9" val1="0" val2="False" val3="True" val4="Do not use IDs like &quot;frm:menuLinks:3:link&quot;" val5="RegExp" val6="(.+):(.*)" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="jQuery UI library" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="14" val1="0" val2="False" val3="True" val4="Do not use IDs starting with &quot;ui-id-&quot;" val5="Wildcard" val6="ui-id-*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="Microsoft Dynamics" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="16" val1="0" val2="False" val3="True" val4="Do not use IDs like &quot;id-33&quot; or &quot;id__14&quot;" val5="RegExp" val6="^id[_0-9\-]+$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="Salesforce" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="18" val1="0" val2="False" val3="True" val4="Do not use IDs like &quot;checkbox-1&quot; or &quot;checkbox-123-3&quot;" val5="RegExp" val6="^checkbox-[0-9\-]+$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="18" val1="0" val2="False" val3="True" val4="Do not use IDs like &quot;input-1&quot; or &quot;input-123-3&quot;" val5="RegExp" val6="^input-[0-9\-]+$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="Sencha ExtJS" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="21" val1="0" val2="False" val3="True" val4="Do not use IDs containing &quot;ext-gen&quot;" val5="RegExp" val6="^(.*-)?ext-gen" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="21" val1="0" val2="False" val3="True" val4="Do not use IDs containing &quot;ext-comp&quot;" val5="RegExp" val6="^(.*-)?ext-comp" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="21" val1="0" val2="False" val3="True" val4="Do not use IDs starting with &quot;extdd-&quot;" val5="Wildcard" val6="extdd-*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="21" val1="0" val2="False" val3="True" val4="Remove digits from IDs like &quot;treepicker-1038&quot; or &quot;treepicker-1038-inputEl&quot;" val5="RegExp" val6="^{[A-Za-z-]+}-{\d\d\d\d+}{.*}$" val7="$1$3" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="Sencha Touch" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="26" val1="0" val2="False" val3="True" val4="Remove dynamic parts of Sencha Touch IDs" val5="RegExp" val6="^ext-{.*}-\d+$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="Yahoo! UI library" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="28" val1="0" val2="False" val3="True" val4="Do not use IDs starting with &quot;yui-gen&quot;" val5="Wildcard" val6="yui-gen*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="28" val1="0" val2="False" val3="True" val4="Do not use IDs containing &quot;yui_3_&quot;" val5="Wildcard" val6="*yui_3_*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="Other" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="31" val1="0" val2="False" val3="True" val4="Do not use IDs containing GUID" val5="RegExp" val6="\h+-\h+-\h+-\h+-\h+" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="31" val1="0" val2="False" val3="True" val4="Remove leading characters from IDs like &quot;c1114509959-searchform&quot;" val5="RegExp" val6="^[A-Za-z](\d\d\d\d\d+){[A-Za-z-]*}$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="31" val1="0" val2="False" val3="True" val4="Remove trailing digits from IDs like &quot;unique-123456&quot;" val5="RegExp" val6="^{[A-Za-z-]+}(\d\d\d\d\d+)$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="31" val1="0" val2="False" val3="True" val4="Remove digits from IDs like &quot;some_unique_123456_text&quot;" val5="RegExp" val6="^{[A-Za-z_]+}_(\d\d\d\d\d+){[A-Za-z_]*}$" val7="$1$2" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="31" val1="0" val2="False" val3="True" val4="Remove digits from IDs like &quot;some_unique123456_text&quot;" val5="RegExp" val6="^{[A-Za-z_]+}(\d\d\d\d\d+){[A-Za-z_]*}$" val7="$1$2" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="Custom" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+			</data>
+		</setting>
+		<setting name="OpenApps_HybridMobile_IdentificationAttribute" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="ID" />
+				<row val0="Name" />
+			</data>
+		</setting>
+		<setting name="OpenApps_MethodInvokeTimeout" type="2" value="3000" />
+		<setting name="OpenApps_MSAA_ListOfAcceptedWindows" type="6" rowIndex="11" colIndex="1">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="False" val1="*" />
+				<row val0="True" val1="MsoCommandBar*" />
+				<row val0="True" val1="_Ww*" />
+				<row val0="True" val1="OpusApp" />
+				<row val0="True" val1="Vfp*" />
+				<row val0="True" val1="bosa_sdm_Microsoft Word *" />
+				<row val0="False" val1="Internet Explorer_Server" />
+				<row val0="True" val1="XTPToolBar" />
+				<row val0="True" val1="XTPDockingPaneTabbedContainer" />
+				<row val0="True" val1="XTPTaskPanel" />
+				<row val0="True" val1="XTPReport" />
+				<row val0="True" val1="XTPPopupBar" />
+			</data>
+		</setting>
+		<setting name="OpenApps_MSAA_TreeModel" type="1" value="False" />
+		<setting name="OpenApps_PriorityOfObjects" type="6" rowIndex="15" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="NativeSlObject" />
+				<row val0="NativeWebObject" />
+				<row val0="NativeVBObject" />
+				<row val0="NativeDelphiObject" />
+				<row val0="NativeTextObject" />
+				<row val0="NativeJavaObject" />
+				<row val0="NativeChromeObject" />
+				<row val0="NativeClrObject" />
+				<row val0="NativeCPPObject" />
+				<row val0="NativeFirefoxObject" />
+				<row val0="NativeJavaFXObject" />
+				<row val0="NativeSAPObject" />
+				<row val0="NativeQtObject" />
+				<row val0="NativeWebDriverObject" />
+				<row val0="NativeUIAObject" />
+				<row val0="NativeMSAA" />
+			</data>
+		</setting>
+		<setting name="OpenApps_ProcessFilter_ProcessFilterMode" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Use all processes" />
+				<row val0="Use only tested applications" />
+				<row val0="Use only selected processes" />
+				<row val0="Ignore selected processes" />
+			</data>
+		</setting>
+		<setting name="OpenApps_ProcessFilter_ProcessList" type="6" rowIndex="-1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="OpenApps_UIA_ListOfAcceptedWindows" type="6" rowIndex="2" colIndex="1">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="False" val1="*" />
+				<row val0="True" val1="DirectUIHWND" />
+				<row val0="True" val1="Windows.UI.Core.CoreWindow" />
+			</data>
+		</setting>
+		<setting name="OpenApps_UseNativeObjectNames" type="1" value="True" />
+		<setting name="OpenApps_Web_AddCommentsForWaitMethod" type="1" value="False" />
+		<setting name="OpenApps_Web_CSSTransitionForPagePicture" type="1" value="True" />
+		<setting name="OpenApps_Web_CustomAttributes_AttributesForNameMapping" type="6" rowIndex="0" colIndex="1">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="True" val1="data-test-id" />
+				<row val0="True" val1="data-testid" />
+			</data>
+		</setting>
+		<setting name="OpenApps_Web_EnableSupportForWebComponents" type="1" value="True" />
+		<setting name="OpenApps_Web_ObjIdentification_DynamicIdentifiers" type="6" rowIndex="37" colIndex="9">
+			<columns>
+				<column type="2" enabled="True" />
+				<column type="2" enabled="True" />
+				<column type="1" enabled="True" />
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+			</columns>
+			<data>
+				<row val0="-1" val1="0" val2="True" val3="True" val4="ASP.NET" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="0" val1="0" val2="False" val3="True" val4="Do not use IDs ending with a string like &quot;ctl00&quot;" val5="RegExp" val6="^(.*[-_$])?(ctl[0-9]+)$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="0" val1="0" val2="False" val3="True" val4="Remove GUIDs and ctl00-like prefixes from Sharepoint IDs" val5="RegExp" val6="(.+?_(\h+_\h+_\h+_\h+_\h+))+(.*ctr?l[0-9]+)?[_$]?{.*}$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="0" val1="0" val2="False" val3="True" val4="Remove all but the last part of IDs like &quot;ctl00_MainContent_username&quot;" val5="RegExp" val6=".*(ctl[0-9]+)(.*)[-_$]+{[^_0-9]+}{[_0-9]*}$" val7="$1$2" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="Dojo toolkit" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="4" val1="0" val2="False" val3="True" val4="Do not use IDs starting with &quot;dijit_&quot;" val5="Wildcard" val6="dijit_*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="Google Web Toolkit" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="6" val1="0" val2="False" val3="True" val4="Remove all but the last part of IDs like &quot;gwt-uid-370_runButton&quot;" val5="RegExp" val6="^(gwt-uid-[0-9]+)(_{.*})?$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="6" val1="0" val2="False" val3="True" val4="Remove dynamic parts of Sencha GXT IDs" val5="RegExp" val6="^(x-((widget)|(auto))-.*[0-9]+)([-_]{.*})?$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="JavaServer Faces" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="9" val1="0" val2="False" val3="True" val4="Do not use IDs like &quot;_t14&quot;" val5="RegExp" val6="^{_t}{[0-9]+}$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="9" val1="0" val2="False" val3="True" val4="Do not use IDs like &quot;j_id23&quot; or &quot;j_idt23&quot;" val5="RegExp" val6="^{j_idt?}{[0-9]+}$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="9" val1="0" val2="False" val3="True" val4="Remove all but the last part of IDs like &quot;frm:menuLinks:0:link&quot;" val5="RegExp" val6="(.+):{[^0-9]+}$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="9" val1="0" val2="False" val3="True" val4="Do not use IDs like &quot;frm:menuLinks:3:link&quot;" val5="RegExp" val6="(.+):(.*)" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="jQuery UI library" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="14" val1="0" val2="False" val3="True" val4="Do not use IDs starting with &quot;ui-id-&quot;" val5="Wildcard" val6="ui-id-*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="Microsoft Dynamics" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="16" val1="0" val2="False" val3="True" val4="Do not use IDs like &quot;id-33&quot; or &quot;id__14&quot;" val5="RegExp" val6="^id[_0-9\-]+$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="Salesforce" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="18" val1="0" val2="False" val3="True" val4="Do not use IDs like &quot;checkbox-1&quot; or &quot;checkbox-123-3&quot;" val5="RegExp" val6="^checkbox-[0-9\-]+$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="18" val1="0" val2="False" val3="True" val4="Do not use IDs like &quot;input-1&quot; or &quot;input-123-3&quot;" val5="RegExp" val6="^input-[0-9\-]+$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="Sencha ExtJS" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="21" val1="0" val2="False" val3="True" val4="Do not use IDs containing &quot;ext-gen&quot;" val5="RegExp" val6="^(.*-)?ext-gen" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="21" val1="0" val2="False" val3="True" val4="Do not use IDs containing &quot;ext-comp&quot;" val5="RegExp" val6="^(.*-)?ext-comp" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="21" val1="0" val2="False" val3="True" val4="Do not use IDs starting with &quot;extdd-&quot;" val5="Wildcard" val6="extdd-*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="21" val1="0" val2="False" val3="True" val4="Remove digits from IDs like &quot;treepicker-1038&quot; or &quot;treepicker-1038-inputEl&quot;" val5="RegExp" val6="^{[A-Za-z-]+}-{\d\d\d\d+}{.*}$" val7="$1$3" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="Sencha Touch" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="26" val1="0" val2="False" val3="True" val4="Remove dynamic parts of Sencha Touch IDs" val5="RegExp" val6="^ext-{.*}-\d+$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="Yahoo! UI library" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="28" val1="0" val2="False" val3="True" val4="Do not use IDs starting with &quot;yui-gen&quot;" val5="Wildcard" val6="yui-gen*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="28" val1="0" val2="False" val3="True" val4="Do not use IDs containing &quot;yui_3_&quot;" val5="Wildcard" val6="*yui_3_*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="Other" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="31" val1="0" val2="False" val3="True" val4="Do not use IDs containing GUID" val5="RegExp" val6="\h+-\h+-\h+-\h+-\h+" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="31" val1="0" val2="False" val3="True" val4="Remove leading characters from IDs like &quot;c1114509959-searchform&quot;" val5="RegExp" val6="^[A-Za-z](\d\d\d\d\d+){[A-Za-z-]*}$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="31" val1="0" val2="False" val3="True" val4="Remove trailing digits from IDs like &quot;unique-123456&quot;" val5="RegExp" val6="^{[A-Za-z-]+}(\d\d\d\d\d+)$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="31" val1="0" val2="False" val3="True" val4="Remove digits from IDs like &quot;some_unique_123456_text&quot;" val5="RegExp" val6="^{[A-Za-z_]+}_(\d\d\d\d\d+){[A-Za-z_]*}$" val7="$1$2" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="31" val1="0" val2="False" val3="True" val4="Remove digits from IDs like &quot;some_unique123456_text&quot;" val5="RegExp" val6="^{[A-Za-z_]+}(\d\d\d\d\d+){[A-Za-z_]*}$" val7="$1$2" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="Custom" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+			</data>
+		</setting>
+		<setting name="OpenApps_Web_ObjIdentification_IdentificationAttribute" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="ID" />
+				<row val0="Name" />
+			</data>
+		</setting>
+		<setting name="OpenApps_Web_RecordScalableTests" type="1" value="True" />
+		<setting name="OpenApps_Web_RecordTestedHost" type="5" value="" />
+		<setting name="OpenApps_Web_TestedHost" type="5" value="" />
+		<setting name="OpenApps_Web_TreeModel" type="6" rowIndex="3" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="DOM" />
+				<row val0="Tag" />
+				<row val0="Hybrid" />
+				<row val0="Tree" />
+			</data>
+		</setting>
+		<setting name="OpenApps_Web_URLProcessing_DynamicParameters" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="*" />
+			</data>
+		</setting>
+		<setting name="OpenApps_Web_URLProcessing_IgnoreDynamicURLParameters" type="1" value="True" />
+		<setting name="OpenApps_Web_UseCSSPixels" type="1" value="True" />
+		<setting name="OpenApps_Web_UseLegacyWebTestingFeatures" type="1" value="False" />
+		<setting name="OpenApps_Web_VirtBrowsers_AdvancedMode" type="1" value="True" />
+		<setting name="OpenApps_Web_VirtBrowsers_AutoLaunchWhenRecording" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="None" />
+				<row val0="Apple iPad" />
+				<row val0="Apple iPhone 5/SE" />
+				<row val0="iPhone 6/7/8" />
+				<row val0="iPhone 6/7/8 Plus" />
+				<row val0="Apple iPhone X" />
+				<row val0="Google Pixel 2" />
+				<row val0="Samsung Galaxy Note 9" />
+				<row val0="Samsung Galaxy S9" />
+			</data>
+		</setting>
+		<setting name="OpenApps_Web_VirtBrowsers_List" type="6" rowIndex="7" colIndex="9">
+			<columns>
+				<column type="2" enabled="True" />
+				<column type="2" enabled="True" />
+				<column type="1" enabled="True" />
+				<column type="1" enabled="True" />
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+				<column type="2" enabled="True" />
+				<column type="4" enabled="True" />
+			</columns>
+			<data>
+				<row val0="-1" val1="0" val2="False" val3="True" val4="False" val5="Apple iPad" val6="Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1" val7="1024" val8="768" val9="2" />
+				<row val0="-1" val1="0" val2="False" val3="True" val4="False" val5="Apple iPhone 5/SE" val6="Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1" val7="320" val8="568" val9="2" />
+				<row val0="-1" val1="0" val2="False" val3="True" val4="False" val5="iPhone 6/7/8" val6="Mozilla/5.0 (iPhone; CPU iPhone OS 12_1_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0 Mobile/15E148 Safari/604.1" val7="375" val8="667" val9="2" />
+				<row val0="-1" val1="0" val2="False" val3="True" val4="False" val5="iPhone 6/7/8 Plus" val6="Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1" val7="414" val8="736" val9="3" />
+				<row val0="-1" val1="0" val2="False" val3="True" val4="False" val5="Apple iPhone X" val6="Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1" val7="375" val8="812" val9="3" />
+				<row val0="-1" val1="0" val2="False" val3="True" val4="False" val5="Google Pixel 2" val6="Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/%s Mobile Safari/537.36" val7="411" val8="731" val9="2.625" />
+				<row val0="-1" val1="0" val2="False" val3="True" val4="False" val5="Samsung Galaxy Note 9" val6="Mozilla/5.0 (Linux; Android 7.0; SM-G892A Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/67.0.3396.87 Mobile Safari/537.36" val7="414" val8="846" val9="3.5" />
+				<row val0="-1" val1="0" val2="False" val3="True" val4="False" val5="Samsung Galaxy S9" val6="Mozilla/5.0 (Linux; Android 7.0; SM-G892A Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/67.0.3396.87 Mobile Safari/537.36" val7="360" val8="740" val9="4" />
+			</data>
+		</setting>
+		<setting name="OpenApps_Web_WebPageLoadingTimeout" type="2" value="60000" />
+		<setting name="OpenApps_WPF_CompositeControls" type="6" rowIndex="-1" colIndex="2">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="OpenApps_WPF_ItemsTemplates" type="6" rowIndex="-1" colIndex="2">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="OpenApps_WPF_SimplifiedWPFObjectTree" type="1" value="False" />
+		<setting name="PerformanceCounters_List" type="6" rowIndex="-1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+				<column type="2" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="1" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="Playback_ErrHandling_OnError" type="6" rowIndex="0" colIndex="1">
+			<columns>
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Continue running" val1="0" />
+				<row val0="Stop project" val1="1" />
+				<row val0="Stop current item" val1="2" />
+				<row val0="Stop and rerun current item" val1="4" />
+			</data>
+		</setting>
+		<setting name="Playback_ErrHandling_OnObjectRecognitionError" type="6" rowIndex="0" colIndex="1">
+			<columns>
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Continue running" val1="0" />
+				<row val0="Stop project" val1="1" />
+				<row val0="Stop current item" val1="2" />
+			</data>
+		</setting>
+		<setting name="Playback_ErrHandling_OnWarning" type="6" rowIndex="0" colIndex="1">
+			<columns>
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Continue running" val1="0" />
+				<row val0="Stop project" val1="1" />
+				<row val0="Stop current item" val1="2" />
+			</data>
+		</setting>
+		<setting name="Playback_ErrHandling_ShowErrorDialog" type="1" value="True" />
+		<setting name="Playback_Log_AutosaveInterval" type="2" value="0" />
+		<setting name="Playback_Log_EventCount" type="2" value="0" />
+		<setting name="Playback_Log_PostImageOnError" type="1" value="True" />
+		<setting name="Playback_ObjectSearchStrategy" type="6" rowIndex="1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Depth-first" />
+				<row val0="Breadth-first" />
+			</data>
+		</setting>
+		<setting name="Playback_OverlappingWindow_IgnoreOverlappingWindow" type="1" value="False" />
+		<setting name="Playback_Runtime_AutoWaitTimeout" type="2" value="10000" />
+		<setting name="Playback_Runtime_DelayBetweenEvents" type="2" value="50" />
+		<setting name="Playback_Runtime_DisableMouse" type="1" value="False" />
+		<setting name="Playback_Runtime_MinimizeBeforePlayback" type="1" value="False" />
+		<setting name="Playback_Runtime_UseCaseSensitiveParameters" type="1" value="False" />
+		<setting name="Playback_StopOnError" type="1" value="False" />
+		<setting name="Playback_StopOnObjectRecognitionError" type="1" value="False" />
+		<setting name="Playback_StopOnWarning" type="1" value="False" />
+		<setting name="Playback_TestItemMaxReRunCount" type="2" value="1" />
+		<setting name="Playback_UnexpectedWndHandling_ClickOnFocusedControl" type="1" value="True" />
+		<setting name="Playback_UnexpectedWndHandling_IgnoreUnexpectedWindow" type="1" value="False" />
+		<setting name="Playback_UnexpectedWndHandling_PressEnter" type="1" value="True" />
+		<setting name="Playback_UnexpectedWndHandling_PressEsc" type="1" value="True" />
+		<setting name="Playback_UnexpectedWndHandling_SendCloseCommand" type="1" value="True" />
+		<setting name="Playback_UnexpectedWndHandling_StopExecution" type="1" value="False" />
+		<setting name="Recording_TestedAppsOnly" type="1" value="False" />
+		<setting name="RecreateActiveXObjects" type="1" value="False" />
+		<setting name="RunStandaloneServer" type="1" value="False" />
+		<setting name="StandaloneServerAdditionalOptions" type="5" value="" />
+		<setting name="StandaloneServerPort" type="2" value="4444" />
+		<setting name="TextRecognizer_AcceptedProcesses" type="6" rowIndex="-1" colIndex="1">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="TextRecognizer_AcceptedWindows" type="6" rowIndex="-1" colIndex="1">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="Visualizer_AutoUpdate" type="1" value="False" />
+		<setting name="Visualizer_AutoUpdateMode" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Update existing frames and capture new frames, if needed" />
+				<row val0="Update existing frames only" />
+			</data>
+		</setting>
+		<setting name="Visualizer_BindToSCC" type="1" value="True" />
+		<setting name="Visualizer_CaptureStyle" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Top-level parent" />
+				<row val0="Desktop" />
+			</data>
+		</setting>
+		<setting name="Visualizer_DeleteAll" type="1" value="True" />
+		<setting name="Visualizer_ParallelPlaybackCapture" type="1" value="False" />
+		<setting name="Visualizer_PlaybackCaptureProperties" type="1" value="False" />
+		<setting name="Visualizer_PlaybackCollectMode" type="6" rowIndex="1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Off" />
+				<row val0="Capture images" />
+			</data>
+		</setting>
+		<setting name="Visualizer_RecordingCaptureProperties" type="1" value="False" />
+		<setting name="Visualizer_RecordingCollectMode" type="6" rowIndex="1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Off" />
+				<row val0="Capture images" />
+			</data>
+		</setting>
+		<setting name="Visualizer_UseDuringPlayback" type="1" value="True" />
+		<setting name="Visualizer_UseDuringRecording" type="1" value="True" />
+		<setting name="WebCloudProvider" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="BitBar Cloud" />
+				<row val0="CrossBrowserTesting" />
+			</data>
+		</setting>
+		<setting name="ZFJ_Cycle" type="5" value="" />
+		<setting name="ZFJ_ExecutionStatus_Failed" type="5" value="FAIL" />
+		<setting name="ZFJ_ExecutionStatus_Passed" type="5" value="PASS" />
+		<setting name="ZFJ_ExecutionStatus_Wip" type="5" value="WIP" />
+		<setting name="ZFJ_ExecutionStepStatus_Unexecuted" type="5" value="UNEXECUTED" />
+		<setting name="ZFJ_InstanceType" type="6" rowIndex="1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Zephyr Squad Server" />
+				<row val0="Zephyr Squad Cloud" />
+			</data>
+		</setting>
+		<setting name="ZFJ_JiraLogin" type="5" value="" />
+		<setting name="ZFJ_JiraPassword" type="5" value="" />
+		<setting name="ZFJ_JiraProject" type="5" value="" />
+		<setting name="ZFJ_JiraUrl" type="5" value="" />
+		<setting name="ZFJ_TestIssueTypeName" type="5" value="Test" />
+		<setting name="ZFJ_Version" type="5" value="" />
+		<setting name="ZFJ_ZephyrAccessKey" type="5" value="" />
+		<setting name="ZFJ_ZephyrSecretKey" type="5" value="" />
+	</settings>
+	<analysis key="{61C08364-7741-442E-89F8-993BCF22DB73}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+	<issueTracking key="{F03AD30D-7619-4471-BD02-9F38458AC4D1}">
+		<Templates>
+			<Template Id="{1EB17ADF-E4EB-404D-97DC-AD758A1E8C1D}" ConnectionId="{00000000-0000-0000-0000-000000000000}" Description="This template is used by TestComplete&apos;s Log subsystem to post test results to an issue-tracking system. You can also use it at your desire." Name="CreateWorkItem" IsSystem="True" ItemTypeName="" ProjectName="" IsEditing="False" ItemId="">
+				<Fields>
+					<Field ItemId="{08C0343C-692F-4926-906E-EEF0FF774D6A}" AliasIsRequired="True" DBFieldNameIsRequired="False" Value="" DBFieldName="" Alias="Subject" />
+					<Field ItemId="{A76A12CA-FA53-47CB-B0FF-218F81AF235E}" AliasIsRequired="True" DBFieldNameIsRequired="False" Value="" DBFieldName="" Alias="Description" />
+				</Fields>
+			</Template>
+		</Templates>
+	</issueTracking>
+</Root>

@@ -1,0 +1,24 @@
+﻿var AppSetup = require("AppSetup");
+var LoginPage = require("LoginPage");
+var HomePage=require("HomePage");
+var CrashRecordPage=require("CrashRecordPage");
+var ImportPage=require("ImportPage");
+
+ //Test Objecive:To verify that the user is able to import crash records
+ function ImportCrashDataTest() {
+   AppSetup.LaunchBrowser();
+   LoginPage.Login();
+   HomePage.MenuNavigation("Data Management","Import");   
+   ImportPage.ImportCrashRecords("Crashes",Project.Variables.importCrashPath);
+   ImportPage.VerifyImportedFile(Project.Variables.viewCrashActualRecord,"Crashes"); 
+    ImportPage.ImportCrashRecords("Vehicles",Project.Variables.importVehiclePath);
+   ImportPage.VerifyImportedFile(Project.Variables.viewVehicleActualRecord,"Vehicles");
+   ImportPage.ImportCrashRecords(Project.Variables.importCasualityPath);
+   ImportPage.VerifyImportedFile("Casualties",Project.Variables.viewCasualtyActualRecord,"Casualties");
+   HomePage.MenuNavigation("Data Management","Crash Records");     
+   CrashRecordPage.SearchCrashRecord(); 
+   CrashRecordPage.VerificationOfAddedCrashRecords("Import");
+   CrashRecordPage.DeleteCrashRecords();
+   HomePage.LogoutApplication();
+   AppSetup.CloseBrowser();
+   }

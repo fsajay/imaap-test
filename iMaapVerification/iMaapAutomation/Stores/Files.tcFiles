@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{AA2F3067-5C9B-4CCF-89D4-1F93CE1C510F}" version="15.0">
+	<children>
+		<child name="Sample_Crash_Template1_xlsx" key="{7058D427-0FA4-4266-A5F3-B50F36BCDA0E}">
+			<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="15.0" caption="Sample_Crash_Template1_xlsx" ID="{7058D427-0FA4-4266-A5F3-B50F36BCDA0E}" FileName="Files\Sample_Crash_Template1.xlsx" Update="False" />
+		</child>
+		<child name="Sample_Vehicle_Template1_xlsx" key="{F66A0F35-84B3-491C-A88D-A0AD7AF47550}">
+			<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="15.0" caption="Sample_Vehicle_Template1_xlsx" ID="{F66A0F35-84B3-491C-A88D-A0AD7AF47550}" FileName="Files\Sample_Vehicle_Template1.xlsx" Update="False" />
+		</child>
+		<child name="Sample_Casualty_Template1_xlsx" key="{2B769337-1B7A-4C26-B207-705D24200592}">
+			<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="15.0" caption="Sample_Casualty_Template1_xlsx" ID="{2B769337-1B7A-4C26-B207-705D24200592}" FileName="Files\Sample_Casualty_Template1.xlsx" Update="False" />
+		</child>
+	</children>
+</Root>
